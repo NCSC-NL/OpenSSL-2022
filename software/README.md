@@ -16,18 +16,18 @@ This page contains an overview of software (un)affected by the OpenSSL vulnerabi
 | Fedora | Linux | 36 | 3.0.5 | Upcoming Critical OpenSSL Vulnerability: What will be Affected? - SANS Internet Storm Center | |
 | Fedora | Linux | Rawhide | 3.0.5 | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | FreeBSD | Unix | 10 | 1.0.1 | https://heartbleed.com | |
-| Mitel | Mivoice | >=1.1 | onbekend | https://www.cvedetails.com/cve/CVE-2014-0160	| |
-| MongoDB | MongoDB	| | Onbekend | | |
+| Mitel | Mivoice | >=1.1 | Unknown | https://www.cvedetails.com/cve/CVE-2014-0160	| |
+| MongoDB | MongoDB	| | Unknown | | |
 | NetBSD | Unix | 5.0.2 | 1.0.1 | https://heartbleed.com | |	
 | Node.js | Javascript Runtime Environment | 18 | 3.x | Node.js 18 updates OpenSSL support, enables fetch API | InfoWorld	|
 | OpenBSD | Unix | >=5.3 | 1.x | https://heartbleed.com	| |
 | OpenSUSE | Leap | 15.2 | 1.1.1 | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | OpenSUSE | Leap | 15.3 | 1.1.1 | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | OpenSUSE | Leap | 15.4 | 1.1.1 | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
-| OpenVPN | OpenVPN | <= 2.5.7 | < 3.0 | https://en.wikipedia.org/wiki/OpenVPN | https://openvpn.net/community-downloads/ Volwaardige ondersteuning voor OpenSSL 3 start in een toekomstige (nog niet uitgebrachte) versie van OpenVPN 2.6. |
+| OpenVPN | OpenVPN | <= 2.5.7 | < 3.0 | https://en.wikipedia.org/wiki/OpenVPN | https://openvpn.net/community-downloads/ Support for OpenSSL 3 in later version: OpenVPN 2.6. |
 | OpenSUSE | Linux | 12.2 | 1.0.1 | https://heartbleed.com | 
 | PHP | PHP | < 8.1 | < 3.0 | https://www.php.net/manual/en/openssl.requirements.php | | 
-| PHP	| PHP	| >= 8.1 | Onbekend | https://www.php.net/manual/en/openssl.requirements.php | |
+| PHP	| PHP	| >= 8.1 | Unknow | https://www.php.net/manual/en/openssl.requirements.php | |
 | Red Hat | Enterprise Linux | >= 9.0 | 3.x	| https://www.redhat.com/en/blog/experience-bringing-openssl-30-rhel-and-fedora	| | 
 | Siemens | Mendix | | | |
 | Siemens | Nucleus NET	| | | |
