@@ -24,4 +24,4 @@ BoringSSL is based on OpenSSL 1.x.y and probably not vulnerable.
 Tink is based on BoringSSL and probably not vulnerable.
 
 ## Are there IoCs?
-There are currently no known IoCs that indicate exploitation of this vulnerability. As far as possible, IoCs will be shared through the usual channels, such as MISP and this repository. Please see [iocs/README.md](iocs/README.md) for more information.
+There are currently no known IoCs that indicate exploitation of this vulnerability. As far as possible, IoCs will be shared - if possible - through this repository. Please see [iocs/README.md](iocs/README.md) for more information.
