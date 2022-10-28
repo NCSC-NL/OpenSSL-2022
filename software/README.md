@@ -1,4 +1,5 @@
-# Software
+# Overview of software (un)affected by vulnerability
+This page contains an overview of software (un)affected by the OpenSSL vulnerability. NCSC-NL and partners are attempting to maintain a list of all known vulnerable and not vulnerable software. Listed software is paired with specific information regarding which version contains the security fixes and which software still requires fixes. Please note that this vulnerability may also occur in custom software developed within your organisation. These occurrences are not registered in this overview.
 
 | Vendor | Product | Version | OpenSSL version | Reference | Notes |
 |--------|---------|---------|-----------------|-----------|-------|
