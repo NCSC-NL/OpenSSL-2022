@@ -1,5 +1,6 @@
 # OpenSSL-vulnerability-2022
-Operational information about the recently announced vulnerability in OpenSSL 3
+Operational information about the recently announced vulnerability in OpenSSL 3. For additional information see:
+- [Pre-notification](https://mta.openssl.org/pipermail/openssl-announce/2022-October/000238.html)
 
 ## What is OpenSSL and what is it used for?
 OpenSSL is a library used for cryptographic applications, especially in the field of network connections. For example, web servers often use OpenSSL to establish encrypted HTTPS connections. Mail servers and VPN protocols such as OpenVPN also use OpenSSL to establish encrypted communication.
