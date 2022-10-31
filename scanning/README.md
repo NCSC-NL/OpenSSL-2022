@@ -7,6 +7,17 @@ However NCSC-NL strives to provide scanning software from reliable sources.**
 
 ## Identifying
 
+
+## Docker
+
+Docker has provided an experimental tool for verifying docker containers for containing a vulnerable OpenSSLv3 version. 
+
+Required tool: https://github.com/docker/index-cli-plugin
+
+```bash
+docker-index cve --image $IMAGE DSA-2022–0001
+```
+
 ### Windows
 
 #### Powershell
