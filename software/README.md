@@ -1,7 +1,19 @@
 # Overview of software (un)affected by vulnerability
 This page contains an overview of software (un)affected by the OpenSSL vulnerability. NCSC-NL and partners are attempting to maintain a list of all known vulnerable and not vulnerable software. Listed software is paired with specific information regarding which version contains the security fixes and which software still requires fixes. Please note that this vulnerability may also occur in custom software developed within your organisation. These occurrences are not registered in this overview.
 
-| Vendor | Product | Version | OpenSSL version | Reference | Notes |
+## Software overview
+The following status labels are in use:
+
+| Status vulnerability | Description                                                      |
+|:--------------------|:-----------------------------------------------------------------|
+| Vulnerable          | Software is vulnerable to vulnerability                          |
+| Fix                 | Software contains a fix for vulnerability                        |
+| Workaround          | Software is vulnerable but mitigation steps are available.       |
+| Not vuln            | Software is **NOT** vulnerable for vulnerability                 |
+| Investigation       | Software is under investigation whether it is vulnerable or not. |
+
+The `Version` relates to the `Status` column. If `Status` field is set to 'Vulnerable', the `Version` field indicates vulnerable version(s) if these version numbers are known to us. If `Status` is set to 'Fix', the `Version` field indicates the version(s) in which the fix was introduced. Some products do not have clear version numbers, in which case the `Version` field is empty. We advise readers to follow the provided source links for more detailed information.
+
 |--------|---------|---------|-----------------|-----------|-------|
 | Canonical |	Ubuntu | 22.04 LTS | 3.0.2 | https://discourse.ubuntu.com/t/openssl-3-0-transition-plans/24453 | |
 | CentOS | CentOS | 8 | 1.1.1 | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
