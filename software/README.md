@@ -214,6 +214,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Mageia | Mageia | cauldron | 3.0.5 | Vulnerable | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/cauldron/x86_64/media/core/release/openssl-3.0.5-1.mga9.x86_64.rpm| |
 | NetBSD | NetBSD | 9 | 1.1.1n | Not vuln | http://netbsd.ftp.fu-berlin.de/pub/NetBSD/pkgsrc/packages/NetBSD/amd64/9.1/All/openssl-1.1.1n.tgz| |
 | NetBSD | NetBSD | 8 | 1.1.1n | Not vuln | http://netbsd.ftp.fu-berlin.de/pub/NetBSD/pkgsrc/packages/NetBSD/amd64/8.2/All/openssl-1.1.1n.tgz| |
+| Node.js | JavaScript Runtime Environment | 17 | 3.x | Investigation | Node.js 17 updates OpenSSL support, enables fetch API | Node.js 17.x is EOL, so will not see updates |
 | Node.js | JavaScript Runtime Environment | 18 | 3.x | Investigation | Node.js 18 updates OpenSSL support, enables fetch API | InfoWorld	|
 | Offensive Security | Kali | 2022.3 | 3.0.5 | Vulnerable | https://pkg.kali.org/pkg/openssl | 
 | OpenMandriva | OpenMandriva | 4.3 | 3.0.3 | Vulnerable | http://abf-downloads.openmandriva.org/4.3/repository/x86_64/main/updates/openssl-3.0.3-1-omv4003.x86_64.rpm| |
