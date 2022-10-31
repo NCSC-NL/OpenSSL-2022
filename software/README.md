@@ -18,6 +18,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 
 | Vendor | Product | Version | OpenSSL version | Status | Reference | Notes |
 |--------|---------|---------|-----------------|--------|-----------|-------|
+| Arch | Arch Linux | Core | 1.1.1 | Not vuln | https://archlinux.org/packages/?name=openssl | |
 | Canonical | Ubuntu | 20.04 LTS | 1.1.1 | Not vuln | https://packages.ubuntu.com/focal/openssl | |
 | Canonical | Ubuntu | 22.04 LTS | 3.0.2 | Vulnerable | https://discourse.ubuntu.com/t/openssl-3-0-transition-plans/24453 | |
 | CentOS | CentOS | 7.9 | 1.0.2 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
