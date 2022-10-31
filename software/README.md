@@ -136,6 +136,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Fedora | Linux | 36 | 3.0.2 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | 37 | 3.0.5 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | Rawhide | 3.0.5 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
+| FileCap | FileCap Server | All | < 3.x | Not vuln | | | 
 | Fortinet | FortiADC | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiADCManager | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiAIOps | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
