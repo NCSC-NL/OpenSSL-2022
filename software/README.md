@@ -232,7 +232,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Proxmox Server Solutions GmbH| Proxmox | 6 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | PHP | PHP | < 8.1 | < 3.0 | Not vuln | https://www.php.net/manual/en/openssl.requirements.php | | 
 | PHP	| PHP	| >= 8.1 | Unknown | Investigation | https://www.php.net/manual/en/openssl.requirements.php | |
-| Red Hat | Enterprise Linux | >= 9.0 | 3.x	| Vulnerable | https://www.redhat.com/en/blog/experience-bringing-openssl-30-rhel-and-fedora	| | 
+| Red Hat | Enterprise Linux | >= 9.0 | 3.x	| Vulnerable | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004	| | 
 | Rocky Enterprise Software Foundation | Rocky Linux | 8.0 | 1.1.1k | Not vuln | https://dl.rockylinux.org/pub/rocky/8/BaseOS/x86_64/os/Packages/o/openssl-1.1.1k-7.el8_6.x86_64.rpm| |
 | Rocky Enterprise Software Foundation | Rocky Linux | 9.0 (Blue Onyx) | 3.0.1 | Vulnerable | https://dl.rockylinux.org/pub/rocky/9/BaseOS/x86_64/os/Packages/o/openssl-3.0.1-41.el9_0.x86_64.rpm| |
 | Slackware | Slackware Linux | 14.1 | 1.0.1e | Not vuln | https://slackware.uk/slackware/slackware64-14.1/slackware64/n/openssl-1.0.1e-x86_64-1.txz| |
