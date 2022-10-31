@@ -7,6 +7,7 @@ However NCSC-NL strives to provide scanning software from reliable sources.**
 
 ## Identifying
 
+runZero recently added support for [discovering-and-surfacing any endpoints which are running OpenSSL 3.0.x](https://www.runzero.com/blog/what-you-need-to-know-about-openssl/). (versions v2.3.6+ of their [Explorer and Scanner](https://www.runzero.com/docs/installing-an-explorer/) tools)
 
 ## Docker
 
