@@ -14,34 +14,40 @@ The following status labels are in use:
 
 The `Version` relates to the `Status` column. If `Status` field is set to 'Vulnerable', the `Version` field indicates vulnerable version(s) if these version numbers are known to us. If `Status` is set to 'Fix', the `Version` field indicates the version(s) in which the fix was introduced. Some products do not have clear version numbers, in which case the `Version` field is empty. We advise readers to follow the provided source links for more detailed information.
 
+## Software
+
+| Vendor | Product | Version | OpenSSL version | Status | Reference | Notes |
 |--------|---------|---------|-----------------|-----------|-------|
-| Canonical |	Ubuntu | 22.04 LTS | 3.0.2 | https://discourse.ubuntu.com/t/openssl-3-0-transition-plans/24453 | |
-| CentOS | CentOS | 8 | 1.1.1 | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
-| CentOS | CentOS | >= 9 | 3.x | https://www.redhat.com/en/blog/experience-bringing-openssl-30-rhel-and-fedora | |
-| Debian | Debian	| 9 "Stretch"	| 1.1.0 |	https://packages.debian.org/stretch/openssl	| |
-| Debian | Debian | 10 "Buster"	| 1.1.1	| https://packages.debian.org/buster/openssl | |
-| Debian | Debian | 11 "Bullseye"	| 1.1.1	| https://packages.debian.org/bullseye/openssl | |
-| Debian | Debian | 12 "Bookworm" | 3.x | https://packages.debian.org/bookworm/openssl | |
-| Fedora | Linux | 18 | 1.0.1 | https://heartbleed.com | |
-| Fedora | Linux | 34 | 1.1.1 | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/	| |
-| Fedora | Linux | 35	| 1.1.1	| https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/	| |
-| Fedora | Linux | 36 | 3.0.5 | Upcoming Critical OpenSSL Vulnerability: What will be Affected? - SANS Internet Storm Center | |
-| Fedora | Linux | Rawhide | 3.0.5 | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
-| FreeBSD | Unix | 10 | 1.0.1 | https://heartbleed.com | |
-| Mitel | Mivoice | >=1.1 | Unknown | https://www.cvedetails.com/cve/CVE-2014-0160	| |
-| MongoDB | MongoDB	| | Unknown | | |
-| NetBSD | Unix | 5.0.2 | 1.0.1 | https://heartbleed.com | |	
-| Node.js | Javascript Runtime Environment | 18 | 3.x | Node.js 18 updates OpenSSL support, enables fetch API | InfoWorld	|
-| OpenBSD | Unix | >=5.3 | 1.x | https://heartbleed.com	| |
-| OpenSUSE | Leap | 15.2 | 1.1.1 | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
-| OpenSUSE | Leap | 15.3 | 1.1.1 | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
-| OpenSUSE | Leap | 15.4 | 1.1.1 | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
-| OpenVPN | OpenVPN | <= 2.5.7 | < 3.0 | https://en.wikipedia.org/wiki/OpenVPN | https://openvpn.net/community-downloads/ Support for OpenSSL 3 in later version: OpenVPN 2.6. |
-| OpenSUSE | Linux | 12.2 | 1.0.1 | https://heartbleed.com | 
-| PHP | PHP | < 8.1 | < 3.0 | https://www.php.net/manual/en/openssl.requirements.php | | 
-| PHP	| PHP	| >= 8.1 | Unknow | https://www.php.net/manual/en/openssl.requirements.php | |
-| Red Hat | Enterprise Linux | >= 9.0 | 3.x	| https://www.redhat.com/en/blog/experience-bringing-openssl-30-rhel-and-fedora	| | 
-| Siemens | Mendix | | | |
-| Siemens | Nucleus NET	| | | |
-| Siemens | RUGGEDCOM	| | | |
-| Siemens | SCALANCE | | | |
+| Canonical | Ubuntu | 20.04 LTS | 1.1.1 | Not vuln | https://packages.ubuntu.com/focal/openssl | |
+| Canonical | Ubuntu | 22.04 LTS | 3.0.2 | Vulnerable | https://discourse.ubuntu.com/t/openssl-3-0-transition-plans/24453 | |
+| CentOS | CentOS | 7.9 | 1.0.2 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
+| CentOS | CentOS | 8 | 1.1.1 | Not vuln| https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
+| CentOS | CentOS | >= 9 | 3.x | Vulnerable | https://www.redhat.com/en/blog/experience-bringing-openssl-30-rhel-and-fedora | |
+| Debian | Debian | 9 "Stretch"	| 1.1.0 | Not vuln | https://packages.debian.org/stretch/openssl	| |
+| Debian | Debian | 10 "Buster"	| 1.1.1	| Not vuln | https://packages.debian.org/buster/openssl | |
+| Debian | Debian | 11 "Bullseye"	| 1.1.1	| Not vuln | https://packages.debian.org/bullseye/openssl | |
+| Debian | Debian | 12 "Bookworm" | 3.x | Vulnerable | https://packages.debian.org/bookworm/openssl | |
+| Deciso B.V. | OPNsense | 22 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ |
+| Fedora | Linux | 35 | 1.1.1 | Not vuln | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | | 
+| Fedora | Linux | 36 | 3.0.2 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
+| Fedora | Linux | 37 | 3.0.5 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
+| Fedora | Linux | Rawhide | 3.0.5 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
+| Linux Mint | Linux Mint | 21 Vanessa | 3.0.2 | Vulnerable | http://packages.linuxmint.com/search.php?release=vanessa&section=any&keyword=openssl | 
+| Node.js | Javascript Runtime Environment | 18 | 3.x | Investigation | Node.js 18 updates OpenSSL support, enables fetch API | InfoWorld	|
+| Offensive Security | Kali | 2022.3 | 3.0.5 | Vulnerable | https://pkg.kali.org/pkg/openssl | 
+| OpenMandriva | OpenMandriva | 4.3 | 3.0.3 | Vulnerable | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
+| OpenMandriva | OpenMandriva | Cooker | 3.0.6 | Vulnerable | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
+| OpenMandriva | OpenMandriva | Cooker | 3.0.6 | Vulnerable | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
+| Deciso B.V. | OPNsense | 22 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ |
+| OpenSUSE | Leap | 15.3 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
+| OpenSUSE | Leap | 15.4 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
+| OpenSUSE | Leap | 15.2 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
+| OpenSUSE | Leap | 15.3 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
+| OpenSUSE | Leap | 15.4 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
+| OpenVPN | OpenVPN | <= 2.5.7 | < 3.0 | Investigation | https://en.wikipedia.org/wiki/OpenVPN | https://openvpn.net/community-downloads/ Support for OpenSSL 3 in later version: OpenVPN 2.6. |
+| Proxmox Server Solutions GmbH| Proxmox | 6 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ |
+| PHP | PHP | < 8.1 | < 3.0 | Not vuln | https://www.php.net/manual/en/openssl.requirements.php | | 
+| PHP	| PHP	| >= 8.1 | Unknown | Investigation | https://www.php.net/manual/en/openssl.requirements.php | |
+| Red Hat | Enterprise Linux | >= 9.0 | 3.x	| Vulnerable | https://www.redhat.com/en/blog/experience-bringing-openssl-30-rhel-and-fedora	| | 
+| Rocky Enterprise Software Foundation | Rock Linux | 9.0 (Blue Onyx) | 3.0.1 | Vulnerable | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ |
+| Slackware | Slackware Linux | 14 | 1.0.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ |
