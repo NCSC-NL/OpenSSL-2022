@@ -25,3 +25,9 @@ docker-index cve --image $IMAGE DSA-2022–0001
 ```powershell
 Get-ChildItem -Recurse -File -ErrorAction SilentlyContinue -Path "C:\" -Filter "libssl*"
 ```
+
+### Microsoft Azure
+
+#### Microsoft Defender for Cloud
+Microsoft has published a blogpost with instructions for identifying Azure resources with OpenSSL installed using Microsoft Defender for Cloud.
+Blogpost Microsoft: https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/new-openssl-v3-vulnerability-prepare-with-microsoft-defender-for/ba-p/3666487
