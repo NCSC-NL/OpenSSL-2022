@@ -18,7 +18,7 @@ For up-to-date information about patches and mitigations, please refer to your p
 ## Are there IoCs?
 There are currently no known IoCs that indicate exploitation of this vulnerability. IoCs will be shared - when possible - through this repository. Please see [iocs/README.md](iocs/README.md) for more information.
 
-### Hall of fame
+## Hall of fame
 
 We would like to thank every single one that provided source information or  whom contributed to our GitHub page.
 
