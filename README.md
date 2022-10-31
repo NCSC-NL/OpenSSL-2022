@@ -1,6 +1,7 @@
 # 2022 OpenSSL vulnerability
 This repo contains operational information regarding the recently announced vulnerability in OpenSSL 3. For more information see:
 
+- [CERT-Bund advisory (GE)](https://www.bsi.bund.de/SharedDocs/Cybersicherheitswarnungen/DE/2022/2022-267005-1032.html)
 - [OpenSSL pre-notification](https://mta.openssl.org/pipermail/openssl-announce/2022-October/000238.html)
 
 ## What is OpenSSL and what is it used for?
