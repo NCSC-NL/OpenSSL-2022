@@ -54,4 +54,3 @@ select name, version from deb_packages where name like "openssl" and version lik
 select name, version from rpm_packages where name like "openssl" and version like "3.0%";
 ```
 
-#test
