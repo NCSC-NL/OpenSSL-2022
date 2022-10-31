@@ -25,7 +25,7 @@ jobs:
       - name: Create diff log
         # Circumvent early exit as there are changes
         run: | 
-            git diff --no-index software_list_main.md software/README.md || true ) > diff.log
+            (git diff --no-index software_list_main.md software/README.md || true ) > diff.log
       - name: List files
         run: ls -la
       - name: Print diff
