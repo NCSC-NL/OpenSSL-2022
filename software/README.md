@@ -33,7 +33,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Fedora | Linux | 37 | 3.0.5 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | Rawhide | 3.0.5 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Linux Mint | Linux Mint | 21 Vanessa | 3.0.2 | Vulnerable | http://packages.linuxmint.com/search.php?release=vanessa&section=any&keyword=openssl | 
-| Node.js | Javascript Runtime Environment | 18 | 3.x | Investigation | Node.js 18 updates OpenSSL support, enables fetch API | InfoWorld	|
+| Node.js | JavaScript Runtime Environment | 18 | 3.x | Investigation | Node.js 18 updates OpenSSL support, enables fetch API | InfoWorld	|
 | Offensive Security | Kali | 2022.3 | 3.0.5 | Vulnerable | https://pkg.kali.org/pkg/openssl | 
 | OpenMandriva | OpenMandriva | 4.3 | 3.0.3 | Vulnerable | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | OpenMandriva | OpenMandriva | Cooker | 3.0.6 | Vulnerable | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
