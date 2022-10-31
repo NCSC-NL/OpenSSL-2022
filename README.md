@@ -1,28 +1,18 @@
-# OpenSSL-vulnerability-2022
-Operational information about the recently announced vulnerability in OpenSSL 3. For additional information see:
-- [Pre-notification](https://mta.openssl.org/pipermail/openssl-announce/2022-October/000238.html)
+# 2022 OpenSSL vulnerability
+This repo contains operational information regarding the recently announced vulnerability in OpenSSL 3. For more information see:
+
+- [OpenSSL pre-notification](https://mta.openssl.org/pipermail/openssl-announce/2022-October/000238.html)
 
 ## What is OpenSSL and what is it used for?
-OpenSSL is a library used for cryptographic applications, especially in the field of network connections. For example, web servers often use OpenSSL to establish encrypted HTTPS connections. Mail servers and VPN protocols such as OpenVPN also use OpenSSL to establish encrypted communication.
-
-## Is the vulnerability being exploited?
-At this time, there is no indication that the vulnerability is being exploited. The NCSC expects that this vulnerability might be exploited as it's widely used. Therefore, we would like to address that patching the vulnerability is important. Our security advice will be published on this GitHub page.
+OpenSSL is a library used for cryptographic purposes, especially in the field of network connections. For example, web servers often use OpenSSL to establish encrypted HTTPS connections. Mail servers and VPN protocols such as OpenVPN also use OpenSSL to establish encrypted communication channels. The library can be found in a broad array of products, including network devices, embedded systems and container images.
 
 ## What products are vulnerable?
-The vulnerability is present in products using OpenSSL 3.0.0-3.0.6. Products that have OpenSSL < 3.0.0 user are not vulnerable. However, using the vulnerable OpenSSL version does not mean that the vulnerability can actually be exploited (remotely). Refer to the security advisory for updates.
+The vulnerability is present in products using OpenSSL 3.0.0-3.0.6. Products that use OpenSSL 1.0.2 or 1.1.1 are not affected.
 
-There is currently no complete overview of vulnerable products available, please see [software/README.md](software/README.md) for more information. For information about specific products, refer to your supplier. In case of widely used products, we will also contact the supplier.
-
-## Can this vulnerability be scanned?
-As far as is known, it is not possible at network level to scan for the presence of a vulnerable OpenSSL version. It may be possible to determine whether a vulnerable version of OpenSSL is installed through software at the end-point level.
+Currently no complete overview of vulnerable products is available. Please see [software/README.md](software/README.md) for a list of products that are known to be vulnerable. The list is a work in progress. For more information about specific products, please refer to your supplier.
 
 ## The product I use is vulnerable to this issue. What should I do?
-Please find the latest information in the security advisory for up-to-date steps. When the situation changes we will update the advisory. For product-specific advisories, please refer to your supplier.
-
-## Is LibreSSL/BoringSSL/Tink vulnerable?
-LibreSSL is based on OpenSSL 1.1.1g and is not vulnerable.
-BoringSSL is based on OpenSSL 1.x.y and probably not vulnerable.
-Tink is based on BoringSSL and probably not vulnerable.
+For up-to-date information about patches and mitigations, please refer to your product vendor.
 
 ## Are there IoCs?
-There are currently no known IoCs that indicate exploitation of this vulnerability. As far as possible, IoCs will be shared - if possible - through this repository. Please see [iocs/README.md](iocs/README.md) for more information.
+There are currently no known IoCs that indicate exploitation of this vulnerability. IoCs will be shared - when possible - through this repository. Please see [iocs/README.md](iocs/README.md) for more information.
