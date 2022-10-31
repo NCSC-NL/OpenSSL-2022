@@ -33,6 +33,101 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Debian | Debian | 11 "Bullseye"	| 1.1.1	| Not vuln | https://packages.debian.org/bullseye/openssl | |
 | Debian | Debian | 12 "Bookworm" | 3.x | Vulnerable | https://packages.debian.org/bookworm/openssl | _testing_ (not yet released) |
 | Deciso B.V. | OPNsense | 22 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ |
+| Dockerhub | aerospike | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | alpine | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | arangodb | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | backdrop | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | bonita | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | buildpack-deps | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | busybox | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | cassandra | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | celery | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | centos | latest | 3.x | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | chronograf | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | cirros | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | clojure | latest | 3.0.2 | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 | pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.6?os_distro=jammy&os_name=ubuntu&os_version=22.04; ; Instruction: /bin/sh -c #(nop) ADD file:ba96f963bbfd429a0839c40603fdd7829eaca58f20adfa0d15e6beae8244bc08 in /; Layer 0: sha256:301a8b74f71f85f3a31e9c7e7fedd5b001ead5bcf895bc2911c1d260e06bd987 |
+| Dockerhub | consul | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | couchbase | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | couchdb | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | crate | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | crux | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | debian | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | django | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | docker | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | drupal | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | elixir | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | erlang | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | fedora | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | gazebo | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | gcc | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | ghost | latest | 3.x | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | glassfish | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | golang | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | haproxy | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | haskell | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | hello-world | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | hipache | latest | 3.x | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | httpd | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | hylang | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | iojs | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | irssi | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | jetty | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | joomla | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | jruby | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | julia | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | kaazing-gateway | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | lightstreamer | latest | 3.0.2 | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 | pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.6?os_distro=jammy&os_name=ubuntu&os_version=22.04; ; Instruction: /bin/sh -c #(nop) ADD file:ba96f963bbfd429a0839c40603fdd7829eaca58f20adfa0d15e6beae8244bc08 in /; Layer 0: sha256:301a8b74f71f85f3a31e9c7e7fedd5b001ead5bcf895bc2911c1d260e06bd987 |
+| Dockerhub | mageia | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | mariadb | latest | 3.0.2 | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 | pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.6?os_distro=jammy&os_name=ubuntu&os_version=22.04; ; Instruction: /bin/sh -c #(nop) ADD file:ba96f963bbfd429a0839c40603fdd7829eaca58f20adfa0d15e6beae8244bc08 in /; Layer 0: sha256:301a8b74f71f85f3a31e9c7e7fedd5b001ead5bcf895bc2911c1d260e06bd987 |
+| Dockerhub | maven | latest | 3.0.2 | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 | pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.6?os_distro=jammy&os_name=ubuntu&os_version=22.04; ; Instruction: /bin/sh -c #(nop) ADD file:ba96f963bbfd429a0839c40603fdd7829eaca58f20adfa0d15e6beae8244bc08 in /; Layer 0: sha256:301a8b74f71f85f3a31e9c7e7fedd5b001ead5bcf895bc2911c1d260e06bd987 |
+| Dockerhub | memcached | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | mongo-express | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | mongo | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | mono | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | mysql | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | nats | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | neo4j | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | neurodebian | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | nginx | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | node | latest | 3.x | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 | pkg:github/nodejs/node@19.0.0; ; Instruction: /bin/sh -c groupadd --gid 1000 node   && useradd --uid 1000 --gid node --shell /bin/bash --create-home node; Layer 6: sha256:f699dd37397dc8c9014384aff075343f3ef47f8a955bab08f62cb459df8929f0 |
+| Dockerhub | nuxeo | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | odoo | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | orientdb | latest | 3.0.2 | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 | pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.6?os_distro=jammy&os_name=ubuntu&os_version=22.04; ; Instruction: /bin/sh -c #(nop) ADD file:ba96f963bbfd429a0839c40603fdd7829eaca58f20adfa0d15e6beae8244bc08 in /; Layer 0: sha256:301a8b74f71f85f3a31e9c7e7fedd5b001ead5bcf895bc2911c1d260e06bd987 |
+| Dockerhub | owncloud | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | percona | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | perl | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | photon | latest | 3.0.6 | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 | pkg:rpm/photon/openssl@3.0.6-1.ph4?os_name=photon&os_version=4; ; Instruction: /bin/sh -c #(nop) ADD file:7b9533117763ef391712376da8c6c2bea7675c2a8d3d088b9c76c61885906404 in /; Layer 0: sha256:4a67cc17bbc78d5a23e5c97998754f5fe74254a76a5363e58222100caaa6517a |
+| Dockerhub | php-zendserver | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | php | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | piwik | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | postgres | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | pypy | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | python | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | r-base | latest | 3.0.4 | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 | pkg:deb/debian/openssl@3.0.4-2?os_name=debian&os_version=unstable; ; Instruction: /bin/sh -c #(nop)  LABEL org.opencontainers.image.licenses=GPL-2.0-or-later org.opencontainers.image.source=https://github.com/rocker-org/rocker org.opencontainers.image.vendor=Rocker Project org.opencontainers.image.authors=Dirk Eddelbuettel <edd@debian.org>; Layer 2: sha256:d06267fca963eae8a21b9c01db4027c0fce62c50c1b2af7e1b64ee3831395be9 |
+| Dockerhub | rabbitmq | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | rails | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | rakudo-star | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | redis | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | redmine | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | registry | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | rethinkdb | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | rocket.chat | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | ros | latest | 3.0.2 | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 | pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.6?os_distro=jammy&os_name=ubuntu&os_version=22.04; ; Instruction: /bin/sh -c #(nop) ADD file:ba96f963bbfd429a0839c40603fdd7829eaca58f20adfa0d15e6beae8244bc08 in /; Layer 0: sha256:301a8b74f71f85f3a31e9c7e7fedd5b001ead5bcf895bc2911c1d260e06bd987 |
+| Dockerhub | ruby | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | sentry | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | solr | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | sonarqube | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | sourcemage | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | swarm | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | thrift | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | tomcat | latest | 3.0.2 | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 | pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.6?os_distro=jammy&os_name=ubuntu&os_version=22.04; ; Instruction: /bin/sh -c #(nop) ADD file:ba96f963bbfd429a0839c40603fdd7829eaca58f20adfa0d15e6beae8244bc08 in /; Layer 0: sha256:301a8b74f71f85f3a31e9c7e7fedd5b001ead5bcf895bc2911c1d260e06bd987 |
+| Dockerhub | tomee | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | traefik | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | ubuntu-debootstrap | latest | 3.x | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | ubuntu-upstart | latest | 3.x | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | ubuntu | latest | 3.0.2 | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 | pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.6?os_distro=jammy&os_name=ubuntu&os_version=22.04; ; Instruction: /bin/sh -c #(nop) ADD file:ba96f963bbfd429a0839c40603fdd7829eaca58f20adfa0d15e6beae8244bc08 in /; Layer 0: sha256:301a8b74f71f85f3a31e9c7e7fedd5b001ead5bcf895bc2911c1d260e06bd987 |
+| Dockerhub | websphere-liberty | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dockerhub | wordpress | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
 | Fedora | Linux | 35 | 1.1.1 | Not vuln | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | | 
 | Fedora | Linux | 36 | 3.0.2 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | 37 | 3.0.5 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
