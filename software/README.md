@@ -19,8 +19,10 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Vendor | Product | Version | OpenSSL version | Status | Reference | Notes |
 |--------|---------|---------|-----------------|--------|-----------|-------|
 | Arch | Arch Linux | Core | 1.1.1 | Not vuln | https://archlinux.org/packages/?name=openssl | |
-| Canonical | Ubuntu | 20.04 LTS | 1.1.1 | Not vuln | https://packages.ubuntu.com/focal/openssl | |
-| Canonical | Ubuntu | 22.04 LTS | 3.0.2 | Vulnerable | https://discourse.ubuntu.com/t/openssl-3-0-transition-plans/24453 | |
+| Canonical | Ubuntu | bionic (18.04 LTS) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?keywords=openssl | |
+| Canonical | Ubuntu | impish (21.10) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?keywords=openssl | |
+| Canonical | Ubuntu | focal (20.04 LTS) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?keywords=openssl | |
+| Canonical | Ubuntu | jammy (22.04 LTS) | 3.0.2 | Vulnerable | https://packages.ubuntu.com/search?keywords=openssl | |
 | CentOS | CentOS | 7.9 | 1.0.2 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | CentOS | CentOS | 8 | 1.1.1 | Not vuln| https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | CentOS | CentOS | >= 9 | 3.x | Vulnerable | https://www.redhat.com/en/blog/experience-bringing-openssl-30-rhel-and-fedora | |
@@ -51,7 +53,3 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Red Hat | Enterprise Linux | >= 9.0 | 3.x	| Vulnerable | https://www.redhat.com/en/blog/experience-bringing-openssl-30-rhel-and-fedora	| | 
 | Rocky Enterprise Software Foundation | Rock Linux | 9.0 (Blue Onyx) | 3.0.1 | Vulnerable | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | Slackware | Slackware Linux | 14 | 1.0.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
-| Ubuntu | Ubuntu | bionic (18.04LTS) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?keywords=openssl | |
-| Ubuntu | Ubuntu | focal (20.04LTS) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?keywords=openssl | |
-| Ubuntu | Ubuntu | impish (21.10) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?keywords=openssl | |
-| Ubuntu | Ubuntu | jammy (22.04LTS) | 3.0.2 | Vulnerable | https://packages.ubuntu.com/search?keywords=openssl | |
