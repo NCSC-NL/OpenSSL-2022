@@ -16,3 +16,12 @@ For up-to-date information about patches and mitigations, please refer to your p
 
 ## Are there IoCs?
 There are currently no known IoCs that indicate exploitation of this vulnerability. IoCs will be shared - when possible - through this repository. Please see [iocs/README.md](iocs/README.md) for more information.
+
+### Hall of fame
+
+We would like to thank every single one that provided source information or  whom contributed to our GitHub page.
+
+NCSC-NL believes the GitHub page is a succes and you made that possible.
+Below we present a very incomplete list of contributants or sources we consider the repository's hall of fame:
+
+* [SANS](https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/)
