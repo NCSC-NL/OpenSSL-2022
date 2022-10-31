@@ -33,6 +33,60 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Fedora | Linux | 36 | 3.0.2 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | 37 | 3.0.5 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | Rawhide | 3.0.5 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
+| Fortinet | FortiADC | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiADCManager | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiAIOps | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiAnalyzer | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiAnalyzer-BigData | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiAP | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiAP-C | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiAP-S | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiAP-U | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiAuthenticator | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiCASB | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiCentral | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiClientEMS | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiClientLinux | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiClientMac | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiClientWindows | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiConnect | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiConverter | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiDeceptor | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiDevSec | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiEdge | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiEDR | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiFone | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiGuest | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiInsight | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiIsolator | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiLANCloud | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiMail | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiManager | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiMoM | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiNAC | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiNDR | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiPAM | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiPentest | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiPhish | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiPolicy | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiPortal | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiPresence | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiProxy | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiRecorder | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiSandbox | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiSIEM | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiSOAR | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiTester | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiTokenAndroid | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiTokenIOS | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiVoiceEnterprise | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiVoiceUC | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiVoiceUCDesktop | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiWAN | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiWeb | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiWebManager | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiWLC | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiWLM | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Linux Mint | Linux Mint | 21 Vanessa | 3.0.2 | Vulnerable | http://packages.linuxmint.com/search.php?release=vanessa&section=any&keyword=openssl | 
 | Node.js | JavaScript Runtime Environment | 18 | 3.x | Investigation | Node.js 18 updates OpenSSL support, enables fetch API | InfoWorld	|
 | Offensive Security | Kali | 2022.3 | 3.0.5 | Vulnerable | https://pkg.kali.org/pkg/openssl | 
