@@ -25,3 +25,4 @@ NCSC-NL believes the GitHub page is a succes and you made that possible.
 Below we present a very incomplete list of contributants or sources we consider the repository's hall of fame:
 
 * [SANS](https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/)
+* [SURFcert](https://wiki.surfnet.nl/pages/viewpage.action?pageId=11063492)
