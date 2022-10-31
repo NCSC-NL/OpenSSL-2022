@@ -8,7 +8,7 @@ However NCSC-NL strives to provide scanning software from reliable sources.**
 ## Identifying
 
 
-## Docker
+### Docker
 
 Docker has provided an experimental tool for verifying docker containers for containing a vulnerable OpenSSLv3 version. 
 
@@ -31,3 +31,15 @@ Get-ChildItem -Recurse -File -ErrorAction SilentlyContinue -Path "C:\" -Filter "
 #### Microsoft Defender for Cloud
 Microsoft has published a blogpost with instructions for identifying Azure resources with OpenSSL installed using Microsoft Defender for Cloud.
 Blogpost Microsoft: https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/new-openssl-v3-vulnerability-prepare-with-microsoft-defender-for/ba-p/3666487
+
+### Linux
+
+#### System-wide version
+```bash
+openssl version
+```
+
+#### Running processes running OpenSSL 3.x 
+```bash
+sudo lsof -n | grep libssl.so.3 
+```
