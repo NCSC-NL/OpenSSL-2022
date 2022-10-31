@@ -27,3 +27,5 @@ Below we present a very incomplete list of contributants or sources we consider 
 
 * [SANS](https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/)
 * [SURFcert](https://wiki.surfnet.nl/pages/viewpage.action?pageId=11063492)
+
+* @jspaans91
