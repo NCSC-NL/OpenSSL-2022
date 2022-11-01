@@ -107,6 +107,8 @@ nix --extra-experimental-features nix-command why-depends --all /run/current-sys
 
 You can then override as appropriate or monitor the progression of the fix to releases, [read more here](https://discourse.nixos.org/t/openssl-3-0-7-update-2022-11-01-faq/22875)
 
+### MacOS
+
 #### OSquery OpenSSL version check for MacOS based systems using homebrew package manager
 ```
 SELECT * FROM homebrew_packages WHERE name LIKE "openssl" and version like "3.0%";
