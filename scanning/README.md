@@ -88,13 +88,19 @@ sudo lsof -n | grep libssl.so.3
 
 #### OSquery OpenSSL version check for Debian based systems
 ```
-select name, version from deb_packages where name like "openssl" and version like "3.0%";
+select name, version from deb_packages where name like "%openssl%" and version like "3.0%";
 ```
 
 #### OSquery OpenSSL version check for Fedora/CentOS based systems
 ```
-select name, version from rpm_packages where name like "openssl" and version like "3.0%";
+select name, version from rpm_packages where name like "%openssl%" and version like "3.0%";
 ```
+
+#### OSquery OpenSSL version check for MacOS based systems using homebrew package manager
+```
+SELECT * FROM homebrew_packages WHERE name LIKE "openssl" and version like "3.0%";
+```
+
 
 ### Splunk
 #### Regex statement to use in Splunk
@@ -118,4 +124,5 @@ index=* OR index=_* TERM(openssl) OR TERM(libcrypto-3) OR TERM(libssl-3) OR term
 | securityboulevard | Bash | https://securityboulevard.com/2022/10/what-you-should-know-about-the-new-openssl-vulnerability/|
 | Crowdstrike | CrowdStrike Falcon Insight XDR | https://www.crowdstrike.com/blog/discovering-the-critical-open-ssl-vulnerability-with-falcon-platform/ |
 | Cisco | Various | https://github.com/CiscoCXSecurity/openssl3-nov2022 |
+| Docker | Various | https://www.docker.com/blog/security-advisory-critical-openssl-vulnerability/ |
 | runZero | multi-OS/platform scanner | https://www.runzero.com/blog/what-you-need-to-know-about-openssl/ |
