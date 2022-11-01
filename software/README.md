@@ -245,6 +245,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | FreeBSD | FreeBSD | 13 | 1.1.1q | Not vuln | https://pkg.freebsd.org/FreeBSD:13:amd64/latest/All/openssl-1.1.1q,1.pkg| |
 | FreeBSD | FreeBSD | 12 | 1.1.1q | Not vuln | https://pkg.freebsd.org/FreeBSD:12:amd64/quarterly/All/openssl-1.1.1q,1.pkg| |
 | KaOS | KaOS | rolling | 1.1.1.18 | Not vuln | http://mirror6.layerjet.com/kaos/core/openssl-1.1.1.18-1-x86_64.pkg.tar.zst| |
+| Kemp | LoadMaster | 7.2.58 | 1.1.1n | Not vuln | https://support.kemptechnologies.com/hc/en-us/articles/10228770842637-Current-OpenSSL-Version-for-LoadMaster | |
 | Mageia | Mageia | 8 | 1.1.1q | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/8/x86_64/media/core/updates/openssl-1.1.1q-1.mga8.x86_64.rpm| |
 | Mageia | Mageia | cauldron | 3.0.5 | Vulnerable | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/cauldron/x86_64/media/core/release/openssl-3.0.5-1.mga9.x86_64.rpm| |
 | NixOS | NixOS | 22.05 | 1.1.1q | Not vuln | https://search.nixos.org/packages?channel=22.05&query=openssl&show=openssl | There are exceptions, e.g., nginx is built against OpenSSL 3! |
