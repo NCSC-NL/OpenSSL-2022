@@ -7,9 +7,11 @@ This repo contains operational information regarding the recently announced vuln
 - [OpenSSL Security Advisory](https://www.openssl.org/news/secadv/20221101.txt)
 - [OpenSSL Blogpost FAQ](https://www.openssl.org/blog/blog/2022/11/01/email-address-overflows/)
 - [CERT-Bund advisory (GE)](https://www.bsi.bund.de/SharedDocs/Cybersicherheitswarnungen/DE/2022/2022-267005-1032.html)
+- [NCSC-NL advisory (NL)](https://www.ncsc.nl/actueel/advisory?id=NCSC-2022-0685)
 - [OpenSSL pre-notification](https://mta.openssl.org/pipermail/openssl-announce/2022-October/000238.html)
 - [OpenSSL release notification](https://mta.openssl.org/pipermail/openssl-announce/2022-November/000241.html)
 - [SANS Internet Storm Center Blogpost](https://isc.sans.edu/forums/diary/Critical+OpenSSL+30+Update+Released+Patches+CVE20223786+CVE20223602/29208)
+
 
 ## What is OpenSSL and what is it used for?
 OpenSSL is a library used for cryptographic purposes, especially in the field of network connections. For example, web servers often use OpenSSL to establish encrypted HTTPS connections. Mail servers and VPN protocols such as OpenVPN also use OpenSSL to establish encrypted communication channels. The library can be found in a broad array of products, including network devices, embedded systems and container images.
