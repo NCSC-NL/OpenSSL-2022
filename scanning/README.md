@@ -116,3 +116,4 @@ index=* OR index=_* TERM(openssl) OR TERM(libcrypto-3) OR TERM(libssl-3) OR term
 |:----------------|:----------------|:---------------:|
 | MalwareTech scripts | Bash + PowerShell | https://github.com/MalwareTech/SpookySSLTools |
 | securityboulevard | Bash | https://securityboulevard.com/2022/10/what-you-should-know-about-the-new-openssl-vulnerability/|
+| Crowdstrike | CrowdStrike Falcon Insight XDR | https://www.crowdstrike.com/blog/discovering-the-critical-open-ssl-vulnerability-with-falcon-platform/ |
