@@ -86,11 +86,11 @@ select name, version from deb_packages where name like "openssl" and version lik
 ```
 #### apt OpenSSL version check for Debian based systems
 ```
-apt list --installed | grep openssl.*3.0
+apt list --installed | grep openssl | grep -E -i -w '3\.0\.[0-6]{1}[^0-9][a-z0-9_\+\.\-]*'
 ```
 #### dpkg OpenSSL version check for Debian based systems
 ```
-dpkg -l | grep openssl.*3.0
+dpkg -l openssl | grep -E -i -w '3\.0\.[0-6]{1}[^0-9][a-z0-9_\+\.\-]*'
 ```
 
 #### OSquery OpenSSL version check for Fedora/CentOS based systems
@@ -99,17 +99,17 @@ select name, version from rpm_packages where name like "openssl" and version lik
 ```
 #### yum OpenSSL version check for Fedora/CentOS based systems
 ```
-yum list installed | grep openssl.*3.0 
+yum list installed | grep openssl | grep -E -i -w '3\.0\.[0-6]{1}[^0-9][a-z0-9_\+\.\-]*'
 ```
 
 #### apk OpenSSL version check for Alpine based systems
 ```
-apk list -i | grep libssl3.0
+apk list -i | grep libssl | grep -E -i -w '3\.0\.[0-6]{1}[^0-9][a-z0-9_\+\.\-]*'
 ```
 
 #### pacman OpenSSL version check for Arch Linux based systems
 ```
-pacman -Q local/openssl | grep 3.0
+pacman -Q local/openssl | grep -E -i -w '3\.0\.[0-6]{1}[^0-9][a-z0-9_\+\.\-]*'
 ```
 
 ### Splunk
