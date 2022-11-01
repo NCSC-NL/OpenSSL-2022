@@ -88,12 +88,12 @@ sudo lsof -n | grep libssl.so.3
 
 #### OSquery OpenSSL version check for Debian based systems
 ```
-select name, version from deb_packages where name like "openssl" and version like "3.0%";
+select name, version from deb_packages where name like "%openssl%" and version like "3.0%";
 ```
 
 #### OSquery OpenSSL version check for Fedora/CentOS based systems
 ```
-select name, version from rpm_packages where name like "openssl" and version like "3.0%";
+select name, version from rpm_packages where name like "%openssl%" and version like "3.0%";
 ```
 
 #### OSquery OpenSSL version check for MacOS based systems using homebrew package manager
