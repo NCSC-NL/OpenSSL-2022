@@ -32,6 +32,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | CentOS | CentOS | 7.9 | 1.0.2 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | CentOS | CentOS | 8 | 1.1.1 | Not vuln| https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | CentOS | CentOS | >= 9 | 3.x | Vulnerable | https://www.redhat.com/en/blog/experience-bringing-openssl-30-rhel-and-fedora | |
+| Cisco | All | Unknown | Unknown | Investigation | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Code42 | Incydr | ALL | 1.x | Investigation | [Code42 Response to Industry Security Incidents](https://support.code42.com/Terms_and_conditions/Code42_customer_support_resources/Code42_response_to_industry_security_incidents) | |
 | Debian | Debian | 9 "Stretch"	| 1.1.0 | Not vuln | https://packages.debian.org/stretch/openssl	| |
 | Debian | Debian | 10 "Buster"	| 1.1.1	| Not vuln | https://packages.debian.org/buster/openssl | |
@@ -137,6 +138,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Fedora | Linux | 36 | 3.0.2 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | 37 | 3.0.5 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | Rawhide | 3.0.5 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
+| FileCap | FileCap Server | All | < 3.x | Not vuln | https://github.com/NCSC-NL/OpenSSL-2022/blob/main/software/vendor-statements/FileCap.png | | 
 | Fortinet | FortiADC | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiADCManager | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiAIOps | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
@@ -213,8 +215,10 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | KaOS | KaOS | rolling | 1.1.1.18 | Not vuln | http://mirror6.layerjet.com/kaos/core/openssl-1.1.1.18-1-x86_64.pkg.tar.zst| |
 | Mageia | Mageia | 8 | 1.1.1q | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/8/x86_64/media/core/updates/openssl-1.1.1q-1.mga8.x86_64.rpm| |
 | Mageia | Mageia | cauldron | 3.0.5 | Vulnerable | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/cauldron/x86_64/media/core/release/openssl-3.0.5-1.mga9.x86_64.rpm| |
-| NetBSD | NetBSD | 9 | 1.1.1n | Not vuln | http://netbsd.ftp.fu-berlin.de/pub/NetBSD/pkgsrc/packages/NetBSD/amd64/9.1/All/openssl-1.1.1n.tgz| |
-| NetBSD | NetBSD | 8 | 1.1.1n | Not vuln | http://netbsd.ftp.fu-berlin.de/pub/NetBSD/pkgsrc/packages/NetBSD/amd64/8.2/All/openssl-1.1.1n.tgz| |
+| NetBSD | NetBSD | 9 | 1.1.1k | Not vuln | https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.3/CHANGES-9.2 |
+| NetBSD | NetBSD | 8 | 1.0.2k | Not vuln | https://netbsd.org/releases/formal-8/NetBSD-8.0.html |
+| NetBSD | pkgsrc | - | 1.1.1q | Not vuln | https://cdn.netbsd.org/pub/pkgsrc/current/pkgsrc/security/openssl/index.html|
+| Node.js | JavaScript Runtime Environment | 17 | 3.x | Investigation | Node.js 17 updates OpenSSL support, enables fetch API | Node.js 17.x is EOL, so will not see updates |
 | Node.js | JavaScript Runtime Environment | 18 | 3.x | Investigation | Node.js 18 updates OpenSSL support, enables fetch API | InfoWorld	|
 | Offensive Security | Kali | 2022.3 | 3.0.5 | Vulnerable | https://pkg.kali.org/pkg/openssl | 
 | OpenMandriva | OpenMandriva | 4.3 | 3.0.3 | Vulnerable | http://abf-downloads.openmandriva.org/4.3/repository/x86_64/main/updates/openssl-3.0.3-1-omv4003.x86_64.rpm| |
@@ -230,7 +234,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Proxmox Server Solutions GmbH| Proxmox | 6 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | PHP | PHP | < 8.1 | < 3.0 | Not vuln | https://www.php.net/manual/en/openssl.requirements.php | | 
 | PHP	| PHP	| >= 8.1 | Unknown | Investigation | https://www.php.net/manual/en/openssl.requirements.php | |
-| Red Hat | Enterprise Linux | >= 9.0 | 3.x	| Vulnerable | https://www.redhat.com/en/blog/experience-bringing-openssl-30-rhel-and-fedora	| | 
+| Red Hat | Enterprise Linux | >= 9.0 | 3.x	| Vulnerable | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004	| | 
 | Rocky Enterprise Software Foundation | Rocky Linux | 8.0 | 1.1.1k | Not vuln | https://dl.rockylinux.org/pub/rocky/8/BaseOS/x86_64/os/Packages/o/openssl-1.1.1k-7.el8_6.x86_64.rpm| |
 | Rocky Enterprise Software Foundation | Rocky Linux | 9.0 (Blue Onyx) | 3.0.1 | Vulnerable | https://dl.rockylinux.org/pub/rocky/9/BaseOS/x86_64/os/Packages/o/openssl-3.0.1-41.el9_0.x86_64.rpm| |
 | Slackware | Slackware Linux | 14.1 | 1.0.1e | Not vuln | https://slackware.uk/slackware/slackware64-14.1/slackware64/n/openssl-1.0.1e-x86_64-1.txz| |
@@ -239,7 +243,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Slackware | Slackware Linux | current | 1.1.1q | Not vuln | https://slackware.uk/slackware/slackware64-current/slackware64/n/openssl-1.1.1q-x86_64-1.txz| |
 | SPI | adelie | 1.0 | 1.1.1g | Not vuln | https://distfiles.adelielinux.org/adelie/1.0/system/x86_64/openssl-1.1.1g-r0.apk| |
 | Solus | Solus | rolling | 1.1.1q | Not vuln | https://mirrors.rit.edu/solus/packages/shannon/o/openssl-11/openssl-11-32bit-devel-1.1.1q-15-1-x86_64.eopkg| |
-| Ubiquiti | UniFi Access Points | All | < 3.x | Not vuln | https://community.ui.com/questions/Does-this-OpenSSL-vulnerability-affect-Unifi-Routers/a0ecf612-03e3-4428-80fa-9c8b67137655#answer/358f10ee-347d-4f6d-ba65-499781244147 | |
-| Ubiquiti | UniFi Gateways | All | < 3.x | Not vuln | https://community.ui.com/questions/Does-this-OpenSSL-vulnerability-affect-Unifi-Routers/a0ecf612-03e3-4428-80fa-9c8b67137655#answer/358f10ee-347d-4f6d-ba65-499781244147 | |
-| Ubiquiti | UniFi Switches | All | < 3.x | Not vuln | https://community.ui.com/questions/Does-this-OpenSSL-vulnerability-affect-Unifi-Routers/a0ecf612-03e3-4428-80fa-9c8b67137655#answer/358f10ee-347d-4f6d-ba65-499781244147 | |
+| Ubiquiti | UniFi Access Points | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UniFi Gateways | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UniFi Switches | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| VMware | Photon OS | Unknown | 3.0.3 | Vulnerable | https://github.com/vmware/photon/blob/56871fb69a426da5b76413da8caa04a7ae1bce03/SPECS/openssl/openssl.spec | |
 | Void Linux| Void Linux | current | 1.1.1q | Not vuln | https://alpha.de.repo.voidlinux.org/current/openssl-1.1.1q_1.x86_64.xbps| |
