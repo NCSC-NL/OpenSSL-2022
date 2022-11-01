@@ -84,10 +84,23 @@ sudo lsof -n | grep libssl.so.3
 ```
 select name, version from deb_packages where name like "openssl" and version like "3.0%";
 ```
+#### apt OpenSSL version check for Debian based systems
+```
+apt list --installed | grep openssl
+```
 
 #### OSquery OpenSSL version check for Fedora/CentOS based systems
 ```
 select name, version from rpm_packages where name like "openssl" and version like "3.0%";
+```
+#### yum OpenSSL version check for Fedora/CentOS based systems
+```
+yum list installed | grep openssl 
+```
+
+#### apk OpenSSL version check for Alpine based systems
+```
+apk list -i | grep libssl
 ```
 
 ### Splunk
