@@ -20,8 +20,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 |--------|---------|---------|-----------------|--------|-----------|-------|
 | AlmaLinux OS Foundation | AlmaLinux | 9 | 3.0.1 | Vulnerable | https://repo.almalinux.org/almalinux/9/BaseOS/x86_64/os/Packages/openssl-3.0.1-41.el9_0.x86_64.rpm| |
 | AlmaLinux OS Foundation | AlmaLinux | 8 | 1.1.1k | Not vuln | https://repo.almalinux.org/almalinux/8/BaseOS/x86_64/os/Packages/openssl-1.1.1k-7.el8_6.x86_64.rpm| |
-| Alpine | Alpine Linux | Edge | 3.0.5 | Vulnerable | https://pkgs.alpinelinux.org/packages?name=openssl&branch=edge&repo=&arch=&maintainer= | |
-| Alpine | Alpine Linux | 3.15, 3.16 | 3.0.5 | Vulnerable | https://pkgs.alpinelinux.org/packages?name=openssl3&branch=v3.16&repo=&arch=&maintainer= | optional, non-default package |
+| Alpine | Alpine Linux | Edge | 3.0.7-r0 | Fix | https://pkgs.alpinelinux.org/packages?name=openssl&branch=edge&repo=&arch=&maintainer= | |
+| Alpine | Alpine Linux | 3.15, 3.16 | 3.0.7-r0 | Fix | https://pkgs.alpinelinux.org/packages?name=openssl3&branch=v3.16&repo=&arch=&maintainer= | optional, non-default package |
 | Alpine | Alpine Linux | <= 3.14 | 1.1.1 | Not vuln | https://pkgs.alpinelinux.org/packages?name=openssl&branch=v3.16&repo=&arch=&maintainer= | |
 | ALT Linux Ltd | ALT Linux | p10 | 1.1.1q | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p10/branch/x86_64/RPMS.classic/openssl-1.1.1q-alt1.x86_64.rpm| |
 | ALT Linux Ltd | ALT Linux | p9 | 1.1.1n | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p9/branch/x86_64/RPMS.classic/openssl-1.1.1n-alt2.x86_64.rpm| |
