@@ -90,6 +90,20 @@ select name, version from deb_packages where name like "openssl" and version lik
 select name, version from rpm_packages where name like "openssl" and version like "3.0%";
 ```
 
+### Splunk
+#### Regex statement to use in Splunk
+```
+rex field=_raw "(OpenSSL\/|libssl\.so\.|openssl\.so\.|openssl-|openssl-libs-)(?<SSLversion>[0-6]{1}\.[0-9]{1}\.[0-9]{1}[a-z]{1}|[0-6]{1})"
+```
+#### Query:
+```
+index=* OR index=_* TERM(openssl) OR TERM(libcrypto-3) OR TERM(libssl-3) OR term(libssl) NOT TERM(tls1.2) NOT sourcetype IN (splunkd_ui_access, audittrail, splunkd_remote_searches)
+| rex field=_raw "(OpenSSL\/|libssl\.so\.|openssl\.so\.|openssl-|openssl-libs-)(?<SSLversion>[0-6]{1}\.[0-9]{1}\.[0-9]{1}[a-z]{1}|[0-6]{1})"
+| where isnotnull(SSLversion)
+| stats values(SSLversion) AS SSLVersions by host, sourcetype, Name
+| sort -SSLVersions
+```
+
 ## External scanning tools and scripts
 
 | Source      | Notes        | Links |
