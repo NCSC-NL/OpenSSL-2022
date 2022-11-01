@@ -125,3 +125,4 @@ index=* OR index=_* TERM(openssl) OR TERM(libcrypto-3) OR TERM(libssl-3) OR term
 | Crowdstrike | CrowdStrike Falcon Insight XDR | https://www.crowdstrike.com/blog/discovering-the-critical-open-ssl-vulnerability-with-falcon-platform/ |
 | Cisco | Various | https://github.com/CiscoCXSecurity/openssl3-nov2022 |
 | Docker | Various | https://www.docker.com/blog/security-advisory-critical-openssl-vulnerability/ |
+| runZero | multi-OS/platform scanner | https://www.runzero.com/blog/what-you-need-to-know-about-openssl/ |
