@@ -286,6 +286,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | PHP | PHP | < 8.1 | < 3.0 | Not vuln | https://www.php.net/manual/en/openssl.requirements.php | | 
 | PHP	| PHP	| >= 8.1 | Unknown | Investigation | https://www.php.net/manual/en/openssl.requirements.php | |
 | Red Hat | Enterprise Linux | >= 9.0 | 3.x	| Vulnerable | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004	| | 
+| Red Hat | OpenShift Container Platform | => 4.0 | 1.1.1 | Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | |
+| Red Hat | Universal Base Images | >= 9.0 | 3.x | Vulnerable | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | |
 | Rocky Enterprise Software Foundation | Rocky Linux | 8.0 | 1.1.1k | Not vuln | https://dl.rockylinux.org/pub/rocky/8/BaseOS/x86_64/os/Packages/o/openssl-1.1.1k-7.el8_6.x86_64.rpm| |
 | Rocky Enterprise Software Foundation | Rocky Linux | 9.0 (Blue Onyx) | 3.0.1 | Vulnerable | https://dl.rockylinux.org/pub/rocky/9/BaseOS/x86_64/os/Packages/o/openssl-3.0.1-41.el9_0.x86_64.rpm| |
 | PulseSecure (Ivanti) | All | Unknown | Unknown | Not vuln | https://kb.pulsesecure.net/articles/Pulse_Secure_Article/OpenSSL-3-0-x-Vulnerability-Ivanti-Product-Impact1/?kA13Z000000FseL | |
@@ -293,8 +295,11 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Slackware | Slackware Linux | 14.2 | 1.0.2h | Not vuln | https://slackware.uk/slackware/slackware64-14.2/slackware64/n/openssl-1.0.2h-x86_64-1.txz| |
 | Slackware | Slackware Linux | 15.0 | 1.1.1q | Not vuln | https://slackware.uk/slackware/slackware64-15.0/patches/packages/openssl-1.1.1q-x86_64-1_slack15.0.txz| |
 | Slackware | Slackware Linux | current | 1.1.1q | Not vuln | https://slackware.uk/slackware/slackware64-current/slackware64/n/openssl-1.1.1q-x86_64-1.txz| |
+| Softether | Softether VPN | 4.39 Build 9772 Beta | 3.0.2 | Vulnerable | https://www.softether.org/5-download/history | |
 | SpamTitan | SpamTitan | All |  1.1.1n | Not vuln | https://helpdesk.spamtitan.com/support/solutions/articles/4000188396-spamtitan-not-susceptible-to-openssl-3-0-7| |
 | SPI | adelie | 1.0 | 1.1.1g | Not vuln | https://distfiles.adelielinux.org/adelie/1.0/system/x86_64/openssl-1.1.1g-r0.apk| |
+| Splunk | Splunk Enterprise | <= 9.0.1 | <= 1.0.2zd | Not vuln | https://docs.splunk.com/images/9/91/Splunk_Enterprise_3rd_Party_Software_900.pdf | |
+| Splunk | Universal Forwarder | <= 9.0.x | <= 1.0.2zd | Not vuln | https://docs.splunk.com/images/9/91/Splunk_Enterprise_3rd_Party_Software_900.pdf | |
 | Solus | Solus | rolling | 1.1.1q | Not vuln | https://mirrors.rit.edu/solus/packages/shannon/o/openssl-11/openssl-11-32bit-devel-1.1.1q-15-1-x86_64.eopkg| |
 | Tenable | Nessus | 10.3.0 | 3.0.5 | Vulnerable | https://docs.tenable.com/releasenotes/Content/nessus/nessus1030.htm| |
 | Tenable | Nessus Agent | 10.2 | 3.0.5 | Vulnerable | https://docs.tenable.com/releasenotes/Content/nessusagent/agent1020.htm | |
@@ -302,8 +307,27 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Trend Micro | Unknown | Unknown| Unknown | Investigation | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
 | Trellix | Trellix EPO | ? | ? | Investigation | https://kcm.trellix.com/corporate/index?page=content&id=KB96105 | |
 | Tunnelblick | Tunnelblick | <= 3.8.2beta07 | 1.1.1m | Not vuln | https://tunnelblick.net/cRlsNotes.html | |
-| Ubiquiti | UniFi Access Points | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
-| Ubiquiti | UniFi Gateways | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
-| Ubiquiti | UniFi Switches | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | AmpliFi Alien | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | AmpliFi HD | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | AmpliFi Instant | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | Cloud Key | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | Cloud Key Gen2 | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | Cloud Key Gen2 Plus | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | EdgeRouters | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | EdgeSwitches | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UFIBER | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UISP airCube | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UISP airFiber | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UISP airMAX | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UISP LTU | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UISP Router | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UISP Switches | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UISP Wave | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UniFi Access Points | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UniFi Gateways | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UniFi Protect Cameras | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UniFi Switches | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UNVR | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UNVR PRO | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
 | VMware| VMware Tools | 12.0.0 | 3.0.0 | Vulnerable | https://docs.vmware.com/en/VMware-Tools/12.0/rn/VMware-Tools-1200-Release-Notes.html| |
 | Void Linux| Void Linux | current | 1.1.1q | Not vuln | https://alpha.de.repo.voidlinux.org/current/openssl-1.1.1q_1.x86_64.xbps| |
