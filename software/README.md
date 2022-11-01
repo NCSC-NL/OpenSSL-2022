@@ -305,8 +305,27 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Trend Micro | Unknown | Unknown| Unknown | Investigation | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
 | Trellix | Trellix EPO | ? | ? | Investigation | https://kcm.trellix.com/corporate/index?page=content&id=KB96105 | |
 | Tunnelblick | Tunnelblick | <= 3.8.2beta07 | 1.1.1m | Not vuln | https://tunnelblick.net/cRlsNotes.html | |
-| Ubiquiti | UniFi Access Points | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
-| Ubiquiti | UniFi Gateways | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
-| Ubiquiti | UniFi Switches | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | AmpliFi Alien | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | AmpliFi HD | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | AmpliFi Instant | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | Cloud Key | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | Cloud Key Gen2 | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | Cloud Key Gen2 Plus | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | EdgeRouters | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | EdgeSwitches | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UFIBER | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UISP airCube | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UISP airFiber | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UISP airMAX | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UISP LTU | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UISP Router | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UISP Switches | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UISP Wave | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UniFi Access Points | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UniFi Gateways | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UniFi Protect Cameras | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UniFi Switches | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UNVR | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UNVR PRO | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
 | VMware| VMware Tools | 12.0.0 | 3.0.0 | Vulnerable | https://docs.vmware.com/en/VMware-Tools/12.0/rn/VMware-Tools-1200-Release-Notes.html| |
 | Void Linux| Void Linux | current | 1.1.1q | Not vuln | https://alpha.de.repo.voidlinux.org/current/openssl-1.1.1q_1.x86_64.xbps| |
