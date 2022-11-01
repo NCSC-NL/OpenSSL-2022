@@ -245,4 +245,5 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Ubiquiti | UniFi Access Points | All | < 3.x | Not vuln | https://community.ui.com/questions/Does-this-OpenSSL-vulnerability-affect-Unifi-Routers/a0ecf612-03e3-4428-80fa-9c8b67137655#answer/358f10ee-347d-4f6d-ba65-499781244147 | |
 | Ubiquiti | UniFi Gateways | All | < 3.x | Not vuln | https://community.ui.com/questions/Does-this-OpenSSL-vulnerability-affect-Unifi-Routers/a0ecf612-03e3-4428-80fa-9c8b67137655#answer/358f10ee-347d-4f6d-ba65-499781244147 | |
 | Ubiquiti | UniFi Switches | All | < 3.x | Not vuln | https://community.ui.com/questions/Does-this-OpenSSL-vulnerability-affect-Unifi-Routers/a0ecf612-03e3-4428-80fa-9c8b67137655#answer/358f10ee-347d-4f6d-ba65-499781244147 | |
+| VMware | Photon OS | Unknown | 3.0.3 | Vulnerable | https://github.com/vmware/photon/blob/56871fb69a426da5b76413da8caa04a7ae1bce03/SPECS/openssl/openssl.spec | |
 | Void Linux| Void Linux | current | 1.1.1q | Not vuln | https://alpha.de.repo.voidlinux.org/current/openssl-1.1.1q_1.x86_64.xbps| |
