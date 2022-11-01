@@ -107,6 +107,11 @@ yum list installed | grep openssl.*3.0
 apk list -i | grep libssl3.0
 ```
 
+#### pacman OpenSSL version check for Arch Linux based systems
+```
+pacman -Q local/openssl | grep 3.0
+```
+
 ### Splunk
 #### Regex statement to use in Splunk
 ```
