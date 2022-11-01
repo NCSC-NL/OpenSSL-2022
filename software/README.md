@@ -28,6 +28,9 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Amazon | Amazon Linux | 2 | 1.0.2k | Not vuln | https://docs.aws.amazon.com/linux/al2022/ug/compare-al2-to-AL2022.html#openssl3 | |
 | Amazon | Amazon Linux | 2022 | 3.0.5-1 | Vulnerable | https://docs.aws.amazon.com/linux/al2022/ug/compare-al2-to-AL2022.html#openssl3 | |
 | Buildroot | Buildroot | 2022.08.1 | 1.1.1q | Not vuln | https://github.com/buildroot/buildroot/blob/master/package/libopenssl/libopenssl.mk#L7 | OpenSSL 1.1.1q is the default version. |
+| Bitdefender | Bitdefender Endpoint Security | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
+| Bitdefender | Bitdefender Security for Mobile | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
+| Bitdefender | Bitdefender GravityZone Management Appliance | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
 | Canonical | Ubuntu | bionic (18.04 LTS) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?keywords=openssl | |
 | Canonical | Ubuntu | impish (21.10) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?keywords=openssl | |
 | Canonical | Ubuntu | focal (20.04 LTS) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?keywords=openssl | |
