@@ -38,8 +38,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Canonical | Ubuntu | bionic (18.04 LTS) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?suite=bionic&keywords=openssl | |
 | Canonical | Ubuntu | impish (21.10) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?suite=impish&keywords=openssl | |
 | Canonical | Ubuntu | focal (20.04 LTS) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?suite=focal&keywords=openssl | |
-| Canonical | Ubuntu | jammy (22.04 LTS) | 3.0.2 | Vulnerable | https://packages.ubuntu.com/search?suite=jammy&keywords=openssl | |
-| Canonical | Ubuntu | kinetic (22.10) | 3.0.5 | Vulnerable | https://packages.ubuntu.com/search?suite=kinetic&keywords=openssl | |
+| Canonical | Ubuntu | jammy (22.04 LTS) | 3.0.2-0ubuntu1.7 | Fix | https://packages.ubuntu.com/search?suite=jammy&keywords=openssl | |
+| Canonical | Ubuntu | kinetic (22.10) | 3.0.5-2ubuntu2 | Fix | https://packages.ubuntu.com/search?suite=kinetic&keywords=openssl | |
 | Canonical | Ubuntu | Squid | 3.0.5 5 | Vulnerable | https://hub.docker.com/r/ubuntu/squid/tags | |
 | CentOS | CentOS | 7.9 | 1.0.2 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | CentOS | CentOS | 8 | 1.1.1 | Not vuln| https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
