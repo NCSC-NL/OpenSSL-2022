@@ -139,6 +139,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Dockerhub | ubuntu | latest | 3.0.2 | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 | pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.6?os_distro=jammy&os_name=ubuntu&os_version=22.04; ; Instruction: /bin/sh -c #(nop) ADD file:ba96f963bbfd429a0839c40603fdd7829eaca58f20adfa0d15e6beae8244bc08 in /; Layer 0: sha256:301a8b74f71f85f3a31e9c7e7fedd5b001ead5bcf895bc2911c1d260e06bd987 |
 | Dockerhub | websphere-liberty | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
 | Dockerhub | wordpress | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Esri | ArcGIS | All | Unknown | Investigation | https://www.esri.com/arcgis-blog/products/trust-arcgis/administration/openssl-v3-vulnerability/ | |
 | F5 Networks | BIG-IP | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | BIG-IP SPK | 1.x | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | BIG-IQ Centralized Management | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
