@@ -296,4 +296,5 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Ubiquiti | UniFi Access Points | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
 | Ubiquiti | UniFi Gateways | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
 | Ubiquiti | UniFi Switches | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| VMware| VMware Tools | 12.0.0 | current | Vulnerable | https://docs.vmware.com/en/VMware-Tools/12.0/rn/VMware-Tools-1200-Release-Notes.html| |
 | Void Linux| Void Linux | current | 1.1.1q | Not vuln | https://alpha.de.repo.voidlinux.org/current/openssl-1.1.1q_1.x86_64.xbps| |
