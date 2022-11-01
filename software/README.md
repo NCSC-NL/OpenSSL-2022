@@ -25,13 +25,20 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | ALT Linux Ltd | ALT Linux | p10 | 1.1.1q | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p10/branch/x86_64/RPMS.classic/openssl-1.1.1q-alt1.x86_64.rpm| |
 | ALT Linux Ltd | ALT Linux | p9 | 1.1.1n | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p9/branch/x86_64/RPMS.classic/openssl-1.1.1n-alt2.x86_64.rpm| |
 | Arch | Arch Linux | Core | 1.1.1 | Not vuln | https://archlinux.org/packages/?name=openssl | |
+| Amazon | Amazon Linux | 2 | 1.0.2k | Not vuln | https://docs.aws.amazon.com/linux/al2022/ug/compare-al2-to-AL2022.html#openssl3 | |
+| Amazon | Amazon Linux | 2022 | 3.0.5-1 | Vulnerable | https://docs.aws.amazon.com/linux/al2022/ug/compare-al2-to-AL2022.html#openssl3 | |
+| Buildroot | Buildroot | 2022.08.1 | 1.1.1q | Not vuln | https://github.com/buildroot/buildroot/blob/master/package/libopenssl/libopenssl.mk#L7 | OpenSSL 1.1.1q is the default version. |
 | Canonical | Ubuntu | bionic (18.04 LTS) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?keywords=openssl | |
 | Canonical | Ubuntu | impish (21.10) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?keywords=openssl | |
 | Canonical | Ubuntu | focal (20.04 LTS) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?keywords=openssl | |
 | Canonical | Ubuntu | jammy (22.04 LTS) | 3.0.2 | Vulnerable | https://packages.ubuntu.com/search?keywords=openssl | |
+| Canonical | Ubuntu | kinetic (22.10) | 3.0.5 | Vulnerable | https://packages.ubuntu.com/search?keywords=openssl | |
+| Canonical | Ubuntu | Squid | 3.0.5 5 | Vulnerable | https://hub.docker.com/r/ubuntu/squid/tags | |
 | CentOS | CentOS | 7.9 | 1.0.2 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | CentOS | CentOS | 8 | 1.1.1 | Not vuln| https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | CentOS | CentOS | >= 9 | 3.x | Vulnerable | https://www.redhat.com/en/blog/experience-bringing-openssl-30-rhel-and-fedora | |
+| Cisco | All | Unknown | Unknown | Investigation | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
+| Code42 | Incydr | ALL | 1.x | Investigation | [Code42 Response to Industry Security Incidents](https://support.code42.com/Terms_and_conditions/Code42_customer_support_resources/Code42_response_to_industry_security_incidents) | |
 | Debian | Debian | 9 "Stretch"	| 1.1.0 | Not vuln | https://packages.debian.org/stretch/openssl	| |
 | Debian | Debian | 10 "Buster"	| 1.1.1	| Not vuln | https://packages.debian.org/buster/openssl | |
 | Debian | Debian | 11 "Bullseye"	| 1.1.1	| Not vuln | https://packages.debian.org/bullseye/openssl | |
@@ -132,10 +139,28 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Dockerhub | ubuntu | latest | 3.0.2 | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 | pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.6?os_distro=jammy&os_name=ubuntu&os_version=22.04; ; Instruction: /bin/sh -c #(nop) ADD file:ba96f963bbfd429a0839c40603fdd7829eaca58f20adfa0d15e6beae8244bc08 in /; Layer 0: sha256:301a8b74f71f85f3a31e9c7e7fedd5b001ead5bcf895bc2911c1d260e06bd987 |
 | Dockerhub | websphere-liberty | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
 | Dockerhub | wordpress | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Esri | ArcGIS | All | Unknown | Investigation | https://www.esri.com/arcgis-blog/products/trust-arcgis/administration/openssl-v3-vulnerability/ | |
+| F5 Networks | BIG-IP | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | BIG-IP SPK | 1.x | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | BIG-IQ Centralized Management | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | F5OS-A | 1.x | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | F5OS-C | 1.x | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX API Connectivity Manager | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX App Protect DoS | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX App Protect WAF | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX Controller Application Delivery | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX Controller API Management | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX Ingress Controller | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX Instance Manager | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX Plus | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX Service Mesh | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX Unit | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | Traffix SDC | 5.x | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
 | Fedora | Linux | 35 | 1.1.1 | Not vuln | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | | 
 | Fedora | Linux | 36 | 3.0.2 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | 37 | 3.0.5 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | Rawhide | 3.0.5 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
+| FileCap | FileCap Server | All | < 3.x | Not vuln | https://github.com/NCSC-NL/OpenSSL-2022/blob/main/software/vendor-statements/FileCap.png | | 
 | Fortinet | FortiADC | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiADCManager | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiAIOps | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
@@ -206,15 +231,22 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Fortinet | FortiWebManager | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiWLC | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiWLM | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| HashiCorp| Unknown | Unknown| Unknown | Investigation | https://discuss.hashicorp.com/t/hcsec-2022-27-hashicorp-response-to-openssl-security-announcement-regarding-november-1-release/46192 | |
+| IBM | All | Unknown | Unknown | Investigation | https://www.ibm.com/support/pages/node/6833428 | |
+| Intel | System Usage Report (Codename: Queencreek) | 2.4.0.8919 | 3.0.2 | Vulnerable | [Local Proof](vendor-statements/openssl_queencreek.png) | |
 | Linux Mint | Linux Mint | 21 Vanessa | 3.0.2 | Vulnerable | http://packages.linuxmint.com/search.php?release=vanessa&section=any&keyword=openssl | 
 | FreeBSD | FreeBSD | 13 | 1.1.1q | Not vuln | https://pkg.freebsd.org/FreeBSD:13:amd64/latest/All/openssl-1.1.1q,1.pkg| |
 | FreeBSD | FreeBSD | 12 | 1.1.1q | Not vuln | https://pkg.freebsd.org/FreeBSD:12:amd64/quarterly/All/openssl-1.1.1q,1.pkg| |
 | KaOS | KaOS | rolling | 1.1.1.18 | Not vuln | http://mirror6.layerjet.com/kaos/core/openssl-1.1.1.18-1-x86_64.pkg.tar.zst| |
 | Mageia | Mageia | 8 | 1.1.1q | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/8/x86_64/media/core/updates/openssl-1.1.1q-1.mga8.x86_64.rpm| |
 | Mageia | Mageia | cauldron | 3.0.5 | Vulnerable | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/cauldron/x86_64/media/core/release/openssl-3.0.5-1.mga9.x86_64.rpm| |
-| NetBSD | NetBSD | 9 | 1.1.1n | Not vuln | http://netbsd.ftp.fu-berlin.de/pub/NetBSD/pkgsrc/packages/NetBSD/amd64/9.1/All/openssl-1.1.1n.tgz| |
-| NetBSD | NetBSD | 8 | 1.1.1n | Not vuln | http://netbsd.ftp.fu-berlin.de/pub/NetBSD/pkgsrc/packages/NetBSD/amd64/8.2/All/openssl-1.1.1n.tgz| |
-| Node.js | JavaScript Runtime Environment | 18 | 3.x | Investigation | Node.js 18 updates OpenSSL support, enables fetch API | InfoWorld	|
+| NixOS | NixOS | 22.05 | 1.1.1q | Not vuln | https://search.nixos.org/packages?channel=22.05&query=openssl&show=openssl | There are exceptions, e.g., nginx is built against OpenSSL 3! |
+| NixOS | NixOS | unstable | 3.0.5 | Vulnerable | https://search.nixos.org/packages?channel=unstable&query=openssl&show=openssl | |
+| NetBSD | NetBSD | 9 | 1.1.1k | Not vuln | https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.3/CHANGES-9.2 |
+| NetBSD | NetBSD | 8 | 1.0.2k | Not vuln | https://netbsd.org/releases/formal-8/NetBSD-8.0.html |
+| NetBSD | pkgsrc | - | 1.1.1q | Not vuln | https://cdn.netbsd.org/pub/pkgsrc/current/pkgsrc/security/openssl/index.html|
+| Node.js | JavaScript Runtime Environment | 18 | 3.x | Investigation | https://nodejs.org/zh-cn/blog/vulnerability/openssl-november-2022/ ||
+| Node.js | JavaScript Runtime Environment | 19 | 3.x | Investigation | https://nodejs.org/zh-cn/blog/vulnerability/openssl-november-2022/ ||
 | Offensive Security | Kali | 2022.3 | 3.0.5 | Vulnerable | https://pkg.kali.org/pkg/openssl | 
 | OpenMandriva | OpenMandriva | 4.3 | 3.0.3 | Vulnerable | http://abf-downloads.openmandriva.org/4.3/repository/x86_64/main/updates/openssl-3.0.3-1-omv4003.x86_64.rpm| |
 | OpenMandriva | OpenMandriva | 4.2 | 3.0.0 | Vulnerable | http://abf-downloads.openmandriva.org/4.2/repository/x86_64/main/updates/openssl-3.0.0-0.alpha17.1-omv4002.x86_64.rpm| |
@@ -225,20 +257,53 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | OpenSUSE | Leap | 15.4 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | OpenSUSE | OpenSUSE | tumbleweed | 1.1.1q | Not vuln | https://ftp.lysator.liu.se/pub/opensuse/tumbleweed/repo/oss/noarch/openssl-1.1.1q-1.3.noarch.rpm| |
 | OpenVPN | OpenVPN | <= 2.5.7 | < 3.0 | Investigation | https://en.wikipedia.org/wiki/OpenVPN | https://openvpn.net/community-downloads/ Support for OpenSSL 3 in later version: OpenVPN 2.6. | |
+| Palo Alto Networks | AutoFocus | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Bridgecrew | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
+| Palo Alto Networks | Cloud NGFW | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
+| Palo Alto Networks | Cortex Data Lake	| * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
+| Palo Alto Networks | Cortex XDR Agent	| * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
+| Palo Alto Networks | Cortex Xpanse | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
+| Palo Alto Networks | Cortex XSOAR | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
+| Palo Alto Networks | Enterprise Data Loss Prevention | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Exact Data Matching CLI	 | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Expanse | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Expedition Migration Tool | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | GlobalProtect App | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | IoT Security | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Okyo Garde | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Palo Alto Networks App for Splunk | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Prisma Cloud | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Prisma Cloud Compute | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Prisma SD-WAN ION | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Prisma SDWAN (Cloudgenix) | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | SaaS Security | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | User-ID Agent | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | WildFire Appliance (WF-500) | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | WildFire Cloud | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | PCLinuxOS | PCLinuxOS | rolling | 1.1.1q | Not vuln | https://ftp.nluug.nl/pub/os/Linux/distr/pclinuxos/pclinuxos/apt/pclinuxos/64bit/RPMS.x86_64/openssl-1.1.1q-1pclos2022.x86_64.rpm| |
 | Proxmox Server Solutions GmbH| Proxmox | 6 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
+| Proxmox Server Solutions GmbH| Proxmox | 7 | 1.1.1 | Not vuln | https://www.proxmox.com/en/news/press-releases/proxmox-virtual-environment-7-0 (EN) |Based on Debian 11, no custom OpenSSL version used. |
 | PHP | PHP | < 8.1 | < 3.0 | Not vuln | https://www.php.net/manual/en/openssl.requirements.php | | 
 | PHP	| PHP	| >= 8.1 | Unknown | Investigation | https://www.php.net/manual/en/openssl.requirements.php | |
-| Red Hat | Enterprise Linux | >= 9.0 | 3.x	| Vulnerable | https://www.redhat.com/en/blog/experience-bringing-openssl-30-rhel-and-fedora	| | 
+| Red Hat | Enterprise Linux | >= 9.0 | 3.x	| Vulnerable | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004	| | 
 | Rocky Enterprise Software Foundation | Rocky Linux | 8.0 | 1.1.1k | Not vuln | https://dl.rockylinux.org/pub/rocky/8/BaseOS/x86_64/os/Packages/o/openssl-1.1.1k-7.el8_6.x86_64.rpm| |
 | Rocky Enterprise Software Foundation | Rocky Linux | 9.0 (Blue Onyx) | 3.0.1 | Vulnerable | https://dl.rockylinux.org/pub/rocky/9/BaseOS/x86_64/os/Packages/o/openssl-3.0.1-41.el9_0.x86_64.rpm| |
+| PulseSecure (Ivanti) | All | Unknown | Unknown | Not vuln | https://kb.pulsesecure.net/articles/Pulse_Secure_Article/OpenSSL-3-0-x-Vulnerability-Ivanti-Product-Impact1/?kA13Z000000FseL | |
 | Slackware | Slackware Linux | 14.1 | 1.0.1e | Not vuln | https://slackware.uk/slackware/slackware64-14.1/slackware64/n/openssl-1.0.1e-x86_64-1.txz| |
 | Slackware | Slackware Linux | 14.2 | 1.0.2h | Not vuln | https://slackware.uk/slackware/slackware64-14.2/slackware64/n/openssl-1.0.2h-x86_64-1.txz| |
 | Slackware | Slackware Linux | 15.0 | 1.1.1q | Not vuln | https://slackware.uk/slackware/slackware64-15.0/patches/packages/openssl-1.1.1q-x86_64-1_slack15.0.txz| |
 | Slackware | Slackware Linux | current | 1.1.1q | Not vuln | https://slackware.uk/slackware/slackware64-current/slackware64/n/openssl-1.1.1q-x86_64-1.txz| |
+| SpamTitan | SpamTitan | All |  1.1.1n | Not vuln | https://helpdesk.spamtitan.com/support/solutions/articles/4000188396-spamtitan-not-susceptible-to-openssl-3-0-7| |
 | SPI | adelie | 1.0 | 1.1.1g | Not vuln | https://distfiles.adelielinux.org/adelie/1.0/system/x86_64/openssl-1.1.1g-r0.apk| |
 | Solus | Solus | rolling | 1.1.1q | Not vuln | https://mirrors.rit.edu/solus/packages/shannon/o/openssl-11/openssl-11-32bit-devel-1.1.1q-15-1-x86_64.eopkg| |
-| Ubiquiti | UniFi Access Points | All | < 3.x | Not vuln | https://community.ui.com/questions/Does-this-OpenSSL-vulnerability-affect-Unifi-Routers/a0ecf612-03e3-4428-80fa-9c8b67137655#answer/358f10ee-347d-4f6d-ba65-499781244147 | |
-| Ubiquiti | UniFi Gateways | All | < 3.x | Not vuln | https://community.ui.com/questions/Does-this-OpenSSL-vulnerability-affect-Unifi-Routers/a0ecf612-03e3-4428-80fa-9c8b67137655#answer/358f10ee-347d-4f6d-ba65-499781244147 | |
-| Ubiquiti | UniFi Switches | All | < 3.x | Not vuln | https://community.ui.com/questions/Does-this-OpenSSL-vulnerability-affect-Unifi-Routers/a0ecf612-03e3-4428-80fa-9c8b67137655#answer/358f10ee-347d-4f6d-ba65-499781244147 | |
+| Tenable | Nessus | 10.3.0 | 3.0.5 | Vulnerable | https://docs.tenable.com/releasenotes/Content/nessus/nessus1030.htm| |
+| Tenable | Nessus Agent | 10.2 | 3.0.5 | Vulnerable | https://docs.tenable.com/releasenotes/Content/nessusagent/agent1020.htm | |
+| Tenable | Nessus Network Monitor | 6.1.0 | 3.0.5 | Vulnerable | https://docs.tenable.com/releasenotes/Content/nnm/nnm610.htm?Highlight=openssl| |
+| Trend Micro | Unknown | Unknown| Unknown | Investigation | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trellix | Trellix EPO | ? | ? | Investigation | https://kcm.trellix.com/corporate/index?page=content&id=KB96105 | |
+| Tunnelblick | Tunnelblick | <= 3.8.2beta07 | 1.1.1m | Not vuln | https://tunnelblick.net/cRlsNotes.html | |
+| Ubiquiti | UniFi Access Points | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UniFi Gateways | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| Ubiquiti | UniFi Switches | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
+| VMware| VMware Tools | 12.0.0 | 3.0.0 | Vulnerable | https://docs.vmware.com/en/VMware-Tools/12.0/rn/VMware-Tools-1200-Release-Notes.html| |
 | Void Linux| Void Linux | current | 1.1.1q | Not vuln | https://alpha.de.repo.voidlinux.org/current/openssl-1.1.1q_1.x86_64.xbps| |
