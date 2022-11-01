@@ -88,6 +88,10 @@ select name, version from deb_packages where name like "openssl" and version lik
 ```
 apt list --installed | grep openssl
 ```
+#### dpkg OpenSSL version check for Debian based systems
+```
+dpkg -l | grep openssl
+```
 
 #### OSquery OpenSSL version check for Fedora/CentOS based systems
 ```
