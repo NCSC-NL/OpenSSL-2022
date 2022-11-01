@@ -113,6 +113,10 @@ You can then override as appropriate or monitor the progression of the fix to re
 ```
 SELECT * FROM homebrew_packages WHERE name LIKE "openssl" and version like "3.0%";
 ```
+#### Checking homebrew packages without OSQuery
+```
+brew list --versions | grep openssl | grep "3.0"
+```
 
 ### Splunk
 #### Regex statement to use in Splunk
