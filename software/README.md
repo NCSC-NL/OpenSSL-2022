@@ -216,6 +216,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | KaOS | KaOS | rolling | 1.1.1.18 | Not vuln | http://mirror6.layerjet.com/kaos/core/openssl-1.1.1.18-1-x86_64.pkg.tar.zst| |
 | Mageia | Mageia | 8 | 1.1.1q | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/8/x86_64/media/core/updates/openssl-1.1.1q-1.mga8.x86_64.rpm| |
 | Mageia | Mageia | cauldron | 3.0.5 | Vulnerable | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/cauldron/x86_64/media/core/release/openssl-3.0.5-1.mga9.x86_64.rpm| |
+| NixOS | NixOS | 22.05 | 1.1.1q | Not vuln | https://search.nixos.org/packages?channel=22.05&query=openssl&show=openssl | There are exceptions, e.g., nginx is built against OpenSSL 3! |
+| NixOS | NixOS | unstable | 3.0.5 | Vulnerable | https://search.nixos.org/packages?channel=unstable&query=openssl&show=openssl | |
 | NetBSD | NetBSD | 9 | 1.1.1k | Not vuln | https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.3/CHANGES-9.2 |
 | NetBSD | NetBSD | 8 | 1.0.2k | Not vuln | https://netbsd.org/releases/formal-8/NetBSD-8.0.html |
 | NetBSD | pkgsrc | - | 1.1.1q | Not vuln | https://cdn.netbsd.org/pub/pkgsrc/current/pkgsrc/security/openssl/index.html|
