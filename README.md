@@ -6,7 +6,7 @@ This repo contains operational information regarding the recently announced vuln
 
 - [OpenSSL Security Advisory](https://www.openssl.org/news/secadv/20221101.txt)
 - [OpenSSL Blogpost FAQ](https://www.openssl.org/blog/blog/2022/11/01/email-address-overflows/)
-- [CERT-Bund advisory (GE)](https://www.bsi.bund.de/SharedDocs/Cybersicherheitswarnungen/DE/2022/2022-267005-1032.html)
+- [CERT-Bund advisory (DE)](https://www.bsi.bund.de/SharedDocs/Cybersicherheitswarnungen/DE/2022/2022-267005-1032.html)
 - [NCSC-NL advisory (NL)](https://www.ncsc.nl/actueel/advisory?id=NCSC-2022-0685)
 - [OpenSSL pre-notification](https://mta.openssl.org/pipermail/openssl-announce/2022-October/000238.html)
 - [OpenSSL release notification](https://mta.openssl.org/pipermail/openssl-announce/2022-November/000241.html)
