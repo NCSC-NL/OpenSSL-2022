@@ -100,7 +100,7 @@ rex field=_raw "(OpenSSL\/|libssl\.so\.|openssl\.so\.|openssl-|openssl-libs-)(?<
 index=* OR index=_* TERM(openssl) OR TERM(libcrypto-3) OR TERM(libssl-3) OR term(libssl) NOT TERM(tls1.2) NOT sourcetype IN (splunkd_ui_access, audittrail, splunkd_remote_searches)
 | rex field=_raw "(OpenSSL\/|libssl\.so\.|openssl\.so\.|openssl-|openssl-libs-)(?<SSLversion>[0-6]{1}\.[0-9]{1}\.[0-9]{1}[a-z]{1}|[0-6]{1})"
 | where isnotnull(SSLversion)
-| stats values(SSLversion) AS SSLVersions by host, sourcetype, Name
+| stats values(SSLversion) AS SSLVersions by host, sourcetype
 | sort -SSLVersions
 ```
 
