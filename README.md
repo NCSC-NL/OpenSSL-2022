@@ -1,4 +1,7 @@
 # 2022 OpenSSL vulnerability
+
+![Spooky](spooky.png)
+
 This repo contains operational information regarding the recently announced vulnerability in OpenSSL 3. For more information see:
 
 - [CERT-Bund advisory (GE)](https://www.bsi.bund.de/SharedDocs/Cybersicherheitswarnungen/DE/2022/2022-267005-1032.html)
