@@ -274,3 +274,4 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Ubiquiti | UniFi Gateways | All | < 3.x | Not vuln | https://community.ui.com/questions/Does-this-OpenSSL-vulnerability-affect-Unifi-Routers/a0ecf612-03e3-4428-80fa-9c8b67137655#answer/358f10ee-347d-4f6d-ba65-499781244147 | |
 | Ubiquiti | UniFi Switches | All | < 3.x | Not vuln | https://community.ui.com/questions/Does-this-OpenSSL-vulnerability-affect-Unifi-Routers/a0ecf612-03e3-4428-80fa-9c8b67137655#answer/358f10ee-347d-4f6d-ba65-499781244147 | |
 | Void Linux| Void Linux | current | 1.1.1q | Not vuln | https://alpha.de.repo.voidlinux.org/current/openssl-1.1.1q_1.x86_64.xbps| |
+| VMware| VMware Tools | current | 12.0.0 | Vulnerable | https://docs.vmware.com/en/VMware-Tools/12.0/rn/VMware-Tools-1200-Release-Notes.html| |
