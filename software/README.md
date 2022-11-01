@@ -229,6 +229,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Fortinet | FortiWebManager | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiWLC | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiWLM | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| HashiCorp| Unknown | Unknown| Unknown | Investigation | https://discuss.hashicorp.com/t/hcsec-2022-27-hashicorp-response-to-openssl-security-announcement-regarding-november-1-release/46192 | |
 | IBM | All | Unknown | Unknown | Investigation | https://www.ibm.com/support/pages/node/6833428 | |
 | Intel | System Usage Report (Codename: Queencreek) | 2.4.0.8919 | 3.0.2 | Vulnerable | [Local Proof](vendor-statements/openssl_queencreek.png) | |
 | Linux Mint | Linux Mint | 21 Vanessa | 3.0.2 | Vulnerable | http://packages.linuxmint.com/search.php?release=vanessa&section=any&keyword=openssl | 
