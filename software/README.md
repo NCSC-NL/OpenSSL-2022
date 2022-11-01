@@ -290,6 +290,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Slackware | Slackware Linux | 14.2 | 1.0.2h | Not vuln | https://slackware.uk/slackware/slackware64-14.2/slackware64/n/openssl-1.0.2h-x86_64-1.txz| |
 | Slackware | Slackware Linux | 15.0 | 1.1.1q | Not vuln | https://slackware.uk/slackware/slackware64-15.0/patches/packages/openssl-1.1.1q-x86_64-1_slack15.0.txz| |
 | Slackware | Slackware Linux | current | 1.1.1q | Not vuln | https://slackware.uk/slackware/slackware64-current/slackware64/n/openssl-1.1.1q-x86_64-1.txz| |
+| SpamTitan | SpamTitan | All |  1.1.1n | Not vuln | https://helpdesk.spamtitan.com/support/solutions/articles/4000188396-spamtitan-not-susceptible-to-openssl-3-0-7| |
 | SPI | adelie | 1.0 | 1.1.1g | Not vuln | https://distfiles.adelielinux.org/adelie/1.0/system/x86_64/openssl-1.1.1g-r0.apk| |
 | Solus | Solus | rolling | 1.1.1q | Not vuln | https://mirrors.rit.edu/solus/packages/shannon/o/openssl-11/openssl-11-32bit-devel-1.1.1q-15-1-x86_64.eopkg| |
 | Tenable | Nessus | 10.3.0 | 3.0.5 | Vulnerable | https://docs.tenable.com/releasenotes/Content/nessus/nessus1030.htm| |
