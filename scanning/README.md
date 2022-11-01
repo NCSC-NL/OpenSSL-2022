@@ -26,11 +26,19 @@ docker-index cve --image $IMAGE DSA-2022–0001
 Get-ChildItem -Recurse -File -ErrorAction SilentlyContinue -Path "C:\" -Filter "libssl*"
 ```
 
-### Microsoft Azure
+### Microsoft Security Solutions
 
 #### Microsoft Defender for Cloud
 Microsoft has published a blogpost with instructions for identifying Azure resources with OpenSSL installed using Microsoft Defender for Cloud.
 Blogpost Microsoft: https://techcommunity.microsoft.com/t5/microsoft-defender-for-cloud/new-openssl-v3-vulnerability-prepare-with-microsoft-defender-for/ba-p/3666487
+
+#### M365 Defender / Azure Sentinel
+```
+DeviceTvmSoftwareInventory
+| where SoftwareName contains "openssl"
+| where SoftwareName contains "3.0" or SoftwareVersion contains "3.0"
+| project DeviceName, SoftwareName, SoftwareVersion
+```
 
 ### Linux
 
@@ -43,3 +51,14 @@ openssl version
 ```bash
 sudo lsof -n | grep libssl.so.3 
 ```
+
+#### OSquery OpenSSL version check for Debian based systems
+```
+select name, version from deb_packages where name like "openssl" and version like "3.0%";
+```
+
+#### OSquery OpenSSL version check for Fedora/CentOS based systems
+```
+select name, version from rpm_packages where name like "openssl" and version like "3.0%";
+```
+
