@@ -1,6 +1,6 @@
 # 2022 OpenSSL vulnerability
 
-![Spooky](spooky.png)
+<img src="spooky.png" alt="Spooky SSL" width="300">
 
 This repo contains operational information regarding the recently announced vulnerability in OpenSSL 3. For more information see:
 
