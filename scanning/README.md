@@ -75,6 +75,12 @@ DeviceTvmSoftwareInventory
 openssl version
 ```
 
+#### RHEL, Fedora, Oracle, CentOS:
+
+```
+rpm -qa --queryformat "%{NAME} %{VERSION} %{RELEASE}\n"` | grep openssl
+```
+
 #### Running processes running OpenSSL 3.x 
 ```bash
 sudo lsof -n | grep libssl.so.3 
@@ -109,3 +115,4 @@ index=* OR index=_* TERM(openssl) OR TERM(libcrypto-3) OR TERM(libssl-3) OR term
 | Source      | Notes        | Links |
 |:----------------|:----------------|:---------------:|
 | MalwareTech scripts | Bash + PowerShell | https://github.com/MalwareTech/SpookySSLTools |
+| securityboulevard | Bash | https://securityboulevard.com/2022/10/what-you-should-know-about-the-new-openssl-vulnerability/|
