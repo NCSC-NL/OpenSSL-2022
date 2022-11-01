@@ -228,6 +228,17 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | OpenSUSE | Leap | 15.4 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | OpenSUSE | OpenSUSE | tumbleweed | 1.1.1q | Not vuln | https://ftp.lysator.liu.se/pub/opensuse/tumbleweed/repo/oss/noarch/openssl-1.1.1q-1.3.noarch.rpm| |
 | OpenVPN | OpenVPN | <= 2.5.7 | < 3.0 | Investigation | https://en.wikipedia.org/wiki/OpenVPN | https://openvpn.net/community-downloads/ Support for OpenSSL 3 in later version: OpenVPN 2.6. | |
+| Palo Alto Networks | CN-Series | <= 10.0 | < 3.0 | Not vuln | https://docs.paloaltonetworks.com/oss-listings/cn-series-oss-listings/cn-series-10-0-open-source-software-oss-listing | | 
+| Palo Alto Networks | CN-Series | >= 10.1 | Unknown | Investigation | https://docs.paloaltonetworks.com/oss-listings/cn-series-oss-listings | | 
+| Palo Alto Networks | Cortex | <= 7.8 | < 3.0 | Not vuln | https://docs.paloaltonetworks.com/oss-listings/cortex-xdr-oss-listings | | 
+| Palo Alto Networks | Global Protect Mobile Security Manager | <= 6.2 | 0.9.8p | Not vuln | https://docs.paloaltonetworks.com/oss-listings/globalprotect-mobile-security-manager-oss-listings | | 
+| Palo Alto Networks | Panorama | <= 10.1 | < 3.0 | Not vuln | https://docs.paloaltonetworks.com/oss-listings/panorama-oss-listings | | 
+| Palo Alto Networks | Panorama | >= 10.2 | Unknown | Investigation | https://docs.paloaltonetworks.com/oss-listings/panorama-oss-listings/panorama-10-2-open-source-software-oss-listing | | 
+| Palo Alto Networks | PanOS | <= 10.1 | < 3.0 | Not vuln | https://docs.paloaltonetworks.com/oss-listings/pan-os-oss-listings | | 
+| Palo Alto Networks | PanOS | >= 10.2 | Unknown | Investigation | https://docs.paloaltonetworks.com/oss-listings/pan-os-oss-listings/pan-os-10-2-open-source-software-oss-listing | | 
+| Palo Alto Networks | Traps Agent | <= 15.0 | < 3.0 | Not vuln | https://docs.paloaltonetworks.com/oss-listings/traps-oss-listings | | 
+| Palo Alto Networks | Wildfire | <= 10.1 | < 3.0 | Not vuln | https://docs.paloaltonetworks.com/oss-listings/wildfire-oss-listings | | 
+| Palo Alto Networks | Wildfire | >= 10.2 | Unknown | Investigation | https://docs.paloaltonetworks.com/oss-listings/wildfire-oss-listings/wildfire-10-2-open-source-software-oss-listing | | 
 | PCLinuxOS | PCLinuxOS | rolling | 1.1.1q | Not vuln | https://ftp.nluug.nl/pub/os/Linux/distr/pclinuxos/pclinuxos/apt/pclinuxos/64bit/RPMS.x86_64/openssl-1.1.1q-1pclos2022.x86_64.rpm| |
 | Proxmox Server Solutions GmbH| Proxmox | 6 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | PHP | PHP | < 8.1 | < 3.0 | Not vuln | https://www.php.net/manual/en/openssl.requirements.php | | 
