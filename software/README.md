@@ -287,7 +287,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | PHP	| PHP	| >= 8.1 | Unknown | Investigation | https://www.php.net/manual/en/openssl.requirements.php | |
 | Red Hat | Enterprise Linux | >= 9.0 | 3.x	| Vulnerable | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004	| | 
 | Red Hat | OpenShift Container Platform | => 4.0 | 1.1.1 | Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | |
-| Red Hat | Universal Base Images | <= 8 | 1.1.1 | Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | |
+| Red Hat | Universal Base Images | <= 8 | 1.x | Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | |
 | Red Hat | Universal Base Images | >= 9.0 | 3.x | Vulnerable | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | |
 | Rocky Enterprise Software Foundation | Rocky Linux | 8.0 | 1.1.1k | Not vuln | https://dl.rockylinux.org/pub/rocky/8/BaseOS/x86_64/os/Packages/o/openssl-1.1.1k-7.el8_6.x86_64.rpm| |
 | Rocky Enterprise Software Foundation | Rocky Linux | 9.0 (Blue Onyx) | 3.0.1 | Vulnerable | https://dl.rockylinux.org/pub/rocky/9/BaseOS/x86_64/os/Packages/o/openssl-3.0.1-41.el9_0.x86_64.rpm| |
