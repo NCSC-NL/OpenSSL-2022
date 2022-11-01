@@ -6,6 +6,7 @@ This repo contains operational information regarding the recently announced vuln
 
 - [CERT-Bund advisory (GE)](https://www.bsi.bund.de/SharedDocs/Cybersicherheitswarnungen/DE/2022/2022-267005-1032.html)
 - [OpenSSL pre-notification](https://mta.openssl.org/pipermail/openssl-announce/2022-October/000238.html)
+- [OpenSSL release notification](https://mta.openssl.org/pipermail/openssl-announce/2022-November/000241.html)
 
 ## What is OpenSSL and what is it used for?
 OpenSSL is a library used for cryptographic purposes, especially in the field of network connections. For example, web servers often use OpenSSL to establish encrypted HTTPS connections. Mail servers and VPN protocols such as OpenVPN also use OpenSSL to establish encrypted communication channels. The library can be found in a broad array of products, including network devices, embedded systems and container images.
