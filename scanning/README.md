@@ -96,6 +96,12 @@ select name, version from deb_packages where name like "openssl" and version lik
 select name, version from rpm_packages where name like "openssl" and version like "3.0%";
 ```
 
+#### OSquery OpenSSL version check for MacOS based systems using homebrew package manager
+```
+SELECT * FROM homebrew_packages WHERE name LIKE "openssl" and version like "3.0%";
+```
+
+
 ### Splunk
 #### Regex statement to use in Splunk
 ```
