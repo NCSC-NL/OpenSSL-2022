@@ -18,6 +18,35 @@ Required tool: https://github.com/docker/index-cli-plugin
 docker-index cve --image $IMAGE DSA-2022–0001
 ```
 
+### YARA rules
+
+Akamai has provided a YARA rule for identifying OpenSSLv3 versions. More information: https://www.akamai.com/blog/security-research/openssl-vulnerability-how-to-effectively-prepare
+
+```
+rule openssl_version {
+	strings:
+		$re1 = /OpenSSL\s3\.[0-6]{1}\.[0-9]{1}[a-z]{,1}/
+	
+	condition:
+		$re1
+}
+```
+
+In case we don’t want to rely on the string, we can also look for the main application that relies on OpenSSL, but parsing the executable’s imports. This is a less foolproof method though, and should be treated as such.
+
+```
+rule pe_import_openssl {
+    condition:
+        pe.is_pe and
+        (
+            for any i in (0..pe.number_of_imports):
+            (
+                pe.import_details[i].library_name contains "libcrypto-3" or pe.import_details[i].library_name contains "libssl-3"
+            )
+        )
+}
+```
+
 ### Windows
 
 #### Powershell
