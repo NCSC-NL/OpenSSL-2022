@@ -86,11 +86,11 @@ select name, version from deb_packages where name like "openssl" and version lik
 ```
 #### apt OpenSSL version check for Debian based systems
 ```
-apt list --installed | grep openssl
+apt list --installed | grep openssl.*3.0
 ```
 #### dpkg OpenSSL version check for Debian based systems
 ```
-dpkg -l | grep openssl
+dpkg -l | grep openssl.*3.0
 ```
 
 #### OSquery OpenSSL version check for Fedora/CentOS based systems
@@ -99,12 +99,12 @@ select name, version from rpm_packages where name like "openssl" and version lik
 ```
 #### yum OpenSSL version check for Fedora/CentOS based systems
 ```
-yum list installed | grep openssl 
+yum list installed | grep openssl.*3.0 
 ```
 
 #### apk OpenSSL version check for Alpine based systems
 ```
-apk list -i | grep libssl
+apk list -i | grep libssl3.0
 ```
 
 ### Splunk
