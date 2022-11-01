@@ -254,6 +254,29 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | OpenSUSE | Leap | 15.4 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | OpenSUSE | OpenSUSE | tumbleweed | 1.1.1q | Not vuln | https://ftp.lysator.liu.se/pub/opensuse/tumbleweed/repo/oss/noarch/openssl-1.1.1q-1.3.noarch.rpm| |
 | OpenVPN | OpenVPN | <= 2.5.7 | < 3.0 | Investigation | https://en.wikipedia.org/wiki/OpenVPN | https://openvpn.net/community-downloads/ Support for OpenSSL 3 in later version: OpenVPN 2.6. | |
+| Palo Alto Networks | AutoFocus | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Bridgecrew | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
+| Palo Alto Networks | Cloud NGFW | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
+| Palo Alto Networks | Cortex Data Lake	| * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
+| Palo Alto Networks | Cortex XDR Agent	| * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
+| Palo Alto Networks | Cortex Xpanse | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
+| Palo Alto Networks | Cortex XSOAR | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
+| Palo Alto Networks | Enterprise Data Loss Prevention | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Exact Data Matching CLI	 | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Expanse | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Expedition Migration Tool | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | GlobalProtect App | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | IoT Security | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Okyo Garde | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Palo Alto Networks App for Splunk | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Prisma Cloud | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Prisma Cloud Compute | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Prisma SD-WAN ION | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Prisma SDWAN (Cloudgenix) | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | SaaS Security | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | User-ID Agent | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | WildFire Appliance (WF-500) | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | WildFire Cloud | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | PCLinuxOS | PCLinuxOS | rolling | 1.1.1q | Not vuln | https://ftp.nluug.nl/pub/os/Linux/distr/pclinuxos/pclinuxos/apt/pclinuxos/64bit/RPMS.x86_64/openssl-1.1.1q-1pclos2022.x86_64.rpm| |
 | Proxmox Server Solutions GmbH| Proxmox | 6 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | Proxmox Server Solutions GmbH| Proxmox | 7 | 1.1.1 | Not vuln | https://www.proxmox.com/en/news/press-releases/proxmox-virtual-environment-7-0 (EN) |Based on Debian 11, no custom OpenSSL version used. |
