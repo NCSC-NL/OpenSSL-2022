@@ -294,6 +294,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Solus | Solus | rolling | 1.1.1q | Not vuln | https://mirrors.rit.edu/solus/packages/shannon/o/openssl-11/openssl-11-32bit-devel-1.1.1q-15-1-x86_64.eopkg| |
 | Tenable | Nessus | 10.3.0 | 3.0.5 | Vulnerable | https://docs.tenable.com/releasenotes/Content/nessus/nessus1030.htm| |
 | Tenable | Nessus Network Monitor | 6.1.0 | 3.0.5 | Vulnerable | https://docs.tenable.com/releasenotes/Content/nnm/nnm610.htm?Highlight=openssl| |
+| Trellix | Trellix EPO | ? | ? | Investigation | https://kcm.trellix.com/corporate/index?page=content&id=KB96105 | |
 | Tunnelblick | Tunnelblick | <= 3.8.2beta07 | 1.1.1m | Not vuln | https://tunnelblick.net/cRlsNotes.html | |
 | Ubiquiti | UniFi Access Points | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
 | Ubiquiti | UniFi Gateways | All | < 3.x | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
