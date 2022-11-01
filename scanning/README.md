@@ -7,7 +7,6 @@ However NCSC-NL strives to provide scanning software from reliable sources.**
 
 ## Identifying
 
-
 ### Docker
 
 Docker has provided an experimental tool for verifying docker containers for containing a vulnerable OpenSSLv3 version. 
@@ -91,3 +90,8 @@ select name, version from deb_packages where name like "openssl" and version lik
 select name, version from rpm_packages where name like "openssl" and version like "3.0%";
 ```
 
+## External scanning tools and scripts
+
+| Source      | Notes        | Links |
+|:----------------|:----------------|:---------------:|
+| MalwareTech scripts | Bash + PowerShell | https://github.com/MalwareTech/SpookySSLTools |
