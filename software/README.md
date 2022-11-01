@@ -292,6 +292,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Slackware | Slackware Linux | current | 1.1.1q | Not vuln | https://slackware.uk/slackware/slackware64-current/slackware64/n/openssl-1.1.1q-x86_64-1.txz| |
 | SPI | adelie | 1.0 | 1.1.1g | Not vuln | https://distfiles.adelielinux.org/adelie/1.0/system/x86_64/openssl-1.1.1g-r0.apk| |
 | Solus | Solus | rolling | 1.1.1q | Not vuln | https://mirrors.rit.edu/solus/packages/shannon/o/openssl-11/openssl-11-32bit-devel-1.1.1q-15-1-x86_64.eopkg| |
+| Tenable | Nessus Network Monitor | * | 6.1.0 | Vulnerable | https://docs.tenable.com/releasenotes/Content/nnm/nnm610.htm?Highlight=openssl| |
 | Tunnelblick | Tunnelblick | <= 3.8.2beta07 | 1.1.1m | Not vuln | https://tunnelblick.net/cRlsNotes.html | |
 | Ubiquiti | UniFi Access Points | All | < 3.x | Not vuln | https://community.ui.com/questions/Does-this-OpenSSL-vulnerability-affect-Unifi-Routers/a0ecf612-03e3-4428-80fa-9c8b67137655#answer/358f10ee-347d-4f6d-ba65-499781244147 | |
 | Ubiquiti | UniFi Gateways | All | < 3.x | Not vuln | https://community.ui.com/questions/Does-this-OpenSSL-vulnerability-affect-Unifi-Routers/a0ecf612-03e3-4428-80fa-9c8b67137655#answer/358f10ee-347d-4f6d-ba65-499781244147 | |
