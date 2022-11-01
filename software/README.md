@@ -20,8 +20,9 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 |--------|---------|---------|-----------------|--------|-----------|-------|
 | AlmaLinux OS Foundation | AlmaLinux | 9 | 3.0.1 | Vulnerable | https://repo.almalinux.org/almalinux/9/BaseOS/x86_64/os/Packages/openssl-3.0.1-41.el9_0.x86_64.rpm| |
 | AlmaLinux OS Foundation | AlmaLinux | 8 | 1.1.1k | Not vuln | https://repo.almalinux.org/almalinux/8/BaseOS/x86_64/os/Packages/openssl-1.1.1k-7.el8_6.x86_64.rpm| |
-| Alpine | Alpine Linux | <= 3.16 | 1.1.1 | Not vuln | https://pkgs.alpinelinux.org/packages?name=openssl&branch=v3.16&repo=&arch=&maintainer= | |
 | Alpine | Alpine Linux | Edge | 3.0.5 | Vulnerable | https://pkgs.alpinelinux.org/packages?name=openssl&branch=edge&repo=&arch=&maintainer= | |
+| Alpine | Alpine Linux | 3.15, 3.16 | 3.0.5 | Vulnerable | https://pkgs.alpinelinux.org/packages?name=openssl3&branch=v3.16&repo=&arch=&maintainer= | optional, non-default package |
+| Alpine | Alpine Linux | <= 3.14 | 1.1.1 | Not vuln | https://pkgs.alpinelinux.org/packages?name=openssl&branch=v3.16&repo=&arch=&maintainer= | |
 | ALT Linux Ltd | ALT Linux | p10 | 1.1.1q | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p10/branch/x86_64/RPMS.classic/openssl-1.1.1q-alt1.x86_64.rpm| |
 | ALT Linux Ltd | ALT Linux | p9 | 1.1.1n | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/altlinux/p9/branch/x86_64/RPMS.classic/openssl-1.1.1n-alt2.x86_64.rpm| |
 | Arch | Arch Linux | Core | 1.1.1 | Not vuln | https://archlinux.org/packages/?name=openssl | |
@@ -29,6 +30,11 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Amazon | Amazon Linux | 2022 | 3.0.5-1 | Vulnerable | https://docs.aws.amazon.com/linux/al2022/ug/compare-al2-to-AL2022.html#openssl3 | |
 | ASUSWRT-MERLIN | ASUSWRT-MERLIN | 386/NG | 1.1.1q | Not vuln | https://www.asuswrt-merlin.net/changelog | |
 | Buildroot | Buildroot | 2022.08.1 | 1.1.1q | Not vuln | https://github.com/buildroot/buildroot/blob/master/package/libopenssl/libopenssl.mk#L7 | OpenSSL 1.1.1q is the default version. |
+| Bitdefender | Bitdefender Endpoint Security | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
+| Bitdefender | Bitdefender Security for Mobile | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
+| Bitdefender | Bitdefender GravityZone Management Appliance | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
+| Broadcom | Symantec Endpoint Protection | 14.3 RU5 | 3.0.2 | Vulnerable | https://community.broadcom.com/symantecenterprise/discussion/which-is-the-openssl-version-in-sepm-143-ru5 | |
+| Broadcom | Symantec Endpoint Protection | 14.3 RU6 | 3.0.7 | Vulnerable | https://community.broadcom.com/symantecenterprise/discussion/which-is-the-openssl-version-in-sepm-143-ru5 | |
 | Canonical | Ubuntu | bionic (18.04 LTS) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?keywords=openssl | |
 | Canonical | Ubuntu | impish (21.10) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?keywords=openssl | |
 | Canonical | Ubuntu | focal (20.04 LTS) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?keywords=openssl | |
@@ -246,6 +252,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | NetBSD | NetBSD | 9 | 1.1.1k | Not vuln | https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.3/CHANGES-9.2 |
 | NetBSD | NetBSD | 8 | 1.0.2k | Not vuln | https://netbsd.org/releases/formal-8/NetBSD-8.0.html |
 | NetBSD | pkgsrc | - | 1.1.1q | Not vuln | https://cdn.netbsd.org/pub/pkgsrc/current/pkgsrc/security/openssl/index.html|
+| Node.js | JavaScript Runtime Environment | 17 | 3.x | Investigation | https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md#17.0.0 | Missing from Node.js security update blog post because v17 is EOL |
 | Node.js | JavaScript Runtime Environment | 18 | 3.x | Investigation | https://nodejs.org/zh-cn/blog/vulnerability/openssl-november-2022/ ||
 | Node.js | JavaScript Runtime Environment | 19 | 3.x | Investigation | https://nodejs.org/zh-cn/blog/vulnerability/openssl-november-2022/ ||
 | Offensive Security | Kali | 2022.3 | 3.0.5 | Vulnerable | https://pkg.kali.org/pkg/openssl | 
@@ -256,7 +263,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | OpenSUSE | Leap | 15.2 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | OpenSUSE | Leap | 15.3 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | OpenSUSE | Leap | 15.4 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
-| OpenSUSE | OpenSUSE | tumbleweed | 1.1.1q | Not vuln | https://ftp.lysator.liu.se/pub/opensuse/tumbleweed/repo/oss/noarch/openssl-1.1.1q-1.3.noarch.rpm| |
+| OpenSUSE | OpenSUSE | tumbleweed | 3.0.5 | Vulnerable | https://software.opensuse.org/package/openssl-3 | |
 | OpenVPN | OpenVPN | <= 2.5.7 | < 3.0 | Investigation | https://en.wikipedia.org/wiki/OpenVPN | https://openvpn.net/community-downloads/ Support for OpenSSL 3 in later version: OpenVPN 2.6. | |
 | Palo Alto Networks | AutoFocus | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Bridgecrew | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
@@ -286,8 +293,10 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Proxmox Server Solutions GmbH| Proxmox | 7 | 1.1.1 | Not vuln | https://www.proxmox.com/en/news/press-releases/proxmox-virtual-environment-7-0 (EN) |Based on Debian 11, no custom OpenSSL version used. |
 | PHP | PHP | < 8.1 | < 3.0 | Not vuln | https://www.php.net/manual/en/openssl.requirements.php | | 
 | PHP	| PHP	| >= 8.1 | Unknown | Investigation | https://www.php.net/manual/en/openssl.requirements.php | |
+| Red Hat | Enterprise Linux | <= 8 | 1.x	| Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004	| | 
 | Red Hat | Enterprise Linux | >= 9.0 | 3.x	| Vulnerable | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004	| | 
 | Red Hat | OpenShift Container Platform | => 4.0 | 1.1.1 | Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | |
+| Red Hat | Universal Base Images | <= 8 | 1.x | Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | |
 | Red Hat | Universal Base Images | >= 9.0 | 3.x | Vulnerable | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | |
 | Rocky Enterprise Software Foundation | Rocky Linux | 8.0 | 1.1.1k | Not vuln | https://dl.rockylinux.org/pub/rocky/8/BaseOS/x86_64/os/Packages/o/openssl-1.1.1k-7.el8_6.x86_64.rpm| |
 | Rocky Enterprise Software Foundation | Rocky Linux | 9.0 (Blue Onyx) | 3.0.1 | Vulnerable | https://dl.rockylinux.org/pub/rocky/9/BaseOS/x86_64/os/Packages/o/openssl-3.0.1-41.el9_0.x86_64.rpm| |
@@ -331,4 +340,5 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Ubiquiti | UNVR | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
 | Ubiquiti | UNVR PRO | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
 | VMware| VMware Tools | 12.0.0 | 3.0.0 | Vulnerable | https://docs.vmware.com/en/VMware-Tools/12.0/rn/VMware-Tools-1200-Release-Notes.html| |
+| VMware| Harbor | <=2.6.1 | 3.0.0 | Vulnerable | https://github.com/goharbor/harbor/issues/17724 | Only the official docker images are vulnerable |
 | Void Linux| Void Linux | current | 1.1.1q | Not vuln | https://alpha.de.repo.voidlinux.org/current/openssl-1.1.1q_1.x86_64.xbps| |
