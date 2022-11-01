@@ -20,9 +20,8 @@ There are currently no known IoCs that indicate exploitation of this vulnerabili
 
 ## Hall of fame
 
-We would like to thank every single one that provided source information or  whom contributed to our GitHub page.
+We would like to thank every single one that provided source information or whom contributed to our GitHub page.
 
-NCSC-NL believes the GitHub page is a succes and you made that possible.
 Below we present a very incomplete list of contributants or sources we consider the repository's hall of fame:
 
 * [SANS](https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/)
