@@ -147,9 +147,9 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Dockerhub | websphere-liberty | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
 | Dockerhub | wordpress | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
 | Esri | ArcGIS | All | Unknown | Investigation | https://www.esri.com/arcgis-blog/products/trust-arcgis/administration/openssl-v3-vulnerability/ | |
-| F5 Networks | BIG-IP | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | BIG-IP | All | Unknown | Not vuln | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | BIG-IP SPK | 1.x | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
-| F5 Networks | BIG-IQ Centralized Management | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | BIG-IQ Centralized Management | All | Unknown | Not vuln | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | F5OS-A | 1.x | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | F5OS-C | 1.x | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | NGINX API Connectivity Manager | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
@@ -162,7 +162,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | F5 Networks | NGINX Plus | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | NGINX Service Mesh | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | NGINX Unit | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
-| F5 Networks | Traffix SDC | 5.x | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | Traffix SDC | All | Unknown | Not vuln | https://support.f5.com/csp/article/K44030142 | |
 | Fedora | Linux | 35 | 1.1.1 | Not vuln | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | | 
 | Fedora | Linux | 36 | 3.0.2 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | 37 | 3.0.5 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
