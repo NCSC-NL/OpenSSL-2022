@@ -243,6 +243,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | HashiCorp| Unknown | Unknown| Unknown | Investigation | https://discuss.hashicorp.com/t/hcsec-2022-27-hashicorp-response-to-openssl-security-announcement-regarding-november-1-release/46192 | |
 | IBM | All | Unknown | Unknown | Investigation | https://www.ibm.com/support/pages/node/6833428 | |
 | Intel | System Usage Report (Codename: Queencreek) | 2.4.0.8919 | 3.0.2 | Vulnerable | [Local Proof](vendor-statements/openssl_queencreek.png) | |
+| Juniper | JunOS| All | Unknown | Not vuln | https://supportportal.juniper.net/s/article/2022-11-Out-of-Cycle-Security-Bulletin-High-severity-security-issues-resolved-in-OpenSSL-3-0-7-CVE-2022-3602-CVE-2022-3786?language=en_US | |
+| Juniper | JunOS Evolved | >22.1R1-EVO | Unknown | Vulnerable | https://supportportal.juniper.net/s/article/2022-11-Out-of-Cycle-Security-Bulletin-High-severity-security-issues-resolved-in-OpenSSL-3-0-7-CVE-2022-3602-CVE-2022-3786?language=en_US | |
 | KaOS | KaOS | rolling | 1.1.1.18 | Not vuln | http://mirror6.layerjet.com/kaos/core/openssl-1.1.1.18-1-x86_64.pkg.tar.zst| |
 | Kemp | LoadMaster | 7.2.58 | 1.1.1n | Not vuln | https://support.kemptechnologies.com/hc/en-us/articles/10228770842637-Current-OpenSSL-Version-for-LoadMaster | |
 | Linux Mint | Linux Mint | 21 Vanessa | 3.0.2 | Vulnerable | http://packages.linuxmint.com/search.php?release=vanessa&section=any&keyword=openssl | |
