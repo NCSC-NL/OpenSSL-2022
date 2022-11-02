@@ -32,6 +32,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Amazon | Amazon Linux | 2 | 1.0.2k | Not vuln | https://docs.aws.amazon.com/linux/al2022/ug/compare-al2-to-AL2022.html#openssl3 | |
 | Amazon | Amazon Linux | 2022 | 3.0.5-1 | Vulnerable | https://docs.aws.amazon.com/linux/al2022/ug/compare-al2-to-AL2022.html#openssl3 | |
 | Arch | Arch Linux | Core | 1.1.1 | Not vuln | https://archlinux.org/packages/?name=openssl | |
+| Argo Project | Argo CD | 2.5.1 | 3.0.2-0ubuntu1.7 | Fix | https://github.com/argoproj/argo-cd/releases/tag/v2.5.1 | fixes for older versions are in 2.3.11, 2.2.16, 2.4.16 |
 | Arista | All | All | Unknown | Not vuln | https://www.arista.com/en/support/advisories-notices/security-advisory/16339-security-advisory-0081 | |
 | Aruba | All | All | Unknown | Not vuln | https://asp.arubanetworks.com/notifications/Tm90aWZpY2F0aW9uOjEzMjAw;notificationCategory=Security | |
 | ASUSWRT-MERLIN | ASUSWRT-MERLIN | 386/NG | 1.1.1q | Not vuln | https://www.asuswrt-merlin.net/changelog | |
