@@ -356,48 +356,48 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Slackware | Slackware Linux | current | 1.1.1q | Not vuln | https://slackware.uk/slackware/slackware64-current/slackware64/n/openssl-1.1.1q-x86_64-1.txz| |
 | Softether | Softether VPN | 4.39 Build 9772 Beta | 3.0.2 | Vulnerable | https://www.softether.org/5-download/history | |
 | Solus | Solus | rolling | 1.1.1q | Not vuln | https://mirrors.rit.edu/solus/packages/shannon/o/openssl-11/openssl-11-32bit-devel-1.1.1q-15-1-x86_64.eopkg| |
+| SonicWall | Analytics | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | Capture Security Appliance | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | Capture Client | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | Connect Tunnel | <= 12.1 | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | Connect Tunnel | 12.4 | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | Email Security | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | Global VPN Client | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | GMS | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | Mobile Connect for MacOS | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | Mobile Connect for iOS | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | Mobile Connect for Android and ChromeOS | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | NetExtender Client | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | NetExtender for Linux | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | NetExtender for Windows | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | NSA 2600/2650/3600/3650/4600/4650/5600/5650/6600/6650 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | NSA 2700/3700/4700/5700/6700 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | NSA 9250/9450/9650 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | NSM | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | NSSP 10700/11700/13700/15700 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | NSSP 12400/12800 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | NSV 10/25/50/100/200/400/800/1600 (ESX, KVM, HYPER-V, AWS, Azure) | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | NSV 270/470/870 (ESX, KVM, HYPER-V, AWS, Azure) | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | SM 9200/9400/9600/9800 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | SMA 210/410 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | SMA 500v (ESX, KVM, Hyper-V, AWS, Azure) | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | SMA 6200/7200/6210/7210 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | SMA 8200v (ESX, KVM, Hyper-V, AWS, Azure) | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | SOHO/SOHO-W, SOHO-250 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | SonicWave Access Points | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | SWS 12-8/12-8POE | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | SWS 12-10FPOE | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | SWS 14-24/14-24FPOE | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| SonicWall | SWS 14-48/14-48FPOE | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | TZ300/W, TZ350/W | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | TZ400/W | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | TZ500/W | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | TZ600 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | NSA 2600/2650/3600/3650/4600/4650/5600/5650/6600/6650 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | SM 9200/9400/9600/9800 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | NSa 9250/9450/9650 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | NSSP 12400/12800 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | NSV 10/25/50/100/200/400/800/1600 (ESX, KVM, HYPER-V, AWS, Azure) | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | TZ270/W | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | TZ370/W | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | TZ470/W | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | TZ570/W | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | TZ670 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | NSA 2700/3700/4700/5700/6700 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | NSSP 10700/11700/13700/15700 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | NSV 270/470/870 (ESX, KVM, HYPER-V, AWS, Azure) | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | GMS | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | Analytics | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | NSM | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | Capture Security Appliance | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | Capture Client | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | Email Security | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | NetExtender Client | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | Connect Tunnel Client | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | SWS 12-8/12-8POE | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | SWS 12-10FPOE | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | SWS 14-24/14-24FPOE | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | SWS 14-48/14-48FPOE | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | SonicWave Access Points | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | NetExtender for Linux | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | NetExtender for Windows | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | Connect Tunnel | <= 12.1 | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | Connect Tunnel | 12.4 | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | Mobile Connect for MacOS | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | Mobile Connect for iOS | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | Mobile Connect for Android and ChromeOS | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | Global VPN Client | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SpamTitan | SpamTitan | All |  1.1.1n | Not vuln | https://helpdesk.spamtitan.com/support/solutions/articles/4000188396-spamtitan-not-susceptible-to-openssl-3-0-7| |
 | SPI | adelie | 1.0 | 1.1.1g | Not vuln | https://distfiles.adelielinux.org/adelie/1.0/system/x86_64/openssl-1.1.1g-r0.apk| |
