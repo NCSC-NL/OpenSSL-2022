@@ -36,6 +36,12 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Arista | All | All | Unknown | Not vuln | https://www.arista.com/en/support/advisories-notices/security-advisory/16339-security-advisory-0081 | |
 | Aruba | All | All | Unknown | Not vuln | https://asp.arubanetworks.com/notifications/Tm90aWZpY2F0aW9uOjEzMjAw;notificationCategory=Security | |
 | ASUSWRT-MERLIN | ASUSWRT-MERLIN | 386/NG | 1.1.1q | Not vuln | https://www.asuswrt-merlin.net/changelog | |
+| Atlassian | Confluence Cloud | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584
+| Atlassian | Confluence Server | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584
+| Atlassian | Confluence Datacenter | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584
+| Atlassian | Jira Cloud | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584
+| Atlassian | Jira Server | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584
+| Atlassian | Jira Datacenter | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584
 | Barracuda | Web Application Firewall Vx | All | 1.1.1 | Not vuln | [Ticket Answer](vendor-statements/openssl_Barracuda-Web-Application-Firewall.png) | |
 | Barracuda | Email Security Gateway Vx  | All | Unknown | Not vuln | [Ticket Answer](vendor-statements/openssl_Barracuda-Email-Secure-Gateway.png) | |
 | Bitdefender | Bitdefender Endpoint Security | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
