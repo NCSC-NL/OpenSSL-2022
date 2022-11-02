@@ -289,7 +289,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | NetBSD | NetBSD | 9 | 1.1.1k | Not vuln | https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.3/CHANGES-9.2 |
 | NetBSD | NetBSD | 8 | 1.0.2k | Not vuln | https://netbsd.org/releases/formal-8/NetBSD-8.0.html |
 | NetBSD | pkgsrc | - | 1.1.1q | Not vuln | https://cdn.netbsd.org/pub/pkgsrc/current/pkgsrc/security/openssl/index.html|
-| Netgate | pfSense | All | Unknown | Investigation | https://forum.netgate.com/topic/175585/does-pfsense-use-openssl-3-x-at-all/4 | |
+| Netgate | pfSense | All | 1.1.1l | Not vuln | https://forum.netgate.com/topic/175585/does-pfsense-use-openssl-3-x-at-all/4 | |
 | NixOS | NixOS | 22.05 | 1.1.1q | Not vuln | https://search.nixos.org/packages?channel=22.05&query=openssl&show=openssl | There are exceptions, e.g., nginx is built against OpenSSL 3! |
 | NixOS | NixOS | unstable | 3.0.5 | Vulnerable | https://search.nixos.org/packages?channel=unstable&query=openssl&show=openssl | |
 | NLnet Labs | Krill | All | 1.1.1q | Not vuln | https://twitter.com/routinator3000/status/1587517298893520903 | |
