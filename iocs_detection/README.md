@@ -10,13 +10,13 @@ Rule from [Fox-IT Security Research Team](https://github.com/fox-it/spookyssl-pc
 
 ```suricata
 alert tls any any -> any any (msg:"FOX-SRT - Exploit - Possible SpookySSL Certificate Observed (CVE-2022-3602)"; \
-    flow: established; \
+    flow:established; \
     content:"|2b 06 01 05 05 07 08 09|"; fast_pattern; \
     content:"|06 03 55 1d 1e|"; content:"xn--"; \
     content:!"|81|"; distance:-6; within:1; byte_test:2,>=,500,-6,relative; \
-    classtype:attempted-user; threshold:type limit, track by_src, count 1, seconds 3600; \
-    reference:url, www.openssl.org/news/secadv/20221101.txt; \
-    reference:url, https://github.com/fox-it/spookyssl-pcaps; \
+    classtype:attempted-user; threshold:type limit,track by_src,count 1,seconds 3600; \
+    reference:url,www.openssl.org/news/secadv/20221101.txt; \
+    reference:url,https://github.com/fox-it/spookyssl-pcaps; \
     metadata:ids suricata; \
     metadata:created_at 2022-11-02; sid:21004268; rev:3;)
 ```
