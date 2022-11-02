@@ -277,6 +277,9 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | IBM | Websphere Application Server | All | Unknown | Not vuln | https://www.ibm.com/support/pages/node/6832478 | |
 | IBM | Liberty | All | Unknown | Not vuln | https://www.ibm.com/support/pages/node/6832478 | |
 | IBM | HTTP Server | All | Unknown | Not vuln | https://www.ibm.com/support/pages/node/6832478 | |
+| Infoblox | BloxOne | All | Unknown | Not vuln | https://support.infoblox.com/s/article/000008377 | |
+| Infoblox | NetMRI | All | Unknown | Not vuln | https://support.infoblox.com/s/article/000008377 | |
+| Infoblox | NIOS | All | Unknown | Not vuln | https://support.infoblox.com/s/article/000008377 | |
 | Intel | System Usage Report (Codename: Queencreek) | 2.4.0.8919 | 3.0.2 | Vulnerable | [Local Proof](vendor-statements/openssl_queencreek.png) | |
 | Juniper | JunOS| All | Unknown | Not vuln | https://supportportal.juniper.net/s/article/2022-11-Out-of-Cycle-Security-Bulletin-High-severity-security-issues-resolved-in-OpenSSL-3-0-7-CVE-2022-3602-CVE-2022-3786?language=en_US | |
 | Juniper | JunOS Evolved | >22.1R1-EVO | Unknown | Workaround | https://supportportal.juniper.net/s/article/2022-11-Out-of-Cycle-Security-Bulletin-High-severity-security-issues-resolved-in-OpenSSL-3-0-7-CVE-2022-3602-CVE-2022-3786?language=en_US | |
