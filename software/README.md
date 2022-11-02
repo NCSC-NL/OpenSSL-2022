@@ -367,7 +367,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | SonicWall | TZ600 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | NSA 2600/2650/3600/3650/4600/4650/5600/5650/6600/6650 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | SM 9200/9400/9600/9800 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
-| SonicWall | NSa 9250/9450/9650 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 |
+| SonicWall | NSa 9250/9450/9650 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | NSSP 12400/12800 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | NSV 10/25/50/100/200/400/800/1600 (ESX, KVM, HYPER-V, AWS, Azure) | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | TZ270/W | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
