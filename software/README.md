@@ -265,6 +265,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Fortinet | FortiWLM | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | FreeBSD | FreeBSD | 13 | 1.1.1q | Not vuln | https://pkg.freebsd.org/FreeBSD:13:amd64/latest/All/openssl-1.1.1q,1.pkg| |
 | FreeBSD | FreeBSD | 12 | 1.1.1q | Not vuln | https://pkg.freebsd.org/FreeBSD:12:amd64/quarterly/All/openssl-1.1.1q,1.pkg| |
+| Gentoo Foundation | Gentoo Linux | Rolling | 1.1.1s | Not vuln | https://packages.gentoo.org/packages/dev-libs/openssl | |
+| Gentoo Foundation | Gentoo Linux | Rolling | 3.0.7 | Fix | https://packages.gentoo.org/packages/dev-libs/openssl | |
 | HashiCorp| All | Unknown | Unknown | Not vuln | https://discuss.hashicorp.com/t/hcsec-2022-27-hashicorp-response-to-openssl-security-announcement-regarding-november-1-release/46192/3 | |
 | Homebrew | Brew | openssl@3 | 3.0.7 | Fix | https://formulae.brew.sh/formula/openssl@3 | |
 | Huawei | openEuler | 20.03 LTS | 1.1.1d | Not vuln | https://www.openeuler.org/en/security/safety-bulletin/detail/?id=openEuler-SA-2022-1833 | |
