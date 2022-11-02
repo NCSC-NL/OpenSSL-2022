@@ -25,8 +25,9 @@ Currently no complete overview of vulnerable products is available. Please see [
 ## The product I use is vulnerable to this issue. What should I do?
 For up-to-date information about patches and mitigations, please refer to your product vendor.
 
-## Are there IoCs?
-There are currently no known IoCs that indicate exploitation of this vulnerability. IoCs will be shared - when possible - through this repository. Please see [iocs_detection/README.md](iocs_detection/README.md) for more information.
+## IoCs and Detection
+There are currently no known IoCs that indicate exploitation of this vulnerability. IoCs will be shared - when possible - through this repository.
+Network detection rules can be found here [iocs_detection/README.md](iocs_detection/README.md).
 
 ## Hall of fame
 
