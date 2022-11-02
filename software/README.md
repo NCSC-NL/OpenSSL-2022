@@ -418,6 +418,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Sophos | All | All | Unknown | Not vuln | https://www.sophos.com/en-us/security-advisories/sophos-sa-20221031-openssl-vuln | [Further Information in Community Post](https://community.sophos.com/utm-firewall/f/general-discussion/137121/openssl-security-update-announced/509354) |
 | SpamTitan | SpamTitan | All |  1.1.1n | Not vuln | https://helpdesk.spamtitan.com/support/solutions/articles/4000188396-spamtitan-not-susceptible-to-openssl-3-0-7| |
 | SPI | adelie | 1.0 | 1.1.1g | Not vuln | https://distfiles.adelielinux.org/adelie/1.0/system/x86_64/openssl-1.1.1g-r0.apk| |
+| Splunk | All | All | Unknown | Not vuln | https://www.splunk.com/en_us/product-security/announcements/svd-2022-1114.html | |
 | Splunk | Splunk Enterprise | <= 9.0.1 | <= 1.0.2zd | Not vuln | https://docs.splunk.com/images/9/91/Splunk_Enterprise_3rd_Party_Software_900.pdf | |
 | Splunk | Universal Forwarder | <= 9.0.x | <= 1.0.2zd | Not vuln | https://docs.splunk.com/images/9/91/Splunk_Enterprise_3rd_Party_Software_900.pdf | |
 | SUSE | Enterprise Linux Server | <= 15 SP4 | <= 1.1.1l | Not vuln | https://www.suse.com/support/kb/doc/?id=000019582 | |
