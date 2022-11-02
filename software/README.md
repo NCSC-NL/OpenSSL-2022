@@ -188,8 +188,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | F5 Networks | NGINX Unit | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | Traffix SDC | All | Unknown | Not vuln | https://support.f5.com/csp/article/K44030142 | |
 | Fedora | Linux | 35 | 1.1.1 | Not vuln | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | | 
-| Fedora | Linux | 36 | 3.0.2 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
-| Fedora | Linux | 37 | 3.0.5 | Vulnerable | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
+| Fedora | Linux | 36 | 3.0.2-4.fc36 | Fix | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
+| Fedora | Linux | 37 | 3.0.5-2.fc37 | Fix | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | Rawhide | 3.0.5-6.fc38 | Fix | https://packages.fedoraproject.org/pkgs/openssl/openssl/fedora-rawhide.html | |
 | Fedora | EPEL | 7 | 1.1.1k | Not vuln | https://packages.fedoraproject.org/pkgs/openssl11/openssl11/ | |
 | Fedora | EPEL | 8 | 3.0.1-43 | Fix | https://bodhi.fedoraproject.org/updates/FEDORA-EPEL-2022-e228f64914 | |
