@@ -343,6 +343,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Palo Alto Networks | IoT Security | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Okyo Garde | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Palo Alto Networks App for Splunk | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | PAN-OS | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Prisma Access | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Prisma Cloud | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Prisma Cloud Compute | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Prisma SD-WAN ION | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
