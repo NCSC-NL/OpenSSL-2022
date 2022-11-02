@@ -456,7 +456,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Ubiquiti | UNVR | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
 | Ubiquiti | UNVR PRO | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
 | Univention | Corporate Server | <= 5.0 | 1.1.1n | Not vuln | https://forge.univention.org/bugzilla/show_bug.cgi?id=54901 | Based on Debian 10 |
-| WithSecure | Linux Security 64 | All | 1.1.1 | Not vuln | https://community.withsecure.com/kb/articles/29314-new-linux-security-64-update-has-been-released-2022-08-31 | Response from WithSecure Customer Care as part of (private) business ticket |
+| WithSecure (formerly F-Secure) | Atlant | All | Unknown | Not vuln | https://help.f-secure.com/product.html#business/releasenotes-business/latest/en/fsa-latest-en | Response from WithSecure Customer Care as part of (private) business ticket |
+| WithSecure (formerly F-Secure) | Linux Security 64 | All | 1.1.1 | Not vuln | https://help.f-secure.com/product.html?business/releasenotes-business/latest/en/fsls64-latest-en | Response from WithSecure Customer Care as part of (private) business ticket |
 | VMware| All | All | Unknown | Not vuln | https://blogs.vmware.com/security/2022/11/vmware-response-to-cve-2022-3602-and-cve-2022-3786-vulnerabilities-in-openssl-3-0-x.html | |
 | VMware| Harbor | <=2.6.1 | 3.0.0 | Vulnerable | https://github.com/goharbor/harbor/issues/17724 | Only the official docker images are vulnerable |
 | VMware| VMware Tools | 12.0.0<br/>  12.1.0 | 3.0.0<br/>  3.0.3 | Vulnerable | https://docs.vmware.com/en/VMware-Tools/12.0/rn/VMware-Tools-1200-Release-Notes.html| |
