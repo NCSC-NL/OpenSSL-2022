@@ -295,8 +295,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | KaOS | KaOS | rolling | 1.1.1.18 | Not vuln | http://mirror6.layerjet.com/kaos/core/openssl-1.1.1.18-1-x86_64.pkg.tar.zst| |
 | Kemp | LoadMaster | 7.2.58 | 1.1.1n | Not vuln | https://support.kemptechnologies.com/hc/en-us/articles/10228770842637-Current-OpenSSL-Version-for-LoadMaster | |
 | Linux Mint | Linux Mint | 21 Vanessa | 3.0.2 | Vulnerable | http://packages.linuxmint.com/search.php?release=vanessa&section=any&keyword=openssl | |
-| Mageia | Mageia | 8 | 1.1.1q | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/8/x86_64/media/core/updates/openssl-1.1.1q-1.mga8.x86_64.rpm| |
-| Mageia | Mageia | cauldron | 3.0.5 | Vulnerable | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/cauldron/x86_64/media/core/release/openssl-3.0.5-1.mga9.x86_64.rpm| |
+| Mageia | Mageia | 8 | 1.1.1q | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/8/x86_64/media/core/updates/openssl-1.1.1q-1.mga8.x86_64.rpm | |
+| Mageia | Mageia | cauldron | 3.0.5-2 | Fix | https://mageia.pkgs.org/cauldron/mageia-core-release-x86_64/openssl-3.0.5-2.mga9.x86_64.rpm.html | |
 | Nasuni | Edge Appliance | All | Unknown | Not vuln | https://trustcenter.nasuni.com/?tcuUid=495df3df-eb99-44cf-9d8b-6ac7a3944cd7 | |
 | Nasuni | Management Console | All | Unknown | Not vuln | https://trustcenter.nasuni.com/?tcuUid=495df3df-eb99-44cf-9d8b-6ac7a3944cd7 | |
 | NetBSD | NetBSD | 9 | 1.1.1k | Not vuln | https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.3/CHANGES-9.2 |
