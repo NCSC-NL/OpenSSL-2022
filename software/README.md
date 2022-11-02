@@ -343,6 +343,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | PHP	| PHP	| >= 8.1 | Unknown | Investigation | https://www.php.net/manual/en/openssl.requirements.php | |
 | Proxmox Server Solutions GmbH| Proxmox | 6 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | Proxmox Server Solutions GmbH| Proxmox | 7 | 1.1.1 | Not vuln | https://www.proxmox.com/en/news/press-releases/proxmox-virtual-environment-7-0 (EN) |Based on Debian 11, no custom OpenSSL version used. |
+| PulseSecure (Ivanti) | All | Unknown | Unknown | Not vuln | https://kb.pulsesecure.net/articles/Pulse_Secure_Article/OpenSSL-3-0-x-Vulnerability-Ivanti-Product-Impact1/?kA13Z000000FseL | |
 | Red Hat | Enterprise Linux | <= 8 | 1.x	| Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004	| | 
 | Red Hat | Enterprise Linux | >= 9.0 | 3.0.1-43	| Fix | https://access.redhat.com/errata/RHSA-2022:7288	| | 
 | Red Hat | OpenShift Container Platform | => 4.0 | 1.1.1 | Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | |
@@ -350,7 +351,17 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Red Hat | Universal Base Images | >= 9.0 | 3.x | Vulnerable | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | |
 | Rocky Enterprise Software Foundation | Rocky Linux | 8.0 | 1.1.1k | Not vuln | https://dl.rockylinux.org/pub/rocky/8/BaseOS/x86_64/os/Packages/o/openssl-1.1.1k-7.el8_6.x86_64.rpm| |
 | Rocky Enterprise Software Foundation | Rocky Linux | 9.0 (Blue Onyx) | 3.0.1-43 | Fix | https://dl.rockylinux.org/pub/rocky/9/BaseOS/x86_64/os/Packages/o/openssl-3.0.1-43.el9_0.x86_64.rpm| |
-| PulseSecure (Ivanti) | All | Unknown | Unknown | Not vuln | https://kb.pulsesecure.net/articles/Pulse_Secure_Article/OpenSSL-3-0-x-Vulnerability-Ivanti-Product-Impact1/?kA13Z000000FseL | |
+| RSA (SecurID) | Access Manager | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Authentication Manager | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Authentication Agents | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Authentication Manager Prime (Packaged Solution) | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Authentication Manager Web Tier (a component of RSA Authentication Manager) | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Cloud Authentication Service | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Identity Router (a component of Cloud Authentication Service) | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Hardware and Software Authenticators | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Governance and Lifecycle (RSA G&L) | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Governance and Lifecycle Cloud (RSA G&L Cloud) | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Governance and Lifecycle Data Reach (Packaged Solution) | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
 | Slackware | Slackware Linux | 14.1 | 1.0.1e | Not vuln | https://slackware.uk/slackware/slackware64-14.1/slackware64/n/openssl-1.0.1e-x86_64-1.txz| |
 | Slackware | Slackware Linux | 14.2 | 1.0.2h | Not vuln | https://slackware.uk/slackware/slackware64-14.2/slackware64/n/openssl-1.0.2h-x86_64-1.txz| |
 | Slackware | Slackware Linux | 15.0 | 1.1.1q | Not vuln | https://slackware.uk/slackware/slackware64-15.0/patches/packages/openssl-1.1.1q-x86_64-1_slack15.0.txz| |
