@@ -346,3 +346,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | VMware| VMware Tools | 12.0.0<br/>  12.1.0 | 3.0.0<br/>  3.0.3 | Vulnerable | https://docs.vmware.com/en/VMware-Tools/12.0/rn/VMware-Tools-1200-Release-Notes.html| |
 | VMware| Harbor | <=2.6.1 | 3.0.0 | Vulnerable | https://github.com/goharbor/harbor/issues/17724 | Only the official docker images are vulnerable |
 | Void Linux| Void Linux | current | 1.1.1q | Not vuln | https://alpha.de.repo.voidlinux.org/current/openssl-1.1.1q_1.x86_64.xbps| |
+| WatchGuard | Cloud Wi-Fi APs | Any | Any | Not Stated | Not vuln | https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2022-00021 |
+| WatchGuard | Dimension | Any | Any | Not Stated | Not vuln | https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2022-00021 |
+| WatchGuard | FireBox | Any | Any | Not Stated | Not vuln | https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2022-00021 |
+| WatchGuard | System Manager (WSM) | Any | Any | Not Stated | Not vuln | https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2022-00021 |
