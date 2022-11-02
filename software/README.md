@@ -400,6 +400,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | SonicWall | TZ570/W | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | TZ670 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | Global VPN Client | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| Sophos | All | All | Unknown | Not vuln | https://www.sophos.com/en-us/security-advisories/sophos-sa-20221031-openssl-vuln | [Further Information in Community Post](https://community.sophos.com/utm-firewall/f/general-discussion/137121/openssl-security-update-announced/509354) |
 | SpamTitan | SpamTitan | All |  1.1.1n | Not vuln | https://helpdesk.spamtitan.com/support/solutions/articles/4000188396-spamtitan-not-susceptible-to-openssl-3-0-7| |
 | SPI | adelie | 1.0 | 1.1.1g | Not vuln | https://distfiles.adelielinux.org/adelie/1.0/system/x86_64/openssl-1.1.1g-r0.apk| |
 | Splunk | Splunk Enterprise | <= 9.0.1 | <= 1.0.2zd | Not vuln | https://docs.splunk.com/images/9/91/Splunk_Enterprise_3rd_Party_Software_900.pdf | |
