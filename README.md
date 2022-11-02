@@ -40,3 +40,4 @@ Below we present a very incomplete list of contributants or sources we consider 
 * [@jspaans](https://github.com/jspaans91)
 * [@robert-scheck](https://github.com/robert-scheck)
 * [@RobinFlikkema](https://github.com/RobinFlikkema)
+* [@MaxGroot](https://github.com/maxgroot)
