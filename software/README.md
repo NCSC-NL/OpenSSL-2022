@@ -426,7 +426,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Synacor | Zimbra Email & Collaboration | <= 8.8.15 | 1.1.1q | Not vuln | https://wiki.zimbra.com/wiki/Zimbra_Releases/8.8.15/P34 | |
 | Synacor | Zimbra Email & Collaboration | 9.0.0 | 1.1.1q | Not vuln | https://wiki.zimbra.com/wiki/Zimbra_Releases/9.0.0/P27 | |
 | Synology | All | Unkown | Unkown | Not vuln | https://www.synology.com/en-global/security/advisory/Synology_SA_22_21 | |
-| Tanium | All | All | < 3.x | Not Vuln | https://community.tanium.com/s/article/How-Tanium-Can-Help-Identify-OpenSSL-3-0-X#tanium | |
+| Tanium | All | All | < 3.x | Not vuln | https://community.tanium.com/s/article/How-Tanium-Can-Help-Identify-OpenSSL-3-0-X#tanium | |
 | Tenable | All | Unknown | Unknown | Investigation | https://www.tenable.com/blog/cve-2022-3786-and-cve-2022-3602-openssl-patches-two-high-severity-vulnerabilities | | 
 | Trend Micro | Unknown | Unknown| Unknown | Investigation | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
 | Trellix | Trellix EPO | ? | ? | Investigation | https://kcm.trellix.com/corporate/index?page=content&id=KB96105 | |
