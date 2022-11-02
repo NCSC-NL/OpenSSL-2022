@@ -18,6 +18,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 
 | Vendor | Product | Version | OpenSSL version | Status | Reference | Notes |
 |--------|---------|---------|-----------------|--------|-----------|-------|
+| 3CX | All | Unknown | Unknown | Not vuln | https://www.3cx.com/community/threads/openssl-warns-of-critical-security-vulnerability.117443/#post-544312 | |
 | Acronis | Cyber Protect Cloud | C22.10 | < 3.x | Not vuln | https://security-advisory.acronis.com/advisories/SEC-5299 | |
 | Acronis | Cyber Protect Home Office | 2022 | < 3.x | Not vuln | https://security-advisory.acronis.com/advisories/SEC-5299 | |
 | Acronis | Cyber Protect | 15 | < 3.x | Not vuln | https://security-advisory.acronis.com/advisories/SEC-5299 | |
