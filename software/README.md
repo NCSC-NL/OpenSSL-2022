@@ -274,6 +274,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | FreeBSD | FreeBSD | 12 | 1.1.1q | Not vuln | https://pkg.freebsd.org/FreeBSD:12:amd64/quarterly/All/openssl-1.1.1q,1.pkg| |
 | Gentoo Foundation | Gentoo Linux | Rolling | 1.1.1s | Not vuln | https://packages.gentoo.org/packages/dev-libs/openssl | |
 | Gentoo Foundation | Gentoo Linux | Rolling | 3.0.7 | Fix | https://packages.gentoo.org/packages/dev-libs/openssl | |
+| GitLab B.V. | Gitlab | 15.5.2, 15.4.4, and 15.3.5 | 3.0.2-0ubuntu1.7 | Fix | https://about.gitlab.com/releases/2022/11/02/security-release-gitlab-15-5-2-released/ | "The version of openssl has been updated to 3.0.2-0ubuntu1.7 in order to mitigate security concerns." |
 | Governikus | Ausweis 2 | 1.24.4 | 3.0.7 | Fix | https://github.com/Governikus/AusweisApp2/releases/tag/1.24.4 | OpenSSL 3.0.5 was intruduced with Version 1.24 |
 | HashiCorp| All | Unknown | Unknown | Not vuln | https://discuss.hashicorp.com/t/hcsec-2022-27-hashicorp-response-to-openssl-security-announcement-regarding-november-1-release/46192/3 | |
 | Homebrew | Brew | openssl@3 | 3.0.7 | Fix | https://formulae.brew.sh/formula/openssl@3 | |
