@@ -30,6 +30,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Arch | Arch Linux | Core | 1.1.1 | Not vuln | https://archlinux.org/packages/?name=openssl | |
 | Aruba | All | All | Unknown | Not vuln | https://asp.arubanetworks.com/notifications/Tm90aWZpY2F0aW9uOjEzMjAw;notificationCategory=Security | |
 | ASUSWRT-MERLIN | ASUSWRT-MERLIN | 386/NG | 1.1.1q | Not vuln | https://www.asuswrt-merlin.net/changelog | |
+| Barracuda | Barracuda Web Application Firewall | All | 1.1.1 | Not vuln | software/vendor-statements/openssl_Barracuda-Web-Application-Firewall.png | |
 | Bitdefender | Bitdefender Endpoint Security | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
 | Bitdefender | Bitdefender Security for Mobile | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
 | Bitdefender | Bitdefender GravityZone Management Appliance | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
