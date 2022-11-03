@@ -467,6 +467,14 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | RSA (SecurID) | Governance and Lifecycle (RSA G&L) | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
 | RSA (SecurID) | Governance and Lifecycle Cloud (RSA G&L Cloud) | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
 | RSA (SecurID) | Governance and Lifecycle Data Reach (Packaged Solution) | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| SailPoint | IdentityNow (IDN) | All | 3.x.x | Vulnerable | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
+| SailPoint | IdentityAI (IAI) | All | 3.x.x | Vulnerable | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
+| SailPoint | IDN Virtual Appliance (VA) | All | 3.x.x | Vulnerable | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
+| SailPoint | IdentityIQ | All | Unknown | Not vuln | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
+| SailPoint | Cloud Access Manager | All | Unknown | Not vuln | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
+| SailPoint | File Access Manager | All | Unknown | Not vuln | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
+| SailPoint | Access Risk Management | All | Unknown | Not vuln | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
+| SailPoint | SaaS Management | All | Unknown | Not vuln | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
 | Slackware | Slackware Linux | 14.1 | 1.0.1e | Not vuln | https://slackware.uk/slackware/slackware64-14.1/slackware64/n/openssl-1.0.1e-x86_64-1.txz| |
 | Slackware | Slackware Linux | 14.2 | 1.0.2h | Not vuln | https://slackware.uk/slackware/slackware64-14.2/slackware64/n/openssl-1.0.2h-x86_64-1.txz| |
 | Slackware | Slackware Linux | 15.0 | 1.1.1q | Not vuln | https://slackware.uk/slackware/slackware64-15.0/patches/packages/openssl-1.1.1q-x86_64-1_slack15.0.txz| |
