@@ -585,7 +585,38 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Tenable | Nessus | < 10.4.1 | Unknown | Fix | https://www.tenable.com/security/tns-2022-24 | |
 | Tenable | Nessus Agent | < 10.2.1 | Unknown | Fix | https://www.tenable.com/security/tns-2022-22 | |
 | Tenable | Other | Unknown | Unknown | Investigation | https://www.tenable.com/blog/cve-2022-3786-and-cve-2022-3602-openssl-patches-two-high-severity-vulnerabilities | | 
-| Trend Micro | Unknown | Unknown| Unknown | Investigation | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Cloud Edge | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Cloud One - Application Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Cloud One - Container Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Cloud One - File Storage Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Cloud One - Network Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Cloud One - Subscription | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Cloud One - User Management | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Cloud One - Workload Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | DDAaaS | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Deep Discovery Analyzer | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Deep Discovery Director | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Deep Discovery Email Inspector | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Deep Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | InterScan Messaging Security Virtual Appliance (IMSVA) | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | InterScan Messaging Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | InterScan Web Security Suite | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | InterScan Web Security Virtual Appliance | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | ServerProtect For EMC Celerra | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | ServerProtect For Linux | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | ServerProtect For Microsoft Windows/Novell NetWare | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | ServerProtect For Network Appliance Filers | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | ServerProtect For Storage | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint IPS N-series | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint IPS NX-series | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint Network Protection (AWS) | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint Network Protection (Azure) | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint SMS | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint TPS | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint TX-Series | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint Virtual SMS | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint Virtual TPS | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Not listed above | Unknown| Unknown | Investigation | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
 | Trellix | Trellix EPO | ? | ? | Investigation | https://kcm.trellix.com/corporate/index?page=content&id=KB96105 | |
 | Tunnelblick | Tunnelblick | <= 3.8.2beta07 | 1.1.1m | Not vuln | https://tunnelblick.net/cRlsNotes.html | |
 | Ubiquiti | AmpliFi Alien | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
