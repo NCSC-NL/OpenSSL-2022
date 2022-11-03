@@ -527,6 +527,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | SailPoint | File Access Manager | All | Unknown | Not vuln | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
 | SailPoint | Access Risk Management | All | Unknown | Not vuln | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
 | SailPoint | SaaS Management | All | Unknown | Not vuln | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
+| Sectigo | All | All | Unknown | Not vuln | https://sectigo.com/resource-library/openssl-vulnerability-patch-released | |
 | Slackware | Slackware Linux | 14.1 | 1.0.1e | Not vuln | https://slackware.uk/slackware/slackware64-14.1/slackware64/n/openssl-1.0.1e-x86_64-1.txz| |
 | Slackware | Slackware Linux | 14.2 | 1.0.2h | Not vuln | https://slackware.uk/slackware/slackware64-14.2/slackware64/n/openssl-1.0.2h-x86_64-1.txz| |
 | Slackware | Slackware Linux | 15.0 | 1.1.1q | Not vuln | https://slackware.uk/slackware/slackware64-15.0/patches/packages/openssl-1.1.1q-x86_64-1_slack15.0.txz| |
