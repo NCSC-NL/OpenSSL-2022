@@ -447,6 +447,27 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | PCLinuxOS | PCLinuxOS | rolling | 1.1.1q | Not vuln | https://ftp.nluug.nl/pub/os/Linux/distr/pclinuxos/pclinuxos/apt/pclinuxos/64bit/RPMS.x86_64/openssl-1.1.1q-1pclos2022.x86_64.rpm| |
 | PHP | PHP | < 8.1 | < 3.0 | Not vuln | https://www.php.net/manual/en/openssl.requirements.php | | 
 | PHP	| PHP	| >= 8.1 | Unknown | Investigation | https://www.php.net/manual/en/openssl.requirements.php | |
+| Progress | Chef | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Corticon | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | DataDirect+(all+components) | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | iMail | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | IMacros | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Fiddler+/+Fiddler+Everywhere | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Flowmon | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Kemp360+(Central,+Vision) | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Kemp+LoadMaster | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Kendo+UI | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Kinvey | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | MessageWay | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | MOVEit/+MOVEit+Cloud | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | NativeChat | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | OpenEdge | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Sitefinity+(all+components) | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Telerik+(Developer+Tools) | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | ThemeBuilder+/+Unite+UX | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Test+Studio | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | WhatsUp+Gold | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | WS_FTP | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
 | Proxmox Server Solutions GmbH| Proxmox | 6 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | Proxmox Server Solutions GmbH| Proxmox | 7 | 1.1.1 | Not vuln | https://www.proxmox.com/en/news/press-releases/proxmox-virtual-environment-7-0 (EN) |Based on Debian 11, no custom OpenSSL version used. |
 | PulseSecure (Ivanti) | All | Unknown | Unknown | Not vuln | https://kb.pulsesecure.net/articles/Pulse_Secure_Article/OpenSSL-3-0-x-Vulnerability-Ivanti-Product-Impact1/?kA13Z000000FseL | |
@@ -536,7 +557,6 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Synacor | Zimbra Email & Collaboration | 9.0.0 | 1.1.1q | Not vuln | https://wiki.zimbra.com/wiki/Zimbra_Releases/9.0.0/P27 | |
 | Synology | All | Unkown | Unkown | Not vuln | https://www.synology.com/en-global/security/advisory/Synology_SA_22_21 | |
 | Tanium | All | All | < 3.x | Not vuln | https://community.tanium.com/s/article/How-Tanium-Can-Help-Identify-OpenSSL-3-0-X#tanium | |
-| Telerik | All | All | Unknown | Not vuln | https://www.telerik.com/blogs/openssl-vulnerability-what-you-need-know | |
 | Tenable | All | Unknown | Unknown | Investigation | https://www.tenable.com/blog/cve-2022-3786-and-cve-2022-3602-openssl-patches-two-high-severity-vulnerabilities | | 
 | Trend Micro | Unknown | Unknown| Unknown | Investigation | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
 | Trellix | Trellix EPO | ? | ? | Investigation | https://kcm.trellix.com/corporate/index?page=content&id=KB96105 | |
