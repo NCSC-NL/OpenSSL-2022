@@ -44,6 +44,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Atlassian | Jira Datacenter | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584 | |
 | Barracuda | Web Application Firewall Vx | All | 1.1.1 | Not vuln | [Ticket Answer](vendor-statements/openssl_Barracuda-Web-Application-Firewall.png) | |
 | Barracuda | Email Security Gateway Vx  | All | Unknown | Not vuln | [Ticket Answer](vendor-statements/openssl_Barracuda-Email-Secure-Gateway.png) | |
+| Barracuda | Web Security Gateway  | All | Unknown | Not vuln | [Ticket Answer](vendor-statements/openssl_Barracuda-Web-Secure-Gateway.png) | |
 | Bitdefender | Bitdefender Endpoint Security | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
 | Bitdefender | Bitdefender Security for Mobile | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
 | Bitdefender | Bitdefender GravityZone Management Appliance | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
