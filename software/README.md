@@ -305,6 +305,91 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Mageia | Mageia | cauldron | 3.0.5-2 | Fix | https://mageia.pkgs.org/cauldron/mageia-core-release-x86_64/openssl-3.0.5-2.mga9.x86_64.rpm.html | |
 | Nasuni | Edge Appliance | All | Unknown | Not vuln | https://trustcenter.nasuni.com/?tcuUid=495df3df-eb99-44cf-9d8b-6ac7a3944cd7 | |
 | Nasuni | Management Console | All | Unknown | Not vuln | https://trustcenter.nasuni.com/?tcuUid=495df3df-eb99-44cf-9d8b-6ac7a3944cd7 | |
+| NetApp | 7-Mode Transition Tool | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | AFF Baseboard Management Controller (BMC) - A700s | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | ATTO FibreBridge | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Active IQ Unified Manager for Linux | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Active IQ Unified Manager for Microsoft Windows | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Active IQ Unified Manager for VMware vSphere | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Active IQ mobile app | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Astra Control Center - NetApp Kubernetes Monitoring Operator | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Astra Trident | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Astra Trident Autosupport | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | BeeGFS CSI Driver | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Brocade Fabric Operating System Firmware | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Brocade SAN Navigator (SANnav) | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Cloud Backup OST Plug-in (formerly AltaVault OST Plug-in) | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Cloud Data Sense | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Cloud Insights Acquisition Unit | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Cloud Insights Telegraf Agent | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Cloud Manager | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Cloud Secure Agent | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Cloud Volumes ONTAP Mediator | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Clustered Data ONTAP | All | Unknown | Vulnerable | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Clustered Data ONTAP Antivirus Connector | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Converged Systems Advisor Agent | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | E-Series BeeGFS Collection | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | E-Series BIOS | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | E-Series Host Collection | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | E-Series Performance Analyzer | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | E-Series SANtricity Collection | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | E-Series SANtricity OS Controller Software 11.x | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | E-Series SANtricity Storage Manager | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | E-Series SANtricity Unified Manager and Web Services Proxy | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Element .NET SDK | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Element HealthTools | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Element JAVA SDK | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Element Plug-in for vCenter Server | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Element Powershell Tools | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Element Python SDK | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | FAS/AFF Baseboard Management Controller (BMC) | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | FAS/AFF BIOS | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | FAS/AFF Service Processor | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Global File Cache | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | HCI Baseboard Management Controller (BMC) | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | HCI Compute Node (Bootstrap OS) | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | HCI Compute Node BIOS | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | HCI Storage Node BIOS | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Host Utilities - SAN for Linux | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Host Utilities - SAN for Windows | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Interoperability Matrix Tool | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Inventory Collect Tool | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Kubernetes Monitoring Operator | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Manageability SDK | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Management Services for Element Software and NetApp HCI | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | MetroCluster Tiebreaker for clustered Data ONTAP | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Multipath I/O (SANtricity DSM for Windows MPIO) | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | NFS Plug-in for VMware VAAI | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | ONTAP Mediator | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | ONTAP Select Deploy administration utility | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | ONTAP tools for VMware vSphere | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | OnCommand Insight | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | OnCommand Workflow Automation | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Open Systems SnapVault Agent | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SANtricity SMI-S Provider | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SANtricity Storage Plugin for vCenter | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SAS Firmware | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SRA Plugin for Linux | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SRA Plugin for Windows | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Single Mailbox Recovery | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SMI-S Provider | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Snap Creator Framework | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SnapCenter | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SnapCenter Plug-in for VMware vSphere | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SnapManager for Hyper-V | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SolidFire & HCI Management Node | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SolidFire & HCI Storage Node (Element Software) | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SolidFire Plug-in for vRealize Orchestrator (SolidFire vRO) | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SolidFire Storage Replication Adapter | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Spot PC | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Storage Services Connector | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | StorageGRID (formerly StorageGRID Webscale) | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | StorageGRID BIOS | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | StorageGRID Baseboard Management Controller (BMC) | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | System Manager 9.x | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Virtual Desktop Service (VDS) | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | XCP NFS | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | XCP SMB | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
 | NetBSD | NetBSD | 9 | 1.1.1k | Not vuln | https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.3/CHANGES-9.2 |
 | NetBSD | NetBSD | 8 | 1.0.2k | Not vuln | https://netbsd.org/releases/formal-8/NetBSD-8.0.html |
 | NetBSD | pkgsrc | - | 1.1.1q | Not vuln | https://cdn.netbsd.org/pub/pkgsrc/current/pkgsrc/security/openssl/index.html|
