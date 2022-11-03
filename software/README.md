@@ -357,7 +357,6 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | PCLinuxOS | PCLinuxOS | rolling | 1.1.1q | Not vuln | https://ftp.nluug.nl/pub/os/Linux/distr/pclinuxos/pclinuxos/apt/pclinuxos/64bit/RPMS.x86_64/openssl-1.1.1q-1pclos2022.x86_64.rpm| |
 | PHP | PHP | < 8.1 | < 3.0 | Not vuln | https://www.php.net/manual/en/openssl.requirements.php | | 
 | PHP	| PHP	| >= 8.1 | Unknown | Investigation | https://www.php.net/manual/en/openssl.requirements.php | |
-| Proxmox Server Solutions GmbH| Proxmox | 6 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | Progress | Chef | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
 | Progress | Corticon | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
 | Progress | DataDirect+(all+components) | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
@@ -379,6 +378,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Progress | Test+Studio | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
 | Progress | WhatsUp+Gold | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
 | Progress | WS_FTP | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Proxmox Server Solutions GmbH| Proxmox | 6 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | Proxmox Server Solutions GmbH| Proxmox | 7 | 1.1.1 | Not vuln | https://www.proxmox.com/en/news/press-releases/proxmox-virtual-environment-7-0 (EN) |Based on Debian 11, no custom OpenSSL version used. |
 | PulseSecure (Ivanti) | All | Unknown | Unknown | Not vuln | https://kb.pulsesecure.net/articles/Pulse_Secure_Article/OpenSSL-3-0-x-Vulnerability-Ivanti-Product-Impact1/?kA13Z000000FseL | |
 | Red Hat | Enterprise Linux | <= 8 | 1.x	| Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004	| | 
