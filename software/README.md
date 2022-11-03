@@ -592,6 +592,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Tenable | Nessus | < 10.4.1 | Unknown | Fix | https://www.tenable.com/security/tns-2022-24 | |
 | Tenable | Nessus Agent | < 10.2.1 | Unknown | Fix | https://www.tenable.com/security/tns-2022-22 | |
 | Tenable | Other | Unknown | Unknown | Investigation | https://www.tenable.com/blog/cve-2022-3786-and-cve-2022-3602-openssl-patches-two-high-severity-vulnerabilities | | 
+| TIBCO | All | All | Unknown | Investigation | https://www.tibco.com/support/notices/2022/11/openssl-vulnerability | |
 | Trend Micro | Cloud Edge | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
 | Trend Micro | Cloud One - Application Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
 | Trend Micro | Cloud One - Container Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
