@@ -318,6 +318,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | IBM | Websphere Application Server | All | Unknown | Not vuln | https://www.ibm.com/support/pages/node/6832478 | |
 | IBM | Liberty | All | Unknown | Not vuln | https://www.ibm.com/support/pages/node/6832478 | |
 | IBM | HTTP Server | All | Unknown | Not vuln | https://www.ibm.com/support/pages/node/6832478 | |
+| Icinga | Icinga | Linux versions | from OS | Not vuln | https://icinga.com/blog/2022/11/03/how-the-current-openssl-vulnerabilities-affect-icinga | Uses OS OpenSSL |
+| Icinga | Icinga | Windows versions | 1.1.1 | Not vuln | https://icinga.com/blog/2022/11/03/how-the-current-openssl-vulnerabilities-affect-icinga | |
 | Infoblox | BloxOne | All | Unknown | Not vuln | https://support.infoblox.com/s/article/000008377 | |
 | Infoblox | NetMRI | All | Unknown | Not vuln | https://support.infoblox.com/s/article/000008377 | |
 | Infoblox | NIOS | All | Unknown | Not vuln | https://support.infoblox.com/s/article/000008377 | |
