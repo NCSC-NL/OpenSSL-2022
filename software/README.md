@@ -296,6 +296,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Infoblox | NIOS | All | Unknown | Not vuln | https://support.infoblox.com/s/article/000008377 | |
 | Intel | System Usage Report (Codename: Queencreek) | 2.4.0.8919 | 3.0.2 | Vulnerable | [Local Proof](vendor-statements/openssl_queencreek.png) | |
 | Ivanti | All | Unknown | Unknown | Not vuln | https://www.ivanti.com/blog/openssl-3-0-x-security-vulnerability-impact-on-ivanti-solutions | |
+| JFrog | All | All | Unknown | Not vuln | https://jfrog.com/knowledge-base/upcoming-openssl-3-x-critical-vulnerability/ |  |
 | Juniper | JunOS| All | Unknown | Not vuln | https://supportportal.juniper.net/s/article/2022-11-Out-of-Cycle-Security-Bulletin-High-severity-security-issues-resolved-in-OpenSSL-3-0-7-CVE-2022-3602-CVE-2022-3786?language=en_US | |
 | Juniper | JunOS Evolved | >22.1R1-EVO | Unknown | Workaround | https://supportportal.juniper.net/s/article/2022-11-Out-of-Cycle-Security-Bulletin-High-severity-security-issues-resolved-in-OpenSSL-3-0-7-CVE-2022-3602-CVE-2022-3786?language=en_US | |
 | KaOS | KaOS | rolling | 1.1.1.18 | Not vuln | http://mirror6.layerjet.com/kaos/core/openssl-1.1.1.18-1-x86_64.pkg.tar.zst| |
