@@ -49,6 +49,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Bitdefender | Bitdefender GravityZone Management Appliance | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
 | Broadcom | Symantec Endpoint Protection Manager | 14.3 RU5 | 3.0.2 | Vulnerable | https://community.broadcom.com/symantecenterprise/discussion/which-is-the-openssl-version-in-sepm-143-ru5 | |
 | Broadcom | Symantec Endpoint Protection Manager | 14.3 RU6 | 3.0.7 | Not Vulnerable | https://community.broadcom.com/symantecenterprise/discussion/which-is-the-openssl-version-in-sepm-143-ru5 | Fixed version not released yet. |
+| Broadcom | Symantec SiteMinder | All | 1.0.2 | Not vuln | https://knowledge.broadcom.com/external/article/245955/openssl-vulnerability-in-symantec-sitemi.html | |
 | Buildroot | Buildroot | 2022.08.1 | 1.1.1q | Not vuln | https://github.com/buildroot/buildroot/blob/master/package/libopenssl/libopenssl.mk#L7 | OpenSSL 1.1.1q is the default version. |
 | Canonical | Ubuntu | bionic (18.04 LTS) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?suite=bionic&keywords=openssl | |
 | Canonical | Ubuntu | impish (21.10) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?suite=impish&keywords=openssl | |
