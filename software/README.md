@@ -197,6 +197,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Dockerhub | ubuntu | latest | 3.0.2 | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 | pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.6?os_distro=jammy&os_name=ubuntu&os_version=22.04; ; Instruction: /bin/sh -c #(nop) ADD file:ba96f963bbfd429a0839c40603fdd7829eaca58f20adfa0d15e6beae8244bc08 in /; Layer 0: sha256:301a8b74f71f85f3a31e9c7e7fedd5b001ead5bcf895bc2911c1d260e06bd987 |
 | Dockerhub | websphere-liberty | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
 | Dockerhub | wordpress | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dynatrace | All | All | Unknown | Not vuln | https://www.dynatrace.com/news/security-alert/openssl-3-x-vulnerability/ | |
 | Elastic | All | All | OpenSSL Unknown | Not vuln | https://discuss.elastic.co/t/elastic-security-statement-for-openssl-cve-2022-3786-and-cve-2022-3602-openssl-version-3-0-7/318039 | |
 | EuroLinux | EuroLinux | 8 | 1.1.1k | Not vuln | https://vault.cdn.euro-linux.com/sources/eurolinux/8/baseos/x86_64/Packages/o/openssl-1.1.1k-7.el8_6.src.rpm | |
 | EuroLinux | EuroLinux | 9 | 3.0.1 | Vulnerable | https://fbi.cdn.euro-linux.com/dist/eurolinux/server/9/x86_64/BaseOS/all/Packages/o/openssl-3.0.1-41.el9_0.x86_64.rpm | |
