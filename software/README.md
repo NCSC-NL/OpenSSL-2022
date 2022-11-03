@@ -36,6 +36,9 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Arista | All | All | Unknown | Not vuln | https://www.arista.com/en/support/advisories-notices/security-advisory/16339-security-advisory-0081 | |
 | Aruba | All | All | Unknown | Not vuln | https://asp.arubanetworks.com/notifications/Tm90aWZpY2F0aW9uOjEzMjAw;notificationCategory=Security | |
 | ASUSWRT-MERLIN | ASUSWRT-MERLIN | 386/NG | 1.1.1q | Not vuln | https://www.asuswrt-merlin.net/changelog | |
+| Atlassian | Bitbucket Cloud | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584 | |
+| Atlassian | Bitbucket Server | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584 | |
+| Atlassian | Bitbucket Datacenter | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584 | |
 | Atlassian | Confluence Cloud | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584 | |
 | Atlassian | Confluence Server | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584 | |
 | Atlassian | Confluence Datacenter | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584 | |
