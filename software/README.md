@@ -303,6 +303,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Linux Mint | Linux Mint | 21 Vanessa | 3.0.2 | Vulnerable | http://packages.linuxmint.com/search.php?release=vanessa&section=any&keyword=openssl | |
 | Mageia | Mageia | 8 | 1.1.1q | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/8/x86_64/media/core/updates/openssl-1.1.1q-1.mga8.x86_64.rpm | |
 | Mageia | Mageia | cauldron | 3.0.5-2 | Fix | https://mageia.pkgs.org/cauldron/mageia-core-release-x86_64/openssl-3.0.5-2.mga9.x86_64.rpm.html | |
+| Mend | All | All | Unknown | Not vuln | https://www.mend.io/resources/blog/advisory-new-openssl-critical-security-vulnerability/ | |
 | Nasuni | Edge Appliance | All | Unknown | Not vuln | https://trustcenter.nasuni.com/?tcuUid=495df3df-eb99-44cf-9d8b-6ac7a3944cd7 | |
 | Nasuni | Management Console | All | Unknown | Not vuln | https://trustcenter.nasuni.com/?tcuUid=495df3df-eb99-44cf-9d8b-6ac7a3944cd7 | |
 | NetBSD | NetBSD | 9 | 1.1.1k | Not vuln | https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.3/CHANGES-9.2 |
