@@ -148,3 +148,4 @@ index=* OR index=_* TERM(openssl) OR TERM(libcrypto-3) OR TERM(libssl-3) OR term
 | Cisco | Various | https://github.com/CiscoCXSecurity/openssl3-nov2022 |
 | Docker | Various | https://www.docker.com/blog/security-advisory-critical-openssl-vulnerability/ |
 | runZero | multi-OS/platform scanner | https://www.runzero.com/blog/what-you-need-to-know-about-openssl/ |
+| Qualys | OpenSSL Vulnerability Scanner for Windows | https://github.com/Qualys/osslscanwin |
