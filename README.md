@@ -41,3 +41,4 @@ Below we present a very incomplete list of contributants or sources we consider 
 * [@robert-scheck](https://github.com/robert-scheck)
 * [@RobinFlikkema](https://github.com/RobinFlikkema)
 * [@fox-srt](https://github.com/fox-srt)
+* [@Royce Williams](https://github.com/roycewilliams)
