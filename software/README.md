@@ -435,6 +435,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Node.js | JavaScript Runtime Environment | 18 | 3.x | Vulnerable | https://nodejs.org/en/blog/vulnerability/november-2022-security-releases/ | |
 | Node.js | JavaScript Runtime Environment | 19 | 3.x | Vulnerable | https://nodejs.org/en/blog/vulnerability/november-2022-security-releases/ | |
 | NVIDIA | All | All | Unknown | Investigation | https://nvidia.custhelp.com/app/answers/detail/a_id/5405/~/security-notice%3A-nvidia-response-to-openssl-vulnerabilities---november-2022 | |
+| Octopus Deploy | All | All | 1.x.x | Not vuln | https://octopus.com/blog/octopus-deploy-openssl-response | |
 | Offensive Security | Kali | 2022.3 | 3.0.7-1 | Fix | https://pkg.kali.org/pkg/openssl | |
 | OpenMandriva | OpenMandriva | 4.3 | 3.0.3 | Vulnerable | http://abf-downloads.openmandriva.org/4.3/repository/x86_64/main/updates/openssl-3.0.3-1-omv4003.x86_64.rpm| |
 | OpenMandriva | OpenMandriva | 4.2 | 3.0.0 | Vulnerable | http://abf-downloads.openmandriva.org/4.2/repository/x86_64/main/updates/openssl-3.0.0-0.alpha17.1-omv4002.x86_64.rpm| |
