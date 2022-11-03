@@ -429,7 +429,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Node.js | JavaScript Runtime Environment | 17 | 3.x | Investigation | https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md#17.0.0 | Missing from Node.js security update blog post because v17 is EOL |
 | Node.js | JavaScript Runtime Environment | 18 | 3.x | Vulnerable | https://nodejs.org/en/blog/vulnerability/november-2022-security-releases/ | |
 | Node.js | JavaScript Runtime Environment | 19 | 3.x | Vulnerable | https://nodejs.org/en/blog/vulnerability/november-2022-security-releases/ | |
-| Offensive Security | Kali | 2022.3 | 3.0.5 | Vulnerable | https://pkg.kali.org/pkg/openssl | 
+| Offensive Security | Kali | 2022.3 | 3.0.7-1 | Fix | https://pkg.kali.org/pkg/openssl | 
 | OpenMandriva | OpenMandriva | 4.3 | 3.0.3 | Vulnerable | http://abf-downloads.openmandriva.org/4.3/repository/x86_64/main/updates/openssl-3.0.3-1-omv4003.x86_64.rpm| |
 | OpenMandriva | OpenMandriva | 4.2 | 3.0.0 | Vulnerable | http://abf-downloads.openmandriva.org/4.2/repository/x86_64/main/updates/openssl-3.0.0-0.alpha17.1-omv4002.x86_64.rpm| |
 | OpenMandriva | OpenMandriva | rolling | 3.0.6 | Vulnerable | http://abf-downloads.openmandriva.org/rolling/repository/x86_64/main/release/openssl-3.0.6-1-omv4050.x86_64.rpm| |
