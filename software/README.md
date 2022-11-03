@@ -595,3 +595,6 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | WatchGuard | Dimension | Any | Not Stated | Not vuln | https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2022-00021 | |
 | WatchGuard | FireBox | Any | Not Stated | Not vuln | https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2022-00021 | |
 | WatchGuard | System Manager (WSM) | Any | Not Stated | Not vuln | https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2022-00021 | |
+| Wire | Wire Server | All | 1.1.1 | Not vuln | https://github.com/wireapp/wire-server/blob/develop/docs/src/security-responses/2022-11-01_openssl.md | |
+| Wire | Wire Webapp | All | 1.1.1 | Not vuln | https://github.com/wireapp/wire-server/blob/develop/docs/src/security-responses/2022-11-01_openssl.md | |
+| Wire | Wire Desktop | All | 1.1.1 | Not vuln | https://github.com/wireapp/wire-server/blob/develop/docs/src/security-responses/2022-11-01_openssl.md | |
