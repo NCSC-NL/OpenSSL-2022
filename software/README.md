@@ -276,7 +276,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Fortinet | FortiMoM | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiNAC | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiNDR | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiOS | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiOS | <= 7.2.0 | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiOS | >= 7.2.0 | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiPAM | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiPentest | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiPhish | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
@@ -286,11 +287,11 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Fortinet | FortiProxy | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiRecorder | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiSandbox | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiSandbox Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
+| Fortinet | FortiSandbox Cloud | Unknown | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
 | Fortinet | FortiSASE | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiSIEM | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiSOAR | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiSwitch | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
+| Fortinet | FortiSwitch | Unknown | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
 | Fortinet | FortiSwitchManager | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
 | Fortinet | FortiSwitch Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
 | Fortinet | FortiTester | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
