@@ -573,7 +573,10 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Synacor | Zimbra Email & Collaboration | 9.0.0 | 1.1.1q | Not vuln | https://wiki.zimbra.com/wiki/Zimbra_Releases/9.0.0/P27 | |
 | Synology | All | Unkown | Unkown | Not vuln | https://www.synology.com/en-global/security/advisory/Synology_SA_22_21 | |
 | Tanium | All | All | < 3.x | Not vuln | https://community.tanium.com/s/article/How-Tanium-Can-Help-Identify-OpenSSL-3-0-X#tanium | |
-| Tenable | All | Unknown | Unknown | Investigation | https://www.tenable.com/blog/cve-2022-3786-and-cve-2022-3602-openssl-patches-two-high-severity-vulnerabilities | | 
+| Tenable | Nessus | < 10.3.2 | Unknown | Fix | https://www.tenable.com/security/tns-2022-23 | |
+| Tenable | Nessus | < 10.4.1 | Unknown | Fix | https://www.tenable.com/security/tns-2022-24 | |
+| Tenable | Nessus Agent | < 10.2.1 | Unknown | Fix | https://www.tenable.com/security/tns-2022-22 | |
+| Tenable | Other | Unknown | Unknown | Investigation | https://www.tenable.com/blog/cve-2022-3786-and-cve-2022-3602-openssl-patches-two-high-severity-vulnerabilities | | 
 | Trend Micro | Unknown | Unknown| Unknown | Investigation | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
 | Trellix | Trellix EPO | ? | ? | Investigation | https://kcm.trellix.com/corporate/index?page=content&id=KB96105 | |
 | Tunnelblick | Tunnelblick | <= 3.8.2beta07 | 1.1.1m | Not vuln | https://tunnelblick.net/cRlsNotes.html | |
