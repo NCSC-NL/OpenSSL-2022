@@ -111,6 +111,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Cloudflare | all | all | Unknown | Not vuln | https://blog.cloudflare.com/cloudflare-is-not-affected-by-the-openssl-vulnerabilities-cve-2022-3602-and-cve-2022-37/ | |
 | Code42 | Incydr | ALL | 1.x | Not vuln | [Code42 Response to Industry Security Incidents](https://support.code42.com/Terms_and_conditions/Code42_customer_support_resources/Code42_response_to_industry_security_incidents) | |
 | cPanel | All | All | Unknown | Not vuln | https://support.cpanel.net/hc/en-us/articles/4416312844055-Is-cPanel-affected-by-OpenSSL-Security-Advisory-CVE-2021-4044- | |
+| cURL | curl for Windows | 7.79.0 - 7.86.0 | 3.x | Vulnerable | https://github.com/curl/curl-for-win/commit/0166991c20bee16f9d334151669a9839fae1d8ed | Fixed in 7.86.0_1 build |
 | Debian | Debian | 9 "Stretch"	| 1.1.0 | Not vuln | https://packages.debian.org/stretch/openssl	| |
 | Debian | Debian | 10 "Buster"	| 1.1.1	| Not vuln | https://packages.debian.org/buster/openssl | |
 | Debian | Debian | 11 "Bullseye"	| 1.1.1	| Not vuln | https://packages.debian.org/bullseye/openssl | |
@@ -233,13 +234,13 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | F5 Networks | NGINX Service Mesh | All | Unknown | Not vuln | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | NGINX Unit | All | Unknown | Not vuln | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | Traffix SDC | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
-| Fedora | Linux | 35 | 1.1.1 | Not vuln | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | | 
+| Fedora | Linux | 35 | 1.1.1 | Not vuln | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | 36 | 3.0.2-4.fc36 | Fix | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | 37 | 3.0.5-2.fc37 | Fix | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | Rawhide | 3.0.5-6.fc38 | Fix | https://packages.fedoraproject.org/pkgs/openssl/openssl/fedora-rawhide.html | |
 | Fedora | EPEL | 7 | 1.1.1k | Not vuln | https://packages.fedoraproject.org/pkgs/openssl11/openssl11/ | |
 | Fedora | EPEL | 8 | 3.0.1-43 | Fix | https://bodhi.fedoraproject.org/updates/FEDORA-EPEL-2022-e228f64914 | |
-| FileCap | FileCap Server | All | < 3.x | Not vuln | https://github.com/NCSC-NL/OpenSSL-2022/blob/main/software/vendor-statements/FileCap.png | | 
+| FileCap | FileCap Server | All | < 3.x | Not vuln | https://github.com/NCSC-NL/OpenSSL-2022/blob/main/software/vendor-statements/FileCap.png | |
 | Fortinet | FortiADC | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiADCManager | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiAIOps | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
@@ -268,7 +269,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Fortinet | FortiDevSec | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiEdge | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiEDR | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiExtender Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
+| Fortinet | FortiExtender Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiFone | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiGuest | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiInsight | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
@@ -276,7 +277,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Fortinet | FortiLANCloud | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiMail | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiManager | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiManager Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
+| Fortinet | FortiManager Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiMoM | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiNAC | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiNDR | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
@@ -291,13 +292,13 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Fortinet | FortiProxy | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiRecorder | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiSandbox | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiSandbox Cloud | Unknown | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
+| Fortinet | FortiSandbox Cloud | Unknown | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiSASE | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiSIEM | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiSOAR | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiSwitch | Unknown | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
-| Fortinet | FortiSwitchManager | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
-| Fortinet | FortiSwitch Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
+| Fortinet | FortiSwitch | Unknown | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiSwitchManager | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiSwitch Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiTester | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiTokenAndroid | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiToken Cloud | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
@@ -307,7 +308,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Fortinet | FortiVoiceUCDesktop | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiWAN | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiWeb | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiWebCloud | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
+| Fortinet | FortiWebCloud | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiWebManager | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiWLC | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiWLM | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
@@ -337,6 +338,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Juniper | JunOS| All | Unknown | Not vuln | https://supportportal.juniper.net/s/article/2022-11-Out-of-Cycle-Security-Bulletin-High-severity-security-issues-resolved-in-OpenSSL-3-0-7-CVE-2022-3602-CVE-2022-3786?language=en_US | |
 | Juniper | JunOS Evolved | >22.1R1-EVO | Unknown | Workaround | https://supportportal.juniper.net/s/article/2022-11-Out-of-Cycle-Security-Bulletin-High-severity-security-issues-resolved-in-OpenSSL-3-0-7-CVE-2022-3602-CVE-2022-3786?language=en_US | |
 | KaOS | KaOS | rolling | 1.1.1.18 | Not vuln | http://mirror6.layerjet.com/kaos/core/openssl-1.1.1.18-1-x86_64.pkg.tar.zst| |
+| KeePassXC | KeePassXC (Windows) | 2.7.4 | 3.0.5 | Vulnerable | https://github.com/keepassxreboot/keepassxc/issues/8728 | To be fixed in 2.7.5 |
 | Kemp | LoadMaster | 7.2.58 | 1.1.1n | Not vuln | https://support.kemptechnologies.com/hc/en-us/articles/10228770842637-Current-OpenSSL-Version-for-LoadMaster | |
 | Linux Mint | Linux Mint | 21 Vanessa | 3.0.2 | Vulnerable | http://packages.linuxmint.com/search.php?release=vanessa&section=any&keyword=openssl | |
 | Mageia | Mageia | 8 | 1.1.1q | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/8/x86_64/media/core/updates/openssl-1.1.1q-1.mga8.x86_64.rpm | |
@@ -456,12 +458,12 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Oracle | Linux | 8.x | 3.0.1-43 | Fix | https://linux.oracle.com/errata/ELBA-2022-23489.html | Optional package |
 | Oracle | Linux | >= 9.0 | 3.0.1-41.0.3 | Fix | https://linux.oracle.com/errata/ELSA-2022-9968.html | |
 | Palo Alto Networks | AutoFocus | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
-| Palo Alto Networks | Bridgecrew | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
-| Palo Alto Networks | Cloud NGFW | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
-| Palo Alto Networks | Cortex Data Lake	| * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
-| Palo Alto Networks | Cortex XDR Agent	| * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
-| Palo Alto Networks | Cortex Xpanse | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
-| Palo Alto Networks | Cortex XSOAR | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
+| Palo Alto Networks | Bridgecrew | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Cloud NGFW | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Cortex Data Lake	| * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Cortex XDR Agent	| * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Cortex Xpanse | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Cortex XSOAR | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Enterprise Data Loss Prevention | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Exact Data Matching CLI	 | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Expanse | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
@@ -482,7 +484,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Palo Alto Networks | WildFire Cloud | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Paessler | PRTG Network Monitor | latest | Unknown | Not vuln | [Local Proof](vendor-statements/openssl_paessler_prtg.jpg) | |
 | PCLinuxOS | PCLinuxOS | rolling | 1.1.1q | Not vuln | https://ftp.nluug.nl/pub/os/Linux/distr/pclinuxos/pclinuxos/apt/pclinuxos/64bit/RPMS.x86_64/openssl-1.1.1q-1pclos2022.x86_64.rpm| |
-| PHP | PHP | < 8.1 | < 3.0 | Not vuln | https://www.php.net/manual/en/openssl.requirements.php | | 
+| PHP | PHP | < 8.1 | < 3.0 | Not vuln | https://www.php.net/manual/en/openssl.requirements.php | |
 | PHP	| PHP	| >= 8.1 | Unknown | Investigation | https://www.php.net/manual/en/openssl.requirements.php | |
 | Progress | Chef | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
 | Progress | Corticon | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
@@ -508,8 +510,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Proxmox Server Solutions GmbH| Proxmox | 6 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | Proxmox Server Solutions GmbH| Proxmox | 7 | 1.1.1 | Not vuln | https://www.proxmox.com/en/news/press-releases/proxmox-virtual-environment-7-0 (EN) |Based on Debian 11, no custom OpenSSL version used. |
 | PulseSecure (Ivanti) | All | Unknown | Unknown | Not vuln | https://kb.pulsesecure.net/articles/Pulse_Secure_Article/OpenSSL-3-0-x-Vulnerability-Ivanti-Product-Impact1/?kA13Z000000FseL | |
-| Red Hat | Enterprise Linux | <= 8 | 1.x	| Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004	| | 
-| Red Hat | Enterprise Linux | >= 9.0 | 3.0.1-43	| Fix | https://access.redhat.com/errata/RHSA-2022:7288	| | 
+| Red Hat | Enterprise Linux | <= 8 | 1.x	| Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004	| |
+| Red Hat | Enterprise Linux | >= 9.0 | 3.0.1-43	| Fix | https://access.redhat.com/errata/RHSA-2022:7288	| |
 | Red Hat | OpenShift Container Platform | => 4.0 | 1.1.1 | Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | |
 | Red Hat | Universal Base Images | <= 8 | 1.x | Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | |
 | Red Hat | Universal Base Images | >= 9.0.0-1690 | 3.0.1-43 | Fix | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | Updated container information: https://catalog.redhat.com/software/containers/ubi9/618326f8c0d15aff4912fe0b?container-tabs=packages |
@@ -602,7 +604,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Tenable | Nessus | < 10.3.2 | Unknown | Fix | https://www.tenable.com/security/tns-2022-23 | |
 | Tenable | Nessus | < 10.4.1 | Unknown | Fix | https://www.tenable.com/security/tns-2022-24 | |
 | Tenable | Nessus Agent | < 10.2.1 | Unknown | Fix | https://www.tenable.com/security/tns-2022-22 | |
-| Tenable | Other | Unknown | Unknown | Investigation | https://www.tenable.com/blog/cve-2022-3786-and-cve-2022-3602-openssl-patches-two-high-severity-vulnerabilities | | 
+| Tenable | Other | Unknown | Unknown | Investigation | https://www.tenable.com/blog/cve-2022-3786-and-cve-2022-3602-openssl-patches-two-high-severity-vulnerabilities | |
 | TIBCO | All | All | Unknown | Investigation | https://www.tibco.com/support/notices/2022/11/openssl-vulnerability | |
 | Trend Micro | Cloud Edge | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
 | Trend Micro | Cloud One - Application Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
