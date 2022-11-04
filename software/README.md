@@ -74,6 +74,9 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | CentOS | CentOS | 9 | 3.0.1-43 | Fix | https://gitlab.com/redhat/centos-stream/rpms/openssl/-/commit/39f800af50db23de7aa01ebd56c8132589ad36a8 | |
 | Check Point | All | All | 1.1.1 | Not vuln | https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk92447&partition=Basic&product=All | |
 | Cisco | Application Policy Infrastructure Controller (APIC) | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
+| Cisco | ClamAV | Linux versions | Unknown | Investigation | https://blog.clamav.net/2014/02/introducing-openssl-as-dependency-to.html | |
+| Cisco | ClamAV | Mac versions | Unknown | Investigation | https://blog.clamav.net/2014/02/introducing-openssl-as-dependency-to.html | |
+| Cisco | ClamAV | Windows versions | Unknown | Investigation | https://blog.clamav.net/2014/07/compiling-openssl-for-windows.html | |
 | Cisco | Container Platform | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Cisco | Data Center Network Manager (DCNM) | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Cisco | Elastic Services Controller (ESC) | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
