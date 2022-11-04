@@ -667,3 +667,4 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Wire | Wire Server | All | 1.1.1 | Not vuln | https://github.com/wireapp/wire-server/blob/develop/docs/src/security-responses/2022-11-01_openssl.md | |
 | Wire | Wire Webapp | All | 1.1.1 | Not vuln | https://github.com/wireapp/wire-server/blob/develop/docs/src/security-responses/2022-11-01_openssl.md | |
 | Wire | Wire Desktop | All | 1.1.1 | Not vuln | https://github.com/wireapp/wire-server/blob/develop/docs/src/security-responses/2022-11-01_openssl.md | |
+| Zerto | All | All | 1.1.1 | Not vuln | https://help.zerto.com/kb/000004964 | |
