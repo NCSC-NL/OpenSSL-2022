@@ -446,7 +446,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | OpenSUSE | Leap | 15.2 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | OpenSUSE | Leap | 15.3 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | OpenSUSE | Leap | 15.4 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
-| OpenSUSE | OpenSUSE | tumbleweed | 3.0.5 | Vulnerable | https://software.opensuse.org/package/openssl-3 | |
+| OpenSUSE | Leap | 15.4 | 3.0.1-150400.4.11.1 | Fix | https://lists.suse.com/pipermail/sle-security-updates/2022-November/012796.html | Optional package |
+| OpenSUSE | OpenSUSE | tumbleweed | 3.0.7 | Fix | https://software.opensuse.org/package/openssl-3 | |
 | OpenVPN | OpenVPN | <= 2.5.7 | < 3.0 | Investigation | https://en.wikipedia.org/wiki/OpenVPN | https://openvpn.net/community-downloads/ Support for OpenSSL 3 in later version: OpenVPN 2.6. | |
 | Oracle | Linux | <= 8 | 1.x | Not vuln | https://linux.oracle.com/errata/ELSA-2022-9683.html | |
 | Oracle | Linux | 8.x | 3.0.1-43 | Fix | https://linux.oracle.com/errata/ELBA-2022-23489.html | Optional package |
