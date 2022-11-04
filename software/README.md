@@ -439,8 +439,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | NixOS | NixOS | unstable | 3.0.7 | Fix | https://search.nixos.org/packages?channel=unstable&query=openssl&show=openssl | |
 | NLnet Labs | Krill | All | 1.1.1q | Not vuln | https://twitter.com/routinator3000/status/1587517298893520903 | |
 | Node.js | JavaScript Runtime Environment | 17 | 3.x | Investigation | https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md#17.0.0 | Missing from Node.js security update blog post because v17 is EOL |
-| Node.js | JavaScript Runtime Environment | 18 | 3.x | Vulnerable | https://nodejs.org/en/blog/vulnerability/november-2022-security-releases/ | |
-| Node.js | JavaScript Runtime Environment | 19 | 3.x | Vulnerable | https://nodejs.org/en/blog/vulnerability/november-2022-security-releases/ | |
+| Node.js | JavaScript Runtime Environment | <18.12.1 | 3.x | Fix | https://nodejs.org/en/blog/vulnerability/november-2022-security-releases/ | |
+| Node.js | JavaScript Runtime Environment | <19.0.1 | 3.x | Fix | https://nodejs.org/en/blog/vulnerability/november-2022-security-releases/ | |
 | NVIDIA | All | All | Unknown | Investigation | https://nvidia.custhelp.com/app/answers/detail/a_id/5405/~/security-notice%3A-nvidia-response-to-openssl-vulnerabilities---november-2022 | |
 | Octopus Deploy | All | All | 1.x.x | Not vuln | https://octopus.com/blog/octopus-deploy-openssl-response | |
 | Offensive Security | Kali | 2022.3 | 3.0.7-1 | Fix | https://pkg.kali.org/pkg/openssl | |
