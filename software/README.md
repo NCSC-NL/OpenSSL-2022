@@ -450,7 +450,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | OpenVPN | OpenVPN | <= 2.5.7 | < 3.0 | Investigation | https://en.wikipedia.org/wiki/OpenVPN | https://openvpn.net/community-downloads/ Support for OpenSSL 3 in later version: OpenVPN 2.6. | |
 | Oracle | Linux | <= 8 | 1.x | Not vuln | https://linux.oracle.com/errata/ELSA-2022-9683.html | |
 | Oracle | Linux | 8.x | 3.0.1-43 | Fix | https://linux.oracle.com/errata/ELBA-2022-23489.html | Optional package |
-| Oracle | Linux | >= 9.0 | 3.0.1 | Fix | https://linux.oracle.com/errata/ELSA-2022-9968.html | |
+| Oracle | Linux | >= 9.0 | 3.0.1-41.0.3 | Fix | https://linux.oracle.com/errata/ELSA-2022-9968.html | |
 | Palo Alto Networks | AutoFocus | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Bridgecrew | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
 | Palo Alto Networks | Cloud NGFW | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
