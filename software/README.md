@@ -68,7 +68,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Canonical | Ubuntu | focal (20.04 LTS) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?suite=focal&keywords=openssl | |
 | Canonical | Ubuntu | jammy (22.04 LTS) | 3.0.2-0ubuntu1.7 | Fix | https://packages.ubuntu.com/search?suite=jammy&keywords=openssl | |
 | Canonical | Ubuntu | kinetic (22.10) | 3.0.5-2ubuntu2 | Fix | https://packages.ubuntu.com/search?suite=kinetic&keywords=openssl | |
-| Canonical | Ubuntu | Squid | 3.0.5 5 | Vulnerable | https://hub.docker.com/r/ubuntu/squid/tags | |
+| Canonical | Ubuntu | Squid | 3.0.5-2ubuntu2 | Fix | https://hub.docker.com/r/ubuntu/squid/tags | |
 | CentOS | CentOS | 7.9 | 1.0.2 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | CentOS | CentOS | 8 | 1.1.1 | Not vuln| https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | CentOS | CentOS | 9 | 3.0.1-43 | Fix | https://gitlab.com/redhat/centos-stream/rpms/openssl/-/commit/39f800af50db23de7aa01ebd56c8132589ad36a8 | |
