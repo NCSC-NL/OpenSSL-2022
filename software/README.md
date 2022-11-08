@@ -175,18 +175,18 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | F5 Networks | BIG-IP | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | BIG-IP SPK | 1.x | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | BIG-IQ Centralized Management | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
-| F5 Networks | F5OS-A | 1.x | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
-| F5 Networks | F5OS-C | 1.x | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
-| F5 Networks | NGINX API Connectivity Manager | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
-| F5 Networks | NGINX App Protect DoS | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
-| F5 Networks | NGINX App Protect WAF | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
-| F5 Networks | NGINX Controller Application Delivery | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
-| F5 Networks | NGINX Controller API Management | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
-| F5 Networks | NGINX Ingress Controller | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
-| F5 Networks | NGINX Instance Manager | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
-| F5 Networks | NGINX Plus | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
-| F5 Networks | NGINX Service Mesh | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
-| F5 Networks | NGINX Unit | All | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | F5OS-A | 1.x | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | F5OS-C | 1.x | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX API Connectivity Manager | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX App Protect DoS | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX App Protect WAF | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX Controller Application Delivery | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX Controller API Management | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX Ingress Controller | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX Instance Manager | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX Plus | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX Service Mesh | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
+| F5 Networks | NGINX Unit | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | Traffix SDC | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
 | Fedora | Linux | 35 | 1.1.1 | Not vuln | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | | 
 | Fedora | Linux | 36 | 3.0.2-4.fc36 | Fix | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
