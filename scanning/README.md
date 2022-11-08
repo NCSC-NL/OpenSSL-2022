@@ -78,7 +78,7 @@ openssl version
 #### RHEL, Fedora, Oracle, CentOS:
 
 ```
-rpm -qa --queryformat "%{NAME} %{VERSION} %{RELEASE}\n"` | grep openssl
+rpm -qa --queryformat "%{NAME} %{VERSION} %{RELEASE}\n" | grep openssl
 ```
 
 #### Running processes running OpenSSL 3.x 
