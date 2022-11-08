@@ -1,12 +1,13 @@
-# 2022 OpenSSL vulnerability - CVE-2022-3602
+# 2022 OpenSSL vulnerability - CVE-2022-3602/CVE-2022-3786
 
 <img src="spooky.png" alt="Spooky SSL" width="300">
 
-This repo contains operational information regarding the recently announced vulnerability in OpenSSL 3. For more information see:
+This repo contains operational information regarding CVE-2022-3602 and CVE-2022-3786, two vulnerabilities in OpenSSL 3.0.0-3.0.6. For more information see:
 
 - [OpenSSL Security Advisory](https://www.openssl.org/news/secadv/20221101.txt)
 - [OpenSSL Blogpost FAQ](https://www.openssl.org/blog/blog/2022/11/01/email-address-overflows/)
 - [CERT-Bund advisory (DE)](https://www.bsi.bund.de/SharedDocs/Cybersicherheitswarnungen/DE/2022/2022-267005-1032.html)
+- [CISA advisory](https://www.cisa.gov/uscert/ncas/current-activity/2022/11/01/openssl-releases-security-update)
 - [NCSC-NL advisory (NL)](https://www.ncsc.nl/actueel/advisory?id=NCSC-2022-0685)
 - [OpenSSL pre-notification](https://mta.openssl.org/pipermail/openssl-announce/2022-October/000238.html)
 - [OpenSSL release notification](https://mta.openssl.org/pipermail/openssl-announce/2022-November/000241.html)
@@ -24,8 +25,9 @@ Currently no complete overview of vulnerable products is available. Please see [
 ## The product I use is vulnerable to this issue. What should I do?
 For up-to-date information about patches and mitigations, please refer to your product vendor.
 
-## Are there IoCs?
-There are currently no known IoCs that indicate exploitation of this vulnerability. IoCs will be shared - when possible - through this repository. Please see [iocs/README.md](iocs/README.md) for more information.
+## IoCs and Detection
+There are currently no known IoCs that indicate exploitation of this vulnerability. IoCs will be shared - when possible - through this repository.
+For network detection rules please see [iocs_detection/README.md](iocs_detection/README.md).
 
 ## Hall of fame
 
@@ -35,5 +37,8 @@ Below we present a very incomplete list of contributants or sources we consider 
 
 * [SANS](https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/)
 * [SURFcert](https://wiki.surfnet.nl/pages/viewpage.action?pageId=11063492)
-
-* @jspaans91
+* [@jspaans](https://github.com/jspaans91)
+* [@robert-scheck](https://github.com/robert-scheck)
+* [@RobinFlikkema](https://github.com/RobinFlikkema)
+* [@fox-srt](https://github.com/fox-srt)
+* [@Royce Williams](https://github.com/roycewilliams)

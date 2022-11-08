@@ -19,6 +19,14 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Vendor | Product | Version | OpenSSL version | Status | Reference | Notes |
 |--------|---------|---------|-----------------|--------|-----------|-------|
 | 3CX | All | Unknown | Unknown | Not vuln | https://www.3cx.com/community/threads/openssl-warns-of-critical-security-vulnerability.117443/#post-544312 | |
+| A10 Networks | aGalaxy ADC Series | All | Unknown | Not vuln | https://support.a10networks.com/support/security_advisory/tls-ssl-cve-2022-3786-cve-2022-3602 | |
+| A10 Networks | aGalaxy TPS | All | Unknown | Not vuln | https://support.a10networks.com/support/security_advisory/tls-ssl-cve-2022-3786-cve-2022-3602 | |
+| A10 Networks | AX Series | All | Unknown | Not vuln | https://support.a10networks.com/support/security_advisory/tls-ssl-cve-2022-3786-cve-2022-3602 | |
+| A10 Networks | cThunder (Container Thunder) | All | Unknown | Not vuln | https://support.a10networks.com/support/security_advisory/tls-ssl-cve-2022-3786-cve-2022-3602 | |
+| A10 Networks | Enterprise License Manager (ELM) | All | Unknown | Not vuln | https://support.a10networks.com/support/security_advisory/tls-ssl-cve-2022-3786-cve-2022-3602 | |
+| A10 Networks | Harmony Controller | All | Unknown | Not vuln | https://support.a10networks.com/support/security_advisory/tls-ssl-cve-2022-3786-cve-2022-3602 | |
+| A10 Networks | Thunder | All | Unknown | Not vuln | https://support.a10networks.com/support/security_advisory/tls-ssl-cve-2022-3786-cve-2022-3602 | |
+| A10 Networks | vThunder (Virtual Thunder) | All | Unknown | Not vuln | https://support.a10networks.com/support/security_advisory/tls-ssl-cve-2022-3786-cve-2022-3602 | |
 | Acronis | Cyber Protect Cloud | C22.10 | < 3.x | Not vuln | https://security-advisory.acronis.com/advisories/SEC-5299 | |
 | Acronis | Cyber Protect Home Office | 2022 | < 3.x | Not vuln | https://security-advisory.acronis.com/advisories/SEC-5299 | |
 | Acronis | Cyber Protect | 15 | < 3.x | Not vuln | https://security-advisory.acronis.com/advisories/SEC-5299 | |
@@ -32,14 +40,28 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Amazon | Amazon Linux | 2 | 1.0.2k | Not vuln | https://docs.aws.amazon.com/linux/al2022/ug/compare-al2-to-AL2022.html#openssl3 | |
 | Amazon | Amazon Linux | 2022 | 3.0.5-1 | Vulnerable | https://docs.aws.amazon.com/linux/al2022/ug/compare-al2-to-AL2022.html#openssl3 | |
 | Arch | Arch Linux | Core | 1.1.1 | Not vuln | https://archlinux.org/packages/?name=openssl | |
+| Argo Project | Argo CD | 2.5.1 | 3.0.2-0ubuntu1.7 | Fix | https://github.com/argoproj/argo-cd/releases/tag/v2.5.1 | fixes for older versions are in 2.3.11, 2.2.16, 2.4.16 |
 | Arista | All | All | Unknown | Not vuln | https://www.arista.com/en/support/advisories-notices/security-advisory/16339-security-advisory-0081 | |
 | Aruba | All | All | Unknown | Not vuln | https://asp.arubanetworks.com/notifications/Tm90aWZpY2F0aW9uOjEzMjAw;notificationCategory=Security | |
 | ASUSWRT-MERLIN | ASUSWRT-MERLIN | 386/NG | 1.1.1q | Not vuln | https://www.asuswrt-merlin.net/changelog | |
+| Atlassian | Bitbucket Cloud | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584 | |
+| Atlassian | Bitbucket Datacenter | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584 | |
+| Atlassian | Bitbucket Server | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584 | |
+| Atlassian | Confluence Cloud | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584 | |
+| Atlassian | Confluence Datacenter | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584 | |
+| Atlassian | Confluence Server | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584 | |
+| Atlassian | Jira Cloud | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584 | |
+| Atlassian | Jira Datacenter | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584 | |
+| Atlassian | Jira Server | All | Unknown | Investigation | https://community.atlassian.com/t5/Trust-Security-articles/Atlassian-s-Response-to-the-OpenSSLv3-Vulnerability/ba-p/2179584 | |
+| Barracuda | Web Application Firewall Vx | All | 1.1.1 | Not vuln | [Ticket Answer](vendor-statements/openssl_Barracuda-Web-Application-Firewall.png) | |
+| Barracuda | Email Security Gateway Vx  | All | Unknown | Not vuln | [Ticket Answer](vendor-statements/openssl_Barracuda-Email-Secure-Gateway.png) | |
+| Barracuda | Web Security Gateway  | All | Unknown | Not vuln | [Ticket Answer](vendor-statements/openssl_Barracuda-Web-Secure-Gateway.png) | |
 | Bitdefender | Bitdefender Endpoint Security | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
 | Bitdefender | Bitdefender Security for Mobile | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
 | Bitdefender | Bitdefender GravityZone Management Appliance | All | Unknown | Investigation | https://www.bitdefender.com/business/support/en/77209-80152-open-source-software-used-by-bitdefender-enterprise-products.html | |
 | Broadcom | Symantec Endpoint Protection Manager | 14.3 RU5 | 3.0.2 | Vulnerable | https://community.broadcom.com/symantecenterprise/discussion/which-is-the-openssl-version-in-sepm-143-ru5 | |
-| Broadcom | Symantec Endpoint Protection Manager | 14.3 RU6 | 3.0.7 | Not Vulnerable | https://community.broadcom.com/symantecenterprise/discussion/which-is-the-openssl-version-in-sepm-143-ru5 | Fixed version not released yet. |
+| Broadcom | Symantec Endpoint Protection Manager | 14.3 RU6 | 3.0.7 | Not vuln | https://community.broadcom.com/symantecenterprise/discussion/which-is-the-openssl-version-in-sepm-143-ru5 | Fixed version not released yet. |
+| Broadcom | Symantec SiteMinder | All | 1.0.2 | Not vuln | https://knowledge.broadcom.com/external/article/245955/openssl-vulnerability-in-symantec-sitemi.html | |
 | Buildroot | Buildroot | 2022.08.1 | 1.1.1q | Not vuln | https://github.com/buildroot/buildroot/blob/master/package/libopenssl/libopenssl.mk#L7 | OpenSSL 1.1.1q is the default version. |
 | Canonical | Ubuntu | bionic (18.04 LTS) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?suite=bionic&keywords=openssl | |
 | Canonical | Ubuntu | impish (21.10) | 1.1.1 | Not vuln | https://packages.ubuntu.com/search?suite=impish&keywords=openssl | |
@@ -52,28 +74,50 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | CentOS | CentOS | 9 | 3.0.1-43 | Fix | https://gitlab.com/redhat/centos-stream/rpms/openssl/-/commit/39f800af50db23de7aa01ebd56c8132589ad36a8 | |
 | Check Point | All | All | 1.1.1 | Not vuln | https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk92447&partition=Basic&product=All | |
 | Cisco | Application Policy Infrastructure Controller (APIC) | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
-| Cisco | Container Platform | Unknown | Unknown | Investigation | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
+| Cisco | ClamAV | Linux versions | Unknown | Investigation | https://blog.clamav.net/2014/02/introducing-openssl-as-dependency-to.html | |
+| Cisco | ClamAV | Mac versions | Unknown | Investigation | https://blog.clamav.net/2014/02/introducing-openssl-as-dependency-to.html | |
+| Cisco | ClamAV | Windows versions | Unknown | Investigation | https://blog.clamav.net/2014/07/compiling-openssl-for-windows.html | |
+| Cisco | Container Platform | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Cisco | Data Center Network Manager (DCNM) | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Cisco | Elastic Services Controller (ESC) | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
-| Cisco | Evolved Programmable Network Manager | Unknown | Unknown | Investigation | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
+| Cisco | Evolved Programmable Network Manager | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
+| Cisco | HyperFlex HTML Plugin for VMware vCenter | Unknown | 3.x | Vulnerable | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Cisco | HyperFlex System | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
-| Cisco | IoT Field Network Director | Unknown | Unknown | Investigation | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | Formerly known as Connected Grid Network Management System |
+| Cisco | IoT Field Network Director | Unknown | 3.x | Vulnerable | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | Formerly known as Connected Grid Network Management System |
 | Cisco | Nexus Dashboard, formerly known as Application Services Engine | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Cisco | Prime Infrastructure | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
-| Cisco | SD-WAN vAnalytics Software | Unknown | Unknown | Investigation | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
-| Cisco | SD-WAN vManage Software | Unknown | Unknown | Investigation | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
-| Cisco | Ultra Cloud Core - Network Repository Function | Unknown | Unknown | Investigation | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
-| Cisco | Ultra Cloud Core - Policy Control Function | Unknown | Unknown | Investigation | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
+| Cisco | SD-WAN vAnalytics Software | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
+| Cisco | SD-WAN vManage Software | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
+| Cisco | Ultra Cloud Core - Network Repository Function | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
+| Cisco | Ultra Cloud Core - Policy Control Function | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Cisco | Ultra Cloud Core - Redundancy Configuration Manager | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
-| Cisco | Ultra Cloud Core - Serving Gateway Function | Unknown | Unknown | Investigation | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
+| Cisco | Ultra Cloud Core - Serving Gateway Function | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Cisco | Ultra Cloud Core - Subscriber Microservices Infrastructure | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
-| Cisco | Ultra Cloud Core - User Plane Function | Unknown | Unknown | Investigation | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
+| Cisco | Ultra Cloud Core - User Plane Function | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
+| Citrix | Citrix ADC (NetScaler ADC) and Citrix Gateway (NetScaler Gateway)   | Unknown | Unknown | Not vuln | https://support.citrix.com/article/CTX473026/impact-of-open-ssl-30-vulnerabilities-cve20223602-cve20223786-on-citrix-products | |
+| Citrix | Citrix Application Delivery Management (NetScaler MAS)   | Unknown | Unknown | Investigation | https://support.citrix.com/article/CTX473026/impact-of-open-ssl-30-vulnerabilities-cve20223602-cve20223786-on-citrix-products | |
+| Citrix | Citrix Cloud Connector   | Unknown | Unknown | Not vuln | https://support.citrix.com/article/CTX473026/impact-of-open-ssl-30-vulnerabilities-cve20223602-cve20223786-on-citrix-products | |
+| Citrix | Citrix Connector Appliance for Cloud Services   | Unknown | Unknown | Not vuln | https://support.citrix.com/article/CTX473026/impact-of-open-ssl-30-vulnerabilities-cve20223602-cve20223786-on-citrix-products | |
+| Citrix | Citrix Connector Appliance for Cloud Services   | Unknown | Unknown | Investigation | https://support.citrix.com/article/CTX473026/impact-of-open-ssl-30-vulnerabilities-cve20223602-cve20223786-on-citrix-products | |
+| Citrix | Citrix Endpoint Management (Citrix XenMobile Server)   | Unknown | Unknown | Not vuln | https://support.citrix.com/article/CTX473026/impact-of-open-ssl-30-vulnerabilities-cve20223602-cve20223786-on-citrix-products | |
+| Citrix | Citrix Hypervisor (XenServer)   | Unknown | Unknown | Not vuln | https://support.citrix.com/article/CTX473026/impact-of-open-ssl-30-vulnerabilities-cve20223602-cve20223786-on-citrix-products | |
+| Citrix | Citrix License Server   | Unknown | Unknown | Not vuln | https://support.citrix.com/article/CTX473026/impact-of-open-ssl-30-vulnerabilities-cve20223602-cve20223786-on-citrix-products | |
+| Citrix | Citrix SD-WAN   | Unknown | Unknown | Investigation | https://support.citrix.com/article/CTX473026/impact-of-open-ssl-30-vulnerabilities-cve20223602-cve20223786-on-citrix-products | |
+| Citrix | Citrix ShareFile StorageZones Controller   | Unknown | Unknown | Investigation | https://support.citrix.com/article/CTX473026/impact-of-open-ssl-30-vulnerabilities-cve20223602-cve20223786-on-citrix-products | |
+| Citrix | Citrix Virtual Apps and Desktops (XenApp & XenDesktop)   | Unknown | Unknown | Investigation | https://support.citrix.com/article/CTX473026/impact-of-open-ssl-30-vulnerabilities-cve20223602-cve20223786-on-citrix-products | |
+| Citrix | Citrix Workspace App for Linux   | Unknown | Unknown | Not vuln | https://support.citrix.com/article/CTX473026/impact-of-open-ssl-30-vulnerabilities-cve20223602-cve20223786-on-citrix-products | |
+| Citrix | Citrix Workspace App for Mac   | Unknown | Unknown | Not vuln | https://support.citrix.com/article/CTX473026/impact-of-open-ssl-30-vulnerabilities-cve20223602-cve20223786-on-citrix-products | |
+| Citrix | Citrix Workspace App for Windows   | Unknown | Unknown | Investigation | https://support.citrix.com/article/CTX473026/impact-of-open-ssl-30-vulnerabilities-cve20223602-cve20223786-on-citrix-products | |
+| Cloudflare | all | all | Unknown | Not vuln | https://blog.cloudflare.com/cloudflare-is-not-affected-by-the-openssl-vulnerabilities-cve-2022-3602-and-cve-2022-37/ | |
 | Code42 | Incydr | ALL | 1.x | Not vuln | [Code42 Response to Industry Security Incidents](https://support.code42.com/Terms_and_conditions/Code42_customer_support_resources/Code42_response_to_industry_security_incidents) | |
+| cPanel | All | All | Unknown | Not vuln | https://support.cpanel.net/hc/en-us/articles/4416312844055-Is-cPanel-affected-by-OpenSSL-Security-Advisory-CVE-2021-4044- | |
+| cURL | curl for Windows | 7.79.0 - 7.86.0 | 3.x | Vulnerable | https://github.com/curl/curl-for-win/commit/0166991c20bee16f9d334151669a9839fae1d8ed | Fixed in 7.86.0_1 build |
 | Debian | Debian | 9 "Stretch"	| 1.1.0 | Not vuln | https://packages.debian.org/stretch/openssl	| |
 | Debian | Debian | 10 "Buster"	| 1.1.1	| Not vuln | https://packages.debian.org/buster/openssl | |
 | Debian | Debian | 11 "Bullseye"	| 1.1.1	| Not vuln | https://packages.debian.org/bullseye/openssl | |
 | Debian | Debian | 12 "Bookworm" | 3.x | Vulnerable | https://packages.debian.org/bookworm/openssl | _testing_ (not yet released) |
 | Deciso B.V. | OPNsense | 22 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ |
+| DigiCert | all | all | Unknown | Not vuln | https://www.digicert.com/blog/openssl-releases-patch-for-high-level-vulnerability-in-3-0-and-above | |
 | Dockerhub | aerospike | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
 | Dockerhub | alpine | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
 | Dockerhub | arangodb | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
@@ -169,6 +213,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Dockerhub | ubuntu | latest | 3.0.2 | Vulnerable | https://dso.docker.com/cve/DSA-2022-0001 | pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.6?os_distro=jammy&os_name=ubuntu&os_version=22.04; ; Instruction: /bin/sh -c #(nop) ADD file:ba96f963bbfd429a0839c40603fdd7829eaca58f20adfa0d15e6beae8244bc08 in /; Layer 0: sha256:301a8b74f71f85f3a31e9c7e7fedd5b001ead5bcf895bc2911c1d260e06bd987 |
 | Dockerhub | websphere-liberty | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
 | Dockerhub | wordpress | latest | < 3.x | Not vuln | https://dso.docker.com/cve/DSA-2022-0001 |  |
+| Dynatrace | All | All | Unknown | Not vuln | https://www.dynatrace.com/news/security-alert/openssl-3-x-vulnerability/ | |
+| Elastic | All | All | OpenSSL Unknown | Not vuln | https://discuss.elastic.co/t/elastic-security-statement-for-openssl-cve-2022-3786-and-cve-2022-3602-openssl-version-3-0-7/318039 | |
 | EuroLinux | EuroLinux | 8 | 1.1.1k | Not vuln | https://vault.cdn.euro-linux.com/sources/eurolinux/8/baseos/x86_64/Packages/o/openssl-1.1.1k-7.el8_6.src.rpm | |
 | EuroLinux | EuroLinux | 9 | 3.0.1 | Vulnerable | https://fbi.cdn.euro-linux.com/dist/eurolinux/server/9/x86_64/BaseOS/all/Packages/o/openssl-3.0.1-41.el9_0.x86_64.rpm | |
 | Esri | ArcGIS | All | Unknown | Investigation | https://www.esri.com/arcgis-blog/products/trust-arcgis/administration/openssl-v3-vulnerability/ | |
@@ -188,22 +234,22 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | F5 Networks | NGINX Service Mesh | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | NGINX Unit | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | Traffix SDC | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
-| Fedora | Linux | 35 | 1.1.1 | Not vuln | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | | 
+| Fedora | Linux | 35 | 1.1.1 | Not vuln | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | 36 | 3.0.2-4.fc36 | Fix | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | 37 | 3.0.5-2.fc37 | Fix | https://packages.fedoraproject.org/pkgs/openssl/openssl/ | |
 | Fedora | Linux | Rawhide | 3.0.5-6.fc38 | Fix | https://packages.fedoraproject.org/pkgs/openssl/openssl/fedora-rawhide.html | |
 | Fedora | EPEL | 7 | 1.1.1k | Not vuln | https://packages.fedoraproject.org/pkgs/openssl11/openssl11/ | |
 | Fedora | EPEL | 8 | 3.0.1-43 | Fix | https://bodhi.fedoraproject.org/updates/FEDORA-EPEL-2022-e228f64914 | |
-| FileCap | FileCap Server | All | < 3.x | Not vuln | https://github.com/NCSC-NL/OpenSSL-2022/blob/main/software/vendor-statements/FileCap.png | | 
-| Fortinet | FortiADC | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiADCManager | All | n.a. | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| FileCap | FileCap Server | All | < 3.x | Not vuln | https://github.com/NCSC-NL/OpenSSL-2022/blob/main/software/vendor-statements/FileCap.png | |
+| Fortinet | FortiADC | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiADCManager | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiAIOps | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiAnalyzer | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiAnalyzer-BigData | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiAnalyzer Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiAP | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiAP-C | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiAPCloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiAPCloud | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiAP-S | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiAP-U | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiAuthenticator | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
@@ -214,16 +260,16 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Fortinet | FortiClientLinux | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiClientMac | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiClientWindows | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiCloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiCloud | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiConnect | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiConverter | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiDDoS | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiDDoS-F | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiDDoS | Unknown | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiDDoS-F | Unknown | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiDeceptor | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiDevSec | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiEdge | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiEDR | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiExtender Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
+| Fortinet | FortiExtender Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiFone | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiGuest | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiInsight | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
@@ -231,11 +277,12 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Fortinet | FortiLANCloud | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiMail | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiManager | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiManager Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
+| Fortinet | FortiManager Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiMoM | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiNAC | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiNDR | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiOS | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiOS | <= 7.2.0 | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiOS | >= 7.2.1 | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiPAM | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiPentest | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiPhish | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
@@ -245,23 +292,23 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Fortinet | FortiProxy | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiRecorder | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiSandbox | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiSandbox Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
-| Fortinet | FortiSASE | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiSandbox Cloud | Unknown | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiSASE | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiSIEM | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiSOAR | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiSwitch | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
-| Fortinet | FortiSwitchManager | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
-| Fortinet | FortiSwitch Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
+| Fortinet | FortiSwitch | Unknown | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiSwitchManager | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiSwitch Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiTester | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiTokenAndroid | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiToken Cloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
+| Fortinet | FortiToken Cloud | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiTokenIOS | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiVoiceEnterprise | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiVoiceUC | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiVoiceUCDesktop | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiWAN | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiWeb | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
-| Fortinet | FortiWebCloud | Unknown | Unknown | Investigation | https://www.fortiguard.com/psirt/FG-IR-22-419 | | 
+| Fortinet | FortiWebCloud | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiWebManager | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiWLC | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
 | Fortinet | FortiWLM | All | Unknown | Not vuln | https://www.fortiguard.com/psirt/FG-IR-22-419 | |
@@ -269,6 +316,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | FreeBSD | FreeBSD | 12 | 1.1.1q | Not vuln | https://pkg.freebsd.org/FreeBSD:12:amd64/quarterly/All/openssl-1.1.1q,1.pkg| |
 | Gentoo Foundation | Gentoo Linux | Rolling | 1.1.1s | Not vuln | https://packages.gentoo.org/packages/dev-libs/openssl | |
 | Gentoo Foundation | Gentoo Linux | Rolling | 3.0.7 | Fix | https://packages.gentoo.org/packages/dev-libs/openssl | |
+| GitLab B.V. | Gitlab | 15.5.2, 15.4.4, and 15.3.5 | 3.0.2-0ubuntu1.7 | Fix | https://about.gitlab.com/releases/2022/11/02/security-release-gitlab-15-5-2-released/ | "The version of openssl has been updated to 3.0.2-0ubuntu1.7 in order to mitigate security concerns." |
+| Governikus | Ausweis 2 | 1.24.4 | 3.0.7 | Fix | https://github.com/Governikus/AusweisApp2/releases/tag/1.24.4 | OpenSSL 3.0.5 was intruduced with Version 1.24 |
 | HashiCorp| All | Unknown | Unknown | Not vuln | https://discuss.hashicorp.com/t/hcsec-2022-27-hashicorp-response-to-openssl-security-announcement-regarding-november-1-release/46192/3 | |
 | Homebrew | Brew | openssl@3 | 3.0.7 | Fix | https://formulae.brew.sh/formula/openssl@3 | |
 | Huawei | openEuler | 20.03 LTS | 1.1.1d | Not vuln | https://www.openeuler.org/en/security/safety-bulletin/detail/?id=openEuler-SA-2022-1833 | |
@@ -278,30 +327,124 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | IBM | Websphere Application Server | All | Unknown | Not vuln | https://www.ibm.com/support/pages/node/6832478 | |
 | IBM | Liberty | All | Unknown | Not vuln | https://www.ibm.com/support/pages/node/6832478 | |
 | IBM | HTTP Server | All | Unknown | Not vuln | https://www.ibm.com/support/pages/node/6832478 | |
+| Icinga | Icinga | Linux versions | from OS | Not vuln | https://icinga.com/blog/2022/11/03/how-the-current-openssl-vulnerabilities-affect-icinga | Uses OS OpenSSL |
+| Icinga | Icinga | Windows versions | 1.1.1 | Not vuln | https://icinga.com/blog/2022/11/03/how-the-current-openssl-vulnerabilities-affect-icinga | |
 | Infoblox | BloxOne | All | Unknown | Not vuln | https://support.infoblox.com/s/article/000008377 | |
 | Infoblox | NetMRI | All | Unknown | Not vuln | https://support.infoblox.com/s/article/000008377 | |
 | Infoblox | NIOS | All | Unknown | Not vuln | https://support.infoblox.com/s/article/000008377 | |
 | Intel | System Usage Report (Codename: Queencreek) | 2.4.0.8919 | 3.0.2 | Vulnerable | [Local Proof](vendor-statements/openssl_queencreek.png) | |
+| Ivanti | All | Unknown | Unknown | Not vuln | https://www.ivanti.com/blog/openssl-3-0-x-security-vulnerability-impact-on-ivanti-solutions | |
+| JFrog | All | All | Unknown | Not vuln | https://jfrog.com/knowledge-base/upcoming-openssl-3-x-critical-vulnerability/ |  |
 | Juniper | JunOS| All | Unknown | Not vuln | https://supportportal.juniper.net/s/article/2022-11-Out-of-Cycle-Security-Bulletin-High-severity-security-issues-resolved-in-OpenSSL-3-0-7-CVE-2022-3602-CVE-2022-3786?language=en_US | |
 | Juniper | JunOS Evolved | >22.1R1-EVO | Unknown | Workaround | https://supportportal.juniper.net/s/article/2022-11-Out-of-Cycle-Security-Bulletin-High-severity-security-issues-resolved-in-OpenSSL-3-0-7-CVE-2022-3602-CVE-2022-3786?language=en_US | |
 | KaOS | KaOS | rolling | 1.1.1.18 | Not vuln | http://mirror6.layerjet.com/kaos/core/openssl-1.1.1.18-1-x86_64.pkg.tar.zst| |
+| KeePassXC | KeePassXC (Windows) | 2.7.4 | 3.0.5 | Vulnerable | https://github.com/keepassxreboot/keepassxc/issues/8728 | To be fixed in 2.7.5 |
 | Kemp | LoadMaster | 7.2.58 | 1.1.1n | Not vuln | https://support.kemptechnologies.com/hc/en-us/articles/10228770842637-Current-OpenSSL-Version-for-LoadMaster | |
+| Lacework | Linux Agent Docker Image | 6.1.2 | 3.0.2-0ubuntu1.7 | Fix | https://docs.lacework.com/critical-openssl-vulnerability-linux-agent/ | |
 | Linux Mint | Linux Mint | 21 Vanessa | 3.0.2 | Vulnerable | http://packages.linuxmint.com/search.php?release=vanessa&section=any&keyword=openssl | |
-| Mageia | Mageia | 8 | 1.1.1q | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/8/x86_64/media/core/updates/openssl-1.1.1q-1.mga8.x86_64.rpm| |
-| Mageia | Mageia | cauldron | 3.0.5 | Vulnerable | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/cauldron/x86_64/media/core/release/openssl-3.0.5-1.mga9.x86_64.rpm| |
+| Mageia | Mageia | 8 | 1.1.1q | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/8/x86_64/media/core/updates/openssl-1.1.1q-1.mga8.x86_64.rpm | |
+| Mageia | Mageia | cauldron | 3.0.5-2 | Fix | https://mageia.pkgs.org/cauldron/mageia-core-release-x86_64/openssl-3.0.5-2.mga9.x86_64.rpm.html | |
+| Mend | All | All | Unknown | Not vuln | https://www.mend.io/resources/blog/advisory-new-openssl-critical-security-vulnerability/ | |
 | Nasuni | Edge Appliance | All | Unknown | Not vuln | https://trustcenter.nasuni.com/?tcuUid=495df3df-eb99-44cf-9d8b-6ac7a3944cd7 | |
 | Nasuni | Management Console | All | Unknown | Not vuln | https://trustcenter.nasuni.com/?tcuUid=495df3df-eb99-44cf-9d8b-6ac7a3944cd7 | |
+| NetApp | 7-Mode Transition Tool | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | AFF Baseboard Management Controller (BMC) - A700s | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | ATTO FibreBridge | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Active IQ Unified Manager for Linux | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Active IQ Unified Manager for Microsoft Windows | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Active IQ Unified Manager for VMware vSphere | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Active IQ mobile app | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Astra Control Center - NetApp Kubernetes Monitoring Operator | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Astra Trident | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Astra Trident Autosupport | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | BeeGFS CSI Driver | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Brocade Fabric Operating System Firmware | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Brocade SAN Navigator (SANnav) | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Cloud Backup OST Plug-in (formerly AltaVault OST Plug-in) | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Cloud Data Sense | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Cloud Insights Acquisition Unit | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Cloud Insights Telegraf Agent | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Cloud Manager | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Cloud Secure Agent | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Cloud Volumes ONTAP Mediator | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Clustered Data ONTAP | All | Unknown | Vulnerable | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Clustered Data ONTAP Antivirus Connector | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Converged Systems Advisor Agent | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | E-Series BeeGFS Collection | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | E-Series BIOS | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | E-Series Host Collection | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | E-Series Performance Analyzer | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | E-Series SANtricity Collection | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | E-Series SANtricity OS Controller Software 11.x | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | E-Series SANtricity Storage Manager | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | E-Series SANtricity Unified Manager and Web Services Proxy | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Element .NET SDK | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Element HealthTools | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Element JAVA SDK | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Element Plug-in for vCenter Server | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Element Powershell Tools | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Element Python SDK | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | FAS/AFF Baseboard Management Controller (BMC) | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | FAS/AFF BIOS | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | FAS/AFF Service Processor | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Global File Cache | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | HCI Baseboard Management Controller (BMC) | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | HCI Compute Node (Bootstrap OS) | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | HCI Compute Node BIOS | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | HCI Storage Node BIOS | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Host Utilities - SAN for Linux | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Host Utilities - SAN for Windows | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Interoperability Matrix Tool | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Inventory Collect Tool | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Kubernetes Monitoring Operator | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Manageability SDK | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Management Services for Element Software and NetApp HCI | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | MetroCluster Tiebreaker for clustered Data ONTAP | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Multipath I/O (SANtricity DSM for Windows MPIO) | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | NFS Plug-in for VMware VAAI | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | ONTAP Mediator | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | ONTAP Select Deploy administration utility | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | ONTAP tools for VMware vSphere | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | OnCommand Insight | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | OnCommand Workflow Automation | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Open Systems SnapVault Agent | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SANtricity SMI-S Provider | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SANtricity Storage Plugin for vCenter | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SAS Firmware | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SRA Plugin for Linux | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SRA Plugin for Windows | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Single Mailbox Recovery | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SMI-S Provider | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Snap Creator Framework | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SnapCenter | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SnapCenter Plug-in for VMware vSphere | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SnapManager for Hyper-V | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SolidFire & HCI Management Node | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SolidFire & HCI Storage Node (Element Software) | All | Unknown | Investigation | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SolidFire Plug-in for vRealize Orchestrator (SolidFire vRO) | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | SolidFire Storage Replication Adapter | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Spot PC | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Storage Services Connector | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | StorageGRID (formerly StorageGRID Webscale) | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | StorageGRID BIOS | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | StorageGRID Baseboard Management Controller (BMC) | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | System Manager 9.x | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | Virtual Desktop Service (VDS) | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | XCP NFS | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
+| NetApp | XCP SMB | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
 | NetBSD | NetBSD | 9 | 1.1.1k | Not vuln | https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.3/CHANGES-9.2 |
 | NetBSD | NetBSD | 8 | 1.0.2k | Not vuln | https://netbsd.org/releases/formal-8/NetBSD-8.0.html |
 | NetBSD | pkgsrc | - | 1.1.1q | Not vuln | https://cdn.netbsd.org/pub/pkgsrc/current/pkgsrc/security/openssl/index.html|
 | Netgate | pfSense | All | 1.1.1l | Not vuln | https://forum.netgate.com/topic/175585/does-pfsense-use-openssl-3-x-at-all/4 | |
 | NixOS | NixOS | 22.05 | 1.1.1q | Not vuln | https://search.nixos.org/packages?channel=22.05&query=openssl&show=openssl | There are exceptions, e.g., nginx is built against OpenSSL 3! |
-| NixOS | NixOS | unstable | 3.0.5 | Vulnerable | https://search.nixos.org/packages?channel=unstable&query=openssl&show=openssl | |
+| NixOS | NixOS | unstable | 3.0.7 | Fix | https://search.nixos.org/packages?channel=unstable&query=openssl&show=openssl | |
 | NLnet Labs | Krill | All | 1.1.1q | Not vuln | https://twitter.com/routinator3000/status/1587517298893520903 | |
 | Node.js | JavaScript Runtime Environment | 17 | 3.x | Investigation | https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V17.md#17.0.0 | Missing from Node.js security update blog post because v17 is EOL |
-| Node.js | JavaScript Runtime Environment | 18 | 3.x | Investigation | https://nodejs.org/zh-cn/blog/vulnerability/openssl-november-2022/ ||
-| Node.js | JavaScript Runtime Environment | 19 | 3.x | Investigation | https://nodejs.org/zh-cn/blog/vulnerability/openssl-november-2022/ ||
-| Offensive Security | Kali | 2022.3 | 3.0.5 | Vulnerable | https://pkg.kali.org/pkg/openssl | 
+| Node.js | JavaScript Runtime Environment | <18.12.1 | 3.x | Fix | https://nodejs.org/en/blog/vulnerability/november-2022-security-releases/ | |
+| Node.js | JavaScript Runtime Environment | <19.0.1 | 3.x | Fix | https://nodejs.org/en/blog/vulnerability/november-2022-security-releases/ | |
+| NVIDIA | All | All | Unknown | Investigation | https://nvidia.custhelp.com/app/answers/detail/a_id/5405/~/security-notice%3A-nvidia-response-to-openssl-vulnerabilities---november-2022 | |
+| Octopus Deploy | All | All | 1.x.x | Not vuln | https://octopus.com/blog/octopus-deploy-openssl-response | |
+| Offensive Security | Kali | 2022.3 | 3.0.7-1 | Fix | https://pkg.kali.org/pkg/openssl | |
 | OpenMandriva | OpenMandriva | 4.3 | 3.0.3 | Vulnerable | http://abf-downloads.openmandriva.org/4.3/repository/x86_64/main/updates/openssl-3.0.3-1-omv4003.x86_64.rpm| |
 | OpenMandriva | OpenMandriva | 4.2 | 3.0.0 | Vulnerable | http://abf-downloads.openmandriva.org/4.2/repository/x86_64/main/updates/openssl-3.0.0-0.alpha17.1-omv4002.x86_64.rpm| |
 | OpenMandriva | OpenMandriva | rolling | 3.0.6 | Vulnerable | http://abf-downloads.openmandriva.org/rolling/repository/x86_64/main/release/openssl-3.0.6-1-omv4050.x86_64.rpm| |
@@ -309,18 +452,19 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | OpenSUSE | Leap | 15.2 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | OpenSUSE | Leap | 15.3 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | OpenSUSE | Leap | 15.4 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
-| OpenSUSE | OpenSUSE | tumbleweed | 3.0.5 | Vulnerable | https://software.opensuse.org/package/openssl-3 | |
+| OpenSUSE | Leap | 15.4 | 3.0.1-150400.4.11.1 | Fix | https://lists.suse.com/pipermail/sle-security-updates/2022-November/012796.html | Optional package |
+| OpenSUSE | OpenSUSE | tumbleweed | 3.0.7 | Fix | https://software.opensuse.org/package/openssl-3 | |
 | OpenVPN | OpenVPN | <= 2.5.7 | < 3.0 | Investigation | https://en.wikipedia.org/wiki/OpenVPN | https://openvpn.net/community-downloads/ Support for OpenSSL 3 in later version: OpenVPN 2.6. | |
 | Oracle | Linux | <= 8 | 1.x | Not vuln | https://linux.oracle.com/errata/ELSA-2022-9683.html | |
-| Oracle | Linux | 8.x | 3.0.1 | Vulnerable | https://linux.oracle.com/errata/ELBA-2022-22325.html | Optional package |
-| Oracle | Linux | >= 9.0 | 3.0.1 | Fix | https://linux.oracle.com/errata/ELSA-2022-9968.html | |
+| Oracle | Linux | 8.x | 3.0.1-43 | Fix | https://linux.oracle.com/errata/ELBA-2022-23489.html | Optional package |
+| Oracle | Linux | >= 9.0 | 3.0.1-41.0.3 | Fix | https://linux.oracle.com/errata/ELSA-2022-9968.html | |
 | Palo Alto Networks | AutoFocus | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
-| Palo Alto Networks | Bridgecrew | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
-| Palo Alto Networks | Cloud NGFW | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
-| Palo Alto Networks | Cortex Data Lake	| * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
-| Palo Alto Networks | Cortex XDR Agent	| * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
-| Palo Alto Networks | Cortex Xpanse | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
-| Palo Alto Networks | Cortex XSOAR | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | | 
+| Palo Alto Networks | Bridgecrew | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Cloud NGFW | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Cortex Data Lake	| * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Cortex XDR Agent	| * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Cortex Xpanse | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Cortex XSOAR | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Enterprise Data Loss Prevention | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Exact Data Matching CLI	 | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Expanse | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
@@ -329,6 +473,8 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Palo Alto Networks | IoT Security | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Okyo Garde | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Palo Alto Networks App for Splunk | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | PAN-OS | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
+| Palo Alto Networks | Prisma Access | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Prisma Cloud | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Prisma Cloud Compute | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Palo Alto Networks | Prisma SD-WAN ION | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
@@ -339,18 +485,60 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Palo Alto Networks | WildFire Cloud | * | < 3.X | Not vuln | https://security.paloaltonetworks.com/PAN-SA-2022-0006 | |
 | Paessler | PRTG Network Monitor | latest | Unknown | Not vuln | [Local Proof](vendor-statements/openssl_paessler_prtg.jpg) | |
 | PCLinuxOS | PCLinuxOS | rolling | 1.1.1q | Not vuln | https://ftp.nluug.nl/pub/os/Linux/distr/pclinuxos/pclinuxos/apt/pclinuxos/64bit/RPMS.x86_64/openssl-1.1.1q-1pclos2022.x86_64.rpm| |
-| PHP | PHP | < 8.1 | < 3.0 | Not vuln | https://www.php.net/manual/en/openssl.requirements.php | | 
+| PHP | PHP | < 8.1 | < 3.0 | Not vuln | https://www.php.net/manual/en/openssl.requirements.php | |
 | PHP	| PHP	| >= 8.1 | Unknown | Investigation | https://www.php.net/manual/en/openssl.requirements.php | |
+| Progress | Chef | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Corticon | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | DataDirect+(all+components) | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | iMail | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | IMacros | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Fiddler+/+Fiddler+Everywhere | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Flowmon | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Kemp360+(Central,+Vision) | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Kemp+LoadMaster | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Kendo+UI | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Kinvey | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | MessageWay | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | MOVEit/+MOVEit+Cloud | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | NativeChat | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | OpenEdge | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Sitefinity+(all+components) | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Telerik+(Developer+Tools) | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | ThemeBuilder+/+Unite+UX | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | Test+Studio | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | WhatsUp+Gold | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
+| Progress | WS_FTP | All | Unknown | Not vuln | https://www.progress.com/security/openssl-vulnerability-2022-11-01 | |
 | Proxmox Server Solutions GmbH| Proxmox | 6 | 1.1.1 | Not vuln | https://isc.sans.edu/diary/Upcoming+Critical+OpenSSL+Vulnerability+What+will+be+Affected/29192/ | |
 | Proxmox Server Solutions GmbH| Proxmox | 7 | 1.1.1 | Not vuln | https://www.proxmox.com/en/news/press-releases/proxmox-virtual-environment-7-0 (EN) |Based on Debian 11, no custom OpenSSL version used. |
-| Red Hat | Enterprise Linux | <= 8 | 1.x	| Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004	| | 
-| Red Hat | Enterprise Linux | >= 9.0 | 3.0.1-43	| Fix | https://access.redhat.com/errata/RHSA-2022:7288	| | 
+| PulseSecure (Ivanti) | All | Unknown | Unknown | Not vuln | https://kb.pulsesecure.net/articles/Pulse_Secure_Article/OpenSSL-3-0-x-Vulnerability-Ivanti-Product-Impact1/?kA13Z000000FseL | |
+| Red Hat | Enterprise Linux | <= 8 | 1.x	| Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004	| |
+| Red Hat | Enterprise Linux | >= 9.0 | 3.0.1-43	| Fix | https://access.redhat.com/errata/RHSA-2022:7288	| |
 | Red Hat | OpenShift Container Platform | => 4.0 | 1.1.1 | Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | |
 | Red Hat | Universal Base Images | <= 8 | 1.x | Not vuln | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | |
-| Red Hat | Universal Base Images | >= 9.0 | 3.x | Vulnerable | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | |
+| Red Hat | Universal Base Images | >= 9.0.0-1690 | 3.0.1-43 | Fix | https://access.redhat.com/security/vulnerabilities/RHSB-2022-004 | Updated container information: https://catalog.redhat.com/software/containers/ubi9/618326f8c0d15aff4912fe0b?container-tabs=packages |
+| RedGate | All | * | Unknown | Not vuln | [Local Proof](vendor-statements/openssl_redgate_all.png) | |
 | Rocky Enterprise Software Foundation | Rocky Linux | 8.0 | 1.1.1k | Not vuln | https://dl.rockylinux.org/pub/rocky/8/BaseOS/x86_64/os/Packages/o/openssl-1.1.1k-7.el8_6.x86_64.rpm| |
 | Rocky Enterprise Software Foundation | Rocky Linux | 9.0 (Blue Onyx) | 3.0.1-43 | Fix | https://dl.rockylinux.org/pub/rocky/9/BaseOS/x86_64/os/Packages/o/openssl-3.0.1-43.el9_0.x86_64.rpm| |
-| PulseSecure (Ivanti) | All | Unknown | Unknown | Not vuln | https://kb.pulsesecure.net/articles/Pulse_Secure_Article/OpenSSL-3-0-x-Vulnerability-Ivanti-Product-Impact1/?kA13Z000000FseL | |
+| RSA (SecurID) | Access Manager | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Authentication Manager | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Authentication Agents | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Authentication Manager Prime (Packaged Solution) | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Authentication Manager Web Tier (a component of RSA Authentication Manager) | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Cloud Authentication Service | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Identity Router (a component of Cloud Authentication Service) | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Hardware and Software Authenticators | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Governance and Lifecycle (RSA G&L) | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Governance and Lifecycle Cloud (RSA G&L Cloud) | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| RSA (SecurID) | Governance and Lifecycle Data Reach (Packaged Solution) | All | Unknown | Not vuln | https://community.rsa.com/t5/securid-product-advisories/rsa-customer-advisory-openssl-3-0-7-security-patch-cve-2022-3786/ta-p/689811 | |
+| SailPoint | IdentityNow (IDN) | All | 3.x.x | Vulnerable | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
+| SailPoint | IdentityAI (IAI) | All | 3.x.x | Vulnerable | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
+| SailPoint | IDN Virtual Appliance (VA) | All | 3.x.x | Vulnerable | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
+| SailPoint | IdentityIQ | All | Unknown | Not vuln | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
+| SailPoint | Cloud Access Manager | All | Unknown | Not vuln | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
+| SailPoint | File Access Manager | All | Unknown | Not vuln | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
+| SailPoint | Access Risk Management | All | Unknown | Not vuln | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
+| SailPoint | SaaS Management | All | Unknown | Not vuln | https://community.sailpoint.com/t5/Community-Announcements/OpenSSL-3-0-x-high-severity-vulnerabilities-CVE-2022-3786-and/ba-p/224261 | |
+| Sectigo | All | All | Unknown | Not vuln | https://sectigo.com/resource-library/openssl-vulnerability-patch-released | |
 | Slackware | Slackware Linux | 14.1 | 1.0.1e | Not vuln | https://slackware.uk/slackware/slackware64-14.1/slackware64/n/openssl-1.0.1e-x86_64-1.txz| |
 | Slackware | Slackware Linux | 14.2 | 1.0.2h | Not vuln | https://slackware.uk/slackware/slackware64-14.2/slackware64/n/openssl-1.0.2h-x86_64-1.txz| |
 | Slackware | Slackware Linux | 15.0 | 1.1.1q | Not vuln | https://slackware.uk/slackware/slackware64-15.0/patches/packages/openssl-1.1.1q-x86_64-1_slack15.0.txz| |
@@ -400,16 +588,57 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | SonicWall | TZ570/W | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | TZ670 | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | Global VPN Client | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
+| Sophos | All | All | Unknown | Not vuln | https://www.sophos.com/en-us/security-advisories/sophos-sa-20221031-openssl-vuln | [Further Information in Community Post](https://community.sophos.com/utm-firewall/f/general-discussion/137121/openssl-security-update-announced/509354) |
 | SpamTitan | SpamTitan | All |  1.1.1n | Not vuln | https://helpdesk.spamtitan.com/support/solutions/articles/4000188396-spamtitan-not-susceptible-to-openssl-3-0-7| |
 | SPI | adelie | 1.0 | 1.1.1g | Not vuln | https://distfiles.adelielinux.org/adelie/1.0/system/x86_64/openssl-1.1.1g-r0.apk| |
-| Splunk | Splunk Enterprise | <= 9.0.1 | <= 1.0.2zd | Not vuln | https://docs.splunk.com/images/9/91/Splunk_Enterprise_3rd_Party_Software_900.pdf | |
-| Splunk | Universal Forwarder | <= 9.0.x | <= 1.0.2zd | Not vuln | https://docs.splunk.com/images/9/91/Splunk_Enterprise_3rd_Party_Software_900.pdf | |
+| Splunk | All | All | Unknown | Not vuln | https://www.splunk.com/en_us/product-security/announcements/svd-2022-1114.html | |
+| SUSE | Enterprise Linux Desktop | <= 15 SP4 | <= 1.1.1l | Not vuln | https://www.suse.com/support/kb/doc/?id=000019582 | |
+| SUSE | Enterprise Linux Desktop | 15 SP4 | 3.0.1-150400.4.11.1 | Fix | https://lists.suse.com/pipermail/sle-security-updates/2022-November/012796.html | Optional package |
 | SUSE | Enterprise Linux Server | <= 15 SP4 | <= 1.1.1l | Not vuln | https://www.suse.com/support/kb/doc/?id=000019582 | |
-| SUSE | Enterprise Linux Server | 15 SP4 | 3.0.1 | Vulnerable | https://www.suse.com/support/kb/doc/?id=000019582 | Optional package |
+| SUSE | Enterprise Linux Server | 15 SP4 | 3.0.1-150400.4.11.1 | Fix | https://lists.suse.com/pipermail/sle-security-updates/2022-November/012796.html | Optional package |
+| SUSE | Manager Proxy | 4.3 | 3.0.1-150400.4.11.1 | Fix | https://lists.suse.com/pipermail/sle-security-updates/2022-November/012796.html | Optional package |
+| SUSE | Manager Server | 4.3 | 3.0.1-150400.4.11.1 | Fix | https://lists.suse.com/pipermail/sle-security-updates/2022-November/012796.html | Optional package |
 | Synacor | Zimbra Email & Collaboration | <= 8.8.15 | 1.1.1q | Not vuln | https://wiki.zimbra.com/wiki/Zimbra_Releases/8.8.15/P34 | |
 | Synacor | Zimbra Email & Collaboration | 9.0.0 | 1.1.1q | Not vuln | https://wiki.zimbra.com/wiki/Zimbra_Releases/9.0.0/P27 | |
-| Tenable | All | Unknown | Unknown | Investigation | https://www.tenable.com/blog/cve-2022-3786-and-cve-2022-3602-openssl-patches-two-high-severity-vulnerabilities | | 
-| Trend Micro | Unknown | Unknown| Unknown | Investigation | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Synology | All | Unkown | Unkown | Not vuln | https://www.synology.com/en-global/security/advisory/Synology_SA_22_21 | |
+| Tanium | All | All | < 3.x | Not vuln | https://community.tanium.com/s/article/How-Tanium-Can-Help-Identify-OpenSSL-3-0-X#tanium | |
+| Tenable | Nessus | < 10.3.2 | Unknown | Fix | https://www.tenable.com/security/tns-2022-23 | |
+| Tenable | Nessus | < 10.4.1 | Unknown | Fix | https://www.tenable.com/security/tns-2022-24 | |
+| Tenable | Nessus Agent | < 10.2.1 | Unknown | Fix | https://www.tenable.com/security/tns-2022-22 | |
+| Tenable | Other | Unknown | Unknown | Investigation | https://www.tenable.com/blog/cve-2022-3786-and-cve-2022-3602-openssl-patches-two-high-severity-vulnerabilities | |
+| TIBCO | All | All | Unknown | Investigation | https://www.tibco.com/support/notices/2022/11/openssl-vulnerability | |
+| Trend Micro | Cloud Edge | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Cloud One - Application Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Cloud One - Container Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Cloud One - File Storage Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Cloud One - Network Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Cloud One - Subscription | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Cloud One - User Management | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Cloud One - Workload Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | DDAaaS | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Deep Discovery Analyzer | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Deep Discovery Director | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Deep Discovery Email Inspector | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Deep Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | InterScan Messaging Security Virtual Appliance (IMSVA) | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | InterScan Messaging Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | InterScan Web Security Suite | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | InterScan Web Security Virtual Appliance | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | ServerProtect For EMC Celerra | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | ServerProtect For Linux | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | ServerProtect For Microsoft Windows/Novell NetWare | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | ServerProtect For Network Appliance Filers | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | ServerProtect For Storage | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint IPS N-series | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint IPS NX-series | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint Network Protection (AWS) | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint Network Protection (Azure) | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint SMS | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint TPS | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint TX-Series | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint Virtual SMS | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | TippingPoint Virtual TPS | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Not listed above | Unknown| Unknown | Investigation | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
 | Trellix | Trellix EPO | ? | ? | Investigation | https://kcm.trellix.com/corporate/index?page=content&id=KB96105 | |
 | Tunnelblick | Tunnelblick | <= 3.8.2beta07 | 1.1.1m | Not vuln | https://tunnelblick.net/cRlsNotes.html | |
 | Ubiquiti | AmpliFi Alien | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
@@ -435,6 +664,9 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Ubiquiti | UNVR | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
 | Ubiquiti | UNVR PRO | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
 | Univention | Corporate Server | <= 5.0 | 1.1.1n | Not vuln | https://forge.univention.org/bugzilla/show_bug.cgi?id=54901 | Based on Debian 10 |
+| Veritas | All | All | Unknown | Investigation | https://www.veritas.com/content/support/en_US/security/VTS22-016 | |
+| WithSecure (formerly F-Secure) | Atlant | All | Unknown | Not vuln | https://help.f-secure.com/product.html#business/releasenotes-business/latest/en/fsa-latest-en | Response from WithSecure Customer Care as part of (private) business ticket |
+| WithSecure (formerly F-Secure) | Linux Security 64 | All | 1.1.1 | Not vuln | https://help.f-secure.com/product.html?business/releasenotes-business/latest/en/fsls64-latest-en | Response from WithSecure Customer Care as part of (private) business ticket |
 | VMware| All | All | Unknown | Not vuln | https://blogs.vmware.com/security/2022/11/vmware-response-to-cve-2022-3602-and-cve-2022-3786-vulnerabilities-in-openssl-3-0-x.html | |
 | VMware| Harbor | <=2.6.1 | 3.0.0 | Vulnerable | https://github.com/goharbor/harbor/issues/17724 | Only the official docker images are vulnerable |
 | VMware| VMware Tools | 12.0.0<br/>  12.1.0 | 3.0.0<br/>  3.0.3 | Vulnerable | https://docs.vmware.com/en/VMware-Tools/12.0/rn/VMware-Tools-1200-Release-Notes.html| |
@@ -443,3 +675,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | WatchGuard | Dimension | Any | Not Stated | Not vuln | https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2022-00021 | |
 | WatchGuard | FireBox | Any | Not Stated | Not vuln | https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2022-00021 | |
 | WatchGuard | System Manager (WSM) | Any | Not Stated | Not vuln | https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2022-00021 | |
+| Wire | Wire Server | All | 1.1.1 | Not vuln | https://github.com/wireapp/wire-server/blob/develop/docs/src/security-responses/2022-11-01_openssl.md | |
+| Wire | Wire Webapp | All | 1.1.1 | Not vuln | https://github.com/wireapp/wire-server/blob/develop/docs/src/security-responses/2022-11-01_openssl.md | |
+| Wire | Wire Desktop | All | 1.1.1 | Not vuln | https://github.com/wireapp/wire-server/blob/develop/docs/src/security-responses/2022-11-01_openssl.md | |
+| Zerto | All | All | 1.1.1 | Not vuln | https://help.zerto.com/kb/000004964 | |

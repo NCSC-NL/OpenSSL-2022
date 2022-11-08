@@ -118,6 +118,12 @@ SELECT * FROM homebrew_packages WHERE name LIKE "openssl" and version like "3.0%
 brew list --versions | grep openssl | grep "3.0"
 ```
 
+#### Checking MacPorts packages
+
+```
+port list | egrep "^openssl.*3\.0"
+```
+
 ### Splunk
 #### Regex statement to use in Splunk
 ```
@@ -142,3 +148,4 @@ index=* OR index=_* TERM(openssl) OR TERM(libcrypto-3) OR TERM(libssl-3) OR term
 | Cisco | Various | https://github.com/CiscoCXSecurity/openssl3-nov2022 |
 | Docker | Various | https://www.docker.com/blog/security-advisory-critical-openssl-vulnerability/ |
 | runZero | multi-OS/platform scanner | https://www.runzero.com/blog/what-you-need-to-know-about-openssl/ |
+| Qualys | OpenSSL Vulnerability Scanner for Windows | https://github.com/Qualys/osslscanwin |
