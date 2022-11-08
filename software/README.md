@@ -619,6 +619,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Trend Micro | Deep Discovery Analyzer | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
 | Trend Micro | Deep Discovery Director | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
 | Trend Micro | Deep Discovery Email Inspector | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
+| Trend Micro | Deep Discovery Inspector | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
 | Trend Micro | Deep Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
 | Trend Micro | InterScan Messaging Security Virtual Appliance (IMSVA) | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
 | Trend Micro | InterScan Messaging Security | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
