@@ -672,7 +672,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | WithSecure (formerly F-Secure) | Linux Security 64 | All | 1.1.1 | Not vuln | https://help.f-secure.com/product.html?business/releasenotes-business/latest/en/fsls64-latest-en | Response from WithSecure Customer Care as part of (private) business ticket |
 | VMware| All | All | Unknown | Not vuln | https://blogs.vmware.com/security/2022/11/vmware-response-to-cve-2022-3602-and-cve-2022-3786-vulnerabilities-in-openssl-3-0-x.html | |
 | VMware| Harbor | <=2.6.1 | 3.0.0 | Vulnerable | https://github.com/goharbor/harbor/issues/17724 | Only the official docker images are vulnerable |
-| VMware| VMware Tools | 12.0.0<br/>  12.1.0 | 3.0.0<br/>  3.0.3 | Vulnerable | https://docs.vmware.com/en/VMware-Tools/12.0/rn/VMware-Tools-1200-Release-Notes.html| |
+| VMware| VMware Tools | 12.0.0<br/>  12.1.0 | 3.0.0<br/>  3.0.3 | Vulnerable | https://docs.vmware.com/en/VMware-Tools/12.0/rn/VMware-Tools-1200-Release-Notes.html | |
 | Void Linux| Void Linux | current | 1.1.1q | Not vuln | https://alpha.de.repo.voidlinux.org/current/openssl-1.1.1q_1.x86_64.xbps| |
 | WatchGuard | Cloud Wi-Fi APs | Any | Not Stated | Not vuln | https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2022-00021 | |
 | WatchGuard | Dimension | Any | Not Stated | Not vuln | https://www.watchguard.com/wgrd-psirt/advisory/wgsa-2022-00021 | |
