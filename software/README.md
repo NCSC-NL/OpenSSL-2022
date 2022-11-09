@@ -345,6 +345,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Mageia | Mageia | 8 | 1.1.1q | Not vuln | https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/8/x86_64/media/core/updates/openssl-1.1.1q-1.mga8.x86_64.rpm | |
 | Mageia | Mageia | cauldron | 3.0.5-2 | Fix | https://mageia.pkgs.org/cauldron/mageia-core-release-x86_64/openssl-3.0.5-2.mga9.x86_64.rpm.html | |
 | Mend | All | All | Unknown | Not vuln | https://www.mend.io/resources/blog/advisory-new-openssl-critical-security-vulnerability/ | |
+| Mozilla | Firefox | All | Unknown | Not vuln | https://firefox-source-docs.mozilla.org/security/nss/legacy/faq/index.html | |
 | Nasuni | Edge Appliance | All | Unknown | Not vuln | https://trustcenter.nasuni.com/?tcuUid=495df3df-eb99-44cf-9d8b-6ac7a3944cd7 | |
 | Nasuni | Management Console | All | Unknown | Not vuln | https://trustcenter.nasuni.com/?tcuUid=495df3df-eb99-44cf-9d8b-6ac7a3944cd7 | |
 | NetApp | 7-Mode Transition Tool | All | Unknown | Not vuln | https://security.netapp.com/advisory/ntap-20221102-0001/ | |
@@ -605,6 +606,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Tenable | Nessus | < 10.3.2 | Unknown | Fix | https://www.tenable.com/security/tns-2022-23 | |
 | Tenable | Nessus | < 10.4.1 | Unknown | Fix | https://www.tenable.com/security/tns-2022-24 | |
 | Tenable | Nessus Agent | < 10.2.1 | Unknown | Fix | https://www.tenable.com/security/tns-2022-22 | |
+| Tenable | Nessus Network Monitor | < 6.1.1 | 3.0.7 | Fix | https://www.tenable.com/security/tns-2022-25 | |
 | Tenable | Other | Unknown | Unknown | Investigation | https://www.tenable.com/blog/cve-2022-3786-and-cve-2022-3602-openssl-patches-two-high-severity-vulnerabilities | |
 | TIBCO | All | All | Unknown | Investigation | https://www.tibco.com/support/notices/2022/11/openssl-vulnerability | |
 | Trend Micro | Cloud Edge | All | Unknown | Not vuln | https://success.trendmicro.com/dcx/s/solution/000291744?language=en_US | |
