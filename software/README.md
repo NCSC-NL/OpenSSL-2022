@@ -81,7 +81,6 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Cisco | Data Center Network Manager (DCNM) | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Cisco | Elastic Services Controller (ESC) | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Cisco | Evolved Programmable Network Manager | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
-| Cisco | HyperFlex HTML Plugin for VMware vCenter | Unknown | 3.x | Vulnerable | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Cisco | HyperFlex System | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Cisco | IoT Field Network Director | Unknown | 3.x | Vulnerable | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | Formerly known as Connected Grid Network Management System |
 | Cisco | Nexus Dashboard, formerly known as Application Services Engine | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
