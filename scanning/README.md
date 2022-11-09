@@ -149,3 +149,4 @@ index=* OR index=_* TERM(openssl) OR TERM(libcrypto-3) OR TERM(libssl-3) OR term
 | Docker | Various | https://www.docker.com/blog/security-advisory-critical-openssl-vulnerability/ |
 | runZero | multi-OS/platform scanner | https://www.runzero.com/blog/what-you-need-to-know-about-openssl/ |
 | Qualys | OpenSSL Vulnerability Scanner for Windows | https://github.com/Qualys/osslscanwin |
+| Microsoft | Defender scanners | https://msrc-blog.microsoft.com/2022/11/02/microsoft-guidance-related-to-openssl-risk-cve-2022-3786-and-cve-2202-3602/ |
