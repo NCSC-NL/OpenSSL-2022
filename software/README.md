@@ -82,7 +82,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Cisco | Elastic Services Controller (ESC) | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Cisco | Evolved Programmable Network Manager | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Cisco | HyperFlex System | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
-| Cisco | IoT Field Network Director | Unknown | 3.x | Vulnerable | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | Formerly known as Connected Grid Network Management System |
+| Cisco | IoT Field Network Director | >= 4.8.1 | 3.x | Fix | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | Formerly known as Connected Grid Network Management System |
 | Cisco | Nexus Dashboard, formerly known as Application Services Engine | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Cisco | Prime Infrastructure | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
 | Cisco | SD-WAN vAnalytics Software | Unknown | Unknown | Not vuln | https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-openssl-W9sdCc2a | |
