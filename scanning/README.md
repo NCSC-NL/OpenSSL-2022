@@ -75,6 +75,12 @@ DeviceTvmSoftwareInventory
 openssl version
 ```
 
+#### RHEL, Fedora, Oracle, CentOS:
+
+```
+rpm -qa --queryformat "%{NAME} %{VERSION} %{RELEASE}\n" | grep openssl
+```
+
 #### Running processes running OpenSSL 3.x 
 ```bash
 sudo lsof -n | grep libssl.so.3 
@@ -82,12 +88,54 @@ sudo lsof -n | grep libssl.so.3
 
 #### OSquery OpenSSL version check for Debian based systems
 ```
-select name, version from deb_packages where name like "openssl" and version like "3.0%";
+select name, version from deb_packages where name like "%openssl%" and version like "3.0%";
 ```
 
 #### OSquery OpenSSL version check for Fedora/CentOS based systems
 ```
-select name, version from rpm_packages where name like "openssl" and version like "3.0%";
+select name, version from rpm_packages where name like "%openssl%" and version like "3.0%";
+```
+
+#### Search your nix store for OpenSSL 3.x (NixOS)
+
+```bash
+# List references to openssl in your current system
+nix-store -qR /run/current-system | grep openssl
+# Find out why those references exist
+nix --extra-experimental-features nix-command why-depends --all /run/current-system /nix/store/<some-openssl-3>
+```
+
+You can then override as appropriate or monitor the progression of the fix to releases, [read more here](https://discourse.nixos.org/t/openssl-3-0-7-update-2022-11-01-faq/22875)
+
+### MacOS
+
+#### OSquery OpenSSL version check for MacOS based systems using homebrew package manager
+```
+SELECT * FROM homebrew_packages WHERE name LIKE "openssl" and version like "3.0%";
+```
+#### Checking homebrew packages without OSQuery
+```
+brew list --versions | grep openssl | grep "3.0"
+```
+
+#### Checking MacPorts packages
+
+```
+port list | egrep "^openssl.*3\.0"
+```
+
+### Splunk
+#### Regex statement to use in Splunk
+```
+rex field=_raw "(OpenSSL\/|libssl\.so\.|openssl\.so\.|openssl-|openssl-libs-)(?<SSLversion>[0-6]{1}\.[0-9]{1}\.[0-9]{1}[a-z]{1}|[0-6]{1})"
+```
+#### Query:
+```
+index=* OR index=_* TERM(openssl) OR TERM(libcrypto-3) OR TERM(libssl-3) OR term(libssl) NOT TERM(tls1.2) NOT sourcetype IN (splunkd_ui_access, audittrail, splunkd_remote_searches)
+| rex field=_raw "(OpenSSL\/|libssl\.so\.|openssl\.so\.|openssl-|openssl-libs-)(?<SSLversion>[0-6]{1}\.[0-9]{1}\.[0-9]{1}[a-z]{1}|[0-6]{1})"
+| where isnotnull(SSLversion)
+| stats values(SSLversion) AS SSLVersions by host, sourcetype
+| sort -SSLVersions
 ```
 
 ## External scanning tools and scripts
@@ -95,3 +143,9 @@ select name, version from rpm_packages where name like "openssl" and version lik
 | Source      | Notes        | Links |
 |:----------------|:----------------|:---------------:|
 | MalwareTech scripts | Bash + PowerShell | https://github.com/MalwareTech/SpookySSLTools |
+| securityboulevard | Bash | https://securityboulevard.com/2022/10/what-you-should-know-about-the-new-openssl-vulnerability/|
+| Crowdstrike | CrowdStrike Falcon Insight XDR | https://www.crowdstrike.com/blog/discovering-the-critical-open-ssl-vulnerability-with-falcon-platform/ |
+| Cisco | Various | https://github.com/CiscoCXSecurity/openssl3-nov2022 |
+| Docker | Various | https://www.docker.com/blog/security-advisory-critical-openssl-vulnerability/ |
+| runZero | multi-OS/platform scanner | https://www.runzero.com/blog/what-you-need-to-know-about-openssl/ |
+| Qualys | OpenSSL Vulnerability Scanner for Windows | https://github.com/Qualys/osslscanwin |
