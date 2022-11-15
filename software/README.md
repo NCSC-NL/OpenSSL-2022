@@ -110,7 +110,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Cloudflare | all | all | Unknown | Not vuln | https://blog.cloudflare.com/cloudflare-is-not-affected-by-the-openssl-vulnerabilities-cve-2022-3602-and-cve-2022-37/ | |
 | Code42 | Incydr | ALL | 1.x | Not vuln | [Code42 Response to Industry Security Incidents](https://support.code42.com/Terms_and_conditions/Code42_customer_support_resources/Code42_response_to_industry_security_incidents) | |
 | cPanel | All | All | Unknown | Not vuln | https://support.cpanel.net/hc/en-us/articles/4416312844055-Is-cPanel-affected-by-OpenSSL-Security-Advisory-CVE-2021-4044- | |
-| cURL | curl for Windows | 7.79.0 - 7.86.0 | 3.x | Vulnerable | https://github.com/curl/curl-for-win/commit/0166991c20bee16f9d334151669a9839fae1d8ed | Fixed in 7.86.0_1 build |
+| cURL | curl for Windows | >= 7.86.0_1 | 3.0.7 | Fix | https://curl.se/windows/ | |
 | Debian | Debian | 9 "Stretch"	| 1.1.0 | Not vuln | https://packages.debian.org/stretch/openssl	| |
 | Debian | Debian | 10 "Buster"	| 1.1.1	| Not vuln | https://packages.debian.org/buster/openssl | |
 | Debian | Debian | 11 "Bullseye"	| 1.1.1	| Not vuln | https://packages.debian.org/bullseye/openssl | |
