@@ -215,7 +215,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Dynatrace | All | All | Unknown | Not vuln | https://www.dynatrace.com/news/security-alert/openssl-3-x-vulnerability/ | |
 | Elastic | All | All | OpenSSL Unknown | Not vuln | https://discuss.elastic.co/t/elastic-security-statement-for-openssl-cve-2022-3786-and-cve-2022-3602-openssl-version-3-0-7/318039 | |
 | EuroLinux | EuroLinux | 8 | 1.1.1k | Not vuln | https://vault.cdn.euro-linux.com/sources/eurolinux/8/baseos/x86_64/Packages/o/openssl-1.1.1k-7.el8_6.src.rpm | |
-| EuroLinux | EuroLinux | 9 | 3.0.1 | Vulnerable | https://fbi.cdn.euro-linux.com/dist/eurolinux/server/9/x86_64/BaseOS/all/Packages/o/openssl-3.0.1-41.el9_0.x86_64.rpm | |
+| EuroLinux | EuroLinux | 9 | 3.0.1-43 | Fix | https://fbi.cdn.euro-linux.com/dist/eurolinux/server/9/x86_64/BaseOS/all/Packages/o/openssl-3.0.1-43.el9_0.x86_64.rpm | |
 | Esri | ArcGIS | All | Unknown | Investigation | https://www.esri.com/arcgis-blog/products/trust-arcgis/administration/openssl-v3-vulnerability/ | |
 | F5 Networks | BIG-IP | All | < 3.x | Not vuln | https://support.f5.com/csp/article/K44030142 | |
 | F5 Networks | BIG-IP SPK | 1.x | Unknown | Investigation | https://support.f5.com/csp/article/K44030142 | |
