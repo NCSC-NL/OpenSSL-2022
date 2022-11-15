@@ -668,7 +668,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Ubiquiti | UNVR | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
 | Ubiquiti | UNVR PRO | All | Unknown | Not vuln | https://community.ui.com/releases/Statement-Regarding-OpenSSL-3-x-Vulnerability-001/86d4308a-a65d-4a26-90c8-0ac068dd757e | |
 | Univention | Corporate Server | <= 5.0 | 1.1.1n | Not vuln | https://forge.univention.org/bugzilla/show_bug.cgi?id=54901 | Based on Debian 10 |
-| Veritas | All | All | Unknown | Investigation | https://www.veritas.com/content/support/en_US/security/VTS22-016 | |
+| Veritas | All | All | Unknown | Not vuln | https://www.veritas.com/content/support/en_US/security/VTS22-016 | |
 | WithSecure (formerly F-Secure) | Atlant | All | Unknown | Not vuln | https://help.f-secure.com/product.html#business/releasenotes-business/latest/en/fsa-latest-en | Response from WithSecure Customer Care as part of (private) business ticket |
 | WithSecure (formerly F-Secure) | Linux Security 64 | All | 1.1.1 | Not vuln | https://help.f-secure.com/product.html?business/releasenotes-business/latest/en/fsls64-latest-en | Response from WithSecure Customer Care as part of (private) business ticket |
 | VMware| All | All | Unknown | Not vuln | https://blogs.vmware.com/security/2022/11/vmware-response-to-cve-2022-3602-and-cve-2022-3786-vulnerabilities-in-openssl-3-0-x.html | |
