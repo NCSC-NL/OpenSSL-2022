@@ -543,7 +543,7 @@ The `Version` relates to the `Status` column. If `Status` field is set to 'Vulne
 | Slackware | Slackware Linux | 14.2 | 1.0.2h | Not vuln | https://slackware.uk/slackware/slackware64-14.2/slackware64/n/openssl-1.0.2h-x86_64-1.txz| |
 | Slackware | Slackware Linux | 15.0 | 1.1.1q | Not vuln | https://slackware.uk/slackware/slackware64-15.0/patches/packages/openssl-1.1.1q-x86_64-1_slack15.0.txz| |
 | Slackware | Slackware Linux | current | 1.1.1q | Not vuln | https://slackware.uk/slackware/slackware64-current/slackware64/n/openssl-1.1.1q-x86_64-1.txz| |
-| Softether | Softether VPN | 4.39 Build 9772 Beta | 3.0.2 | Vulnerable | https://www.softether.org/5-download/history | |
+| SoftEther | SoftEther VPN | 4.41 Build 9782 Beta | 3.0.7 | Fix | https://www.softether.org/5-download/history | |
 | Solus | Solus | rolling | 1.1.1q | Not vuln | https://mirrors.rit.edu/solus/packages/shannon/o/openssl-11/openssl-11-32bit-devel-1.1.1q-15-1-x86_64.eopkg| |
 | SonicWall | Analytics | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
 | SonicWall | Capture Security Appliance | All | Unknown | Not vuln | https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2022-0023 | |
